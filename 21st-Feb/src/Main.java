@@ -15,10 +15,12 @@ public class Main {
         TradeRepository repo = new TradeRepository();
         Portfolio portfolio = new Portfolio();
 
-        valid_trade.forEach(trade ->{
-            repo.save(trade);
-            portfolio.updatePosition(trade);
-        });
+        TradeProcessor tr = new TradeProcessor(repo, portfolio, 2);
+        tr.processTrades(valid_trade);
+        tr.shutdown();
+
+        reportSummary report = new reportSummary(portfolio, valid_trade);
+        report.generateReport();
 
         System.out.println("Final Valid portfolio: " + portfolio.getPortfolio());
 

@@ -1,17 +1,27 @@
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.*;
+import java.util.concurrent.atomic.*;
 public class Portfolio
 {
-    private Map<Integer, Map<String, Integer>> portfolio;
+    private ConcurrentHashMap<Integer, ConcurrentHashMap<String, AtomicInteger>> portfolio;
 
     public Portfolio()
     {
         this.portfolio = new ConcurrentHashMap<>();
     }
 
-    public Map<Integer, Map<String, Integer>> getPortfolio()
-    {
-        return this.portfolio;
+    public Map<Integer, Map<String, Integer>> getPortfolio() {
+        Map<Integer, Map<String, Integer>> snapshot = new HashMap<>();
+
+        portfolio.forEach((accountId, symbolMap) -> {
+            Map<String, Integer> innerCopy = new HashMap<>();
+            symbolMap.forEach((symbol, qty) -> {
+                innerCopy.put(symbol, qty.get());
+            });
+            snapshot.put(accountId, innerCopy);
+        });
+
+        return snapshot;
     }
 
     public void updatePosition(Trade trade)
@@ -20,41 +30,21 @@ public class Portfolio
         String symbol = trade.getSymbol();
         String decision = trade.getSide().toLowerCase();
 
+        //Update atomically and also create if not there
+        ConcurrentHashMap<String, AtomicInteger> holdings = portfolio.computeIfAbsent(id, k->new ConcurrentHashMap<>());
+
+        AtomicInteger symbolQuantity = holdings.computeIfAbsent(symbol, k-> new AtomicInteger(0));
+
         if(decision.equals("buy"))
         {
-            if(!portfolio.containsKey(id))
-            {
-                portfolio.put(id,new ConcurrentHashMap<>());
-                portfolio.get(id).put(symbol, trade.getQuantity());
-            }
-
-            else
-            {
-                if(!portfolio.get(id).containsKey(symbol))
-                {
-                    portfolio.get(id).put(symbol, trade.getQuantity());
-                }
-
-                else
-                {
-                    int count = portfolio.get(id).get(symbol);
-                    count = count + trade.getQuantity();
-                    portfolio.get(id).put(symbol, count);
-                }
-            }
+            symbolQuantity.addAndGet(trade.getQuantity());
         }
 
-        else
-        {
-            if(portfolio.containsKey(id) && portfolio.get(id).containsKey(symbol))
-            {
-                int count = portfolio.get(id).get(symbol);
-                int new_count = count - trade.getQuantity();
-                if(new_count >= 0)
-                {
-                    portfolio.get(id).put(symbol, new_count);
-                }
-            }
+        else {
+            symbolQuantity.updateAndGet(current ->{
+                int newQty = current - trade.getQuantity();
+                return Math.max(newQty, 0);
+            });
         }
 
     }
