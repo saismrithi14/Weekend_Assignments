@@ -1,5 +1,8 @@
 import java.nio.file.*;
 import java.io.*;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.SQLException;
 import java.util.*;
 import java.time.Instant;
 public class Main {
@@ -7,6 +10,17 @@ public class Main {
         List<Trade> trade_objects = FileReader();
         List<Trade> valid_trade = trade_objects.stream().filter(Validator::isValid).toList();
         System.out.println();// Space for visibility
+        System.out.println("Number of valid trades are: " + valid_trade.size());
+
+        TradeRepository repo = new TradeRepository();
+        Portfolio portfolio = new Portfolio();
+
+        valid_trade.forEach(trade ->{
+            repo.save(trade);
+            portfolio.updatePosition(trade);
+        });
+
+        System.out.println("Final Valid portfolio: " + portfolio.getPortfolio());
 
     }
 

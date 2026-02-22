@@ -1,0 +1,14 @@
+
+
+CREATE TABLE Trade(
+trade_id INT PRIMARY KEY,
+account_id INT NOT NULL,
+symbol VARCHAR(75) NOT NULL,
+quantity INT NOT NULL,
+price NUMERIC(15,2) NOT NULL,
+side VARCHAR(7) NOT NULL,
+timestamp TIMESTAMP NOT NULL
+);
+
+SELECT * FROM Trade;
+DELETE FROM Trade;
