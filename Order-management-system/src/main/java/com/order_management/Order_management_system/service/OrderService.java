@@ -85,7 +85,7 @@ public class OrderService {
 
     private void writeToLog(Order order)
     {
-        Path log_path = Paths.get("C:/Users/SaiSmrithiMuthukumar/git_repo/Weekend_Assignments/Order-management-system/Order-management-system/src/main/java/com/order_management/Order_management_system/logs/order.log");
+        Path log_path = Paths.get("C:/Users/SaiSmrithiMuthukumar/git_repo/Weekend_Assignments/Order-management-system/src/main/java/com/order_management/Order_management_system/logs/order.log");
         StringBuilder sb = new StringBuilder();
         if(Files.notExists(log_path))
         {
