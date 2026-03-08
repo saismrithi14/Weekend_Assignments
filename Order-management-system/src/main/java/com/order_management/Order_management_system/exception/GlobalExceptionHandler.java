@@ -53,7 +53,4 @@ public class GlobalExceptionHandler {
         return new ResponseEntity<>("Incompatible types between input and object", HttpStatus.BAD_REQUEST);
     }
 
-
-
-
 }

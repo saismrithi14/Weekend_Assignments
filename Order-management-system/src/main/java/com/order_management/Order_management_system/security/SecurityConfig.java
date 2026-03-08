@@ -1,8 +1,11 @@
 package com.order_management.Order_management_system.security;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.http.HttpMethod;
+import org.springframework.security.authentication.AuthenticationManager;
+import org.springframework.security.config.annotation.authentication.configuration.AuthenticationConfiguration;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
 import org.springframework.security.core.userdetails.User;
@@ -12,6 +15,7 @@ import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.security.provisioning.InMemoryUserDetailsManager;
 import org.springframework.security.web.SecurityFilterChain;
+import org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter;
 
 import java.io.IOException;
 
@@ -19,6 +23,14 @@ import java.io.IOException;
 @Configuration
 
 public class SecurityConfig {
+
+    private final JwtUtil jwtUtil;
+
+    public SecurityConfig(JwtUtil jwtUtil)
+    {
+        this.jwtUtil = jwtUtil;
+    }
+
 
     @Bean
     public PasswordEncoder passwordEncoder()
@@ -60,8 +72,20 @@ public class SecurityConfig {
                 .requestMatchers(HttpMethod.DELETE, "/oms/orders/*").hasAnyRole("ADMIN")
                 .requestMatchers("/oms/member/**").hasRole("ADMIN").anyRequest().authenticated())
                 .httpBasic();
+        http.addFilterBefore(jwtAuthFilter(), UsernamePasswordAuthenticationFilter.class);
 
         return http.build();
 
+    }
+
+    @Bean
+    public AuthenticationManager createAuthenticationManager(AuthenticationConfiguration authConfig) throws Exception
+    {
+        return authConfig.getAuthenticationManager();
+    }
+
+    @Bean
+    public JwtAuthFilter jwtAuthFilter() {
+        return new JwtAuthFilter(jwtUtil, users());
     }
 }
