@@ -1,0 +1,1001 @@
+2026-03-14T11:07:42.635+05:30  INFO 21696 --- [member-service] [main] S.member.MemberApplication               : Starting MemberApplication using Java 21.0.10 with PID 21696 (C:\Users\SaiSmrithiMuthukumar\git_repo\Weekend_Assignments\Order-management-system-microservices attempt\member\target\classes started by SaiSmrithiMuthukumar in C:\Users\SaiSmrithiMuthukumar\git_repo\Weekend_Assignments\Order-management-system-microservices attempt\member)
+2026-03-14T11:07:42.649+05:30  INFO 21696 --- [member-service] [main] S.member.MemberApplication               : No active profile set, falling back to 1 default profile: "default"
+2026-03-14T11:07:44.614+05:30  INFO 21696 --- [member-service] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8081 (http)
+2026-03-14T11:07:44.631+05:30  INFO 21696 --- [member-service] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-03-14T11:07:44.631+05:30  INFO 21696 --- [member-service] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.18]
+2026-03-14T11:07:44.753+05:30  INFO 21696 --- [member-service] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 1960 ms
+2026-03-14T11:07:45.971+05:30  INFO 21696 --- [member-service] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8081 (http) with context path '/'
+2026-03-14T11:07:45.992+05:30  INFO 21696 --- [member-service] [main] S.member.MemberApplication               : Started MemberApplication in 4.22 seconds (process running for 5.121)
+2026-03-14T11:08:25.932+05:30  INFO 21696 --- [member-service] [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-03-14T11:08:25.934+05:30  INFO 21696 --- [member-service] [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-03-14T11:08:25.941+05:30  INFO 21696 --- [member-service] [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
+2026-03-14T11:08:35.564+05:30  INFO 21696 --- [member-service] [http-nio-8081-exec-4] S.member.aspect.LoggingAspect            : Controller Method addMember is executing
+2026-03-14T11:08:35.564+05:30  INFO 21696 --- [member-service] [http-nio-8081-exec-4] S.member.aspect.LoggingAspect            : Controller Method: addMember gets the arguments: [addMemberDTO(fullName=Smrithi, email=fhwjcja@gmail.com, password=geis92fiidjs)]
+2026-03-14T11:08:35.564+05:30  INFO 21696 --- [member-service] [http-nio-8081-exec-4] S.member.aspect.LoggingAspect            : Service method: addMember executing
+2026-03-14T11:08:35.564+05:30  INFO 21696 --- [member-service] [http-nio-8081-exec-4] S.member.aspect.LoggingAspect            : Service Method: addMember gets the arguments: [addMemberDTO(fullName=Smrithi, email=fhwjcja@gmail.com, password=geis92fiidjs)]
+2026-03-14T11:08:35.573+05:30  INFO 21696 --- [member-service] [http-nio-8081-exec-4] S.member.aspect.LoggingAspect            : Service method addMember returned <200 OK OK,Member added successfully,[]>
+2026-03-14T11:08:35.581+05:30  INFO 21696 --- [member-service] [http-nio-8081-exec-4] S.member.aspect.LoggingAspect            : Service method addMember took 17ms
+2026-03-14T11:08:35.583+05:30  INFO 21696 --- [member-service] [http-nio-8081-exec-4] S.member.aspect.LoggingAspect            : Controller method addMember returned: <200 OK OK,Member added successfully,[]>
+2026-03-14T11:08:35.583+05:30  INFO 21696 --- [member-service] [http-nio-8081-exec-4] S.member.aspect.LoggingAspect            : Controller method: addMember took 27ms
+2026-03-14T11:09:04.691+05:30  INFO 21696 --- [member-service] [http-nio-8081-exec-5] S.member.aspect.LoggingAspect            : Controller Method addMember is executing
+2026-03-14T11:09:04.691+05:30  INFO 21696 --- [member-service] [http-nio-8081-exec-5] S.member.aspect.LoggingAspect            : Controller Method: addMember gets the arguments: [addMemberDTO(fullName=Naina, email=vjrje@gmail.com, password=573vkjq90i8)]
+2026-03-14T11:09:04.691+05:30  INFO 21696 --- [member-service] [http-nio-8081-exec-5] S.member.aspect.LoggingAspect            : Service method: addMember executing
+2026-03-14T11:09:04.699+05:30  INFO 21696 --- [member-service] [http-nio-8081-exec-5] S.member.aspect.LoggingAspect            : Service Method: addMember gets the arguments: [addMemberDTO(fullName=Naina, email=vjrje@gmail.com, password=573vkjq90i8)]
+2026-03-14T11:09:04.700+05:30  INFO 21696 --- [member-service] [http-nio-8081-exec-5] S.member.aspect.LoggingAspect            : Service method addMember returned <200 OK OK,Member added successfully,[]>
+2026-03-14T11:09:04.700+05:30  INFO 21696 --- [member-service] [http-nio-8081-exec-5] S.member.aspect.LoggingAspect            : Service method addMember took 9ms
+2026-03-14T11:09:04.700+05:30  INFO 21696 --- [member-service] [http-nio-8081-exec-5] S.member.aspect.LoggingAspect            : Controller method addMember returned: <200 OK OK,Member added successfully,[]>
+2026-03-14T11:09:04.700+05:30  INFO 21696 --- [member-service] [http-nio-8081-exec-5] S.member.aspect.LoggingAspect            : Controller method: addMember took 9ms
+2026-03-14T11:09:07.724+05:30  INFO 21696 --- [member-service] [http-nio-8081-exec-6] S.member.aspect.LoggingAspect            : Controller Method getAllMembers is executing
+2026-03-14T11:09:07.733+05:30  INFO 21696 --- [member-service] [http-nio-8081-exec-6] S.member.aspect.LoggingAspect            : Controller Method: getAllMembers gets the arguments: []
+2026-03-14T11:09:07.733+05:30  INFO 21696 --- [member-service] [http-nio-8081-exec-6] S.member.aspect.LoggingAspect            : Service method: getAllMembers executing
+2026-03-14T11:09:07.733+05:30  INFO 21696 --- [member-service] [http-nio-8081-exec-6] S.member.aspect.LoggingAspect            : Service Method: getAllMembers gets the arguments: []
+2026-03-14T11:09:07.736+05:30  INFO 21696 --- [member-service] [http-nio-8081-exec-6] S.member.aspect.LoggingAspect            : Service method getAllMembers returned [getMemberDTO(memberId=9e81d566-9de3-465f-a91f-cada66cc1584, fullName=Naina, email=vjrje@gmail.com), getMemberDTO(memberId=91409b89-bcc7-446e-8222-87f32aa446a8, fullName=Smrithi, email=fhwjcja@gmail.com)]
+2026-03-14T11:09:07.736+05:30  INFO 21696 --- [member-service] [http-nio-8081-exec-6] S.member.aspect.LoggingAspect            : Service method getAllMembers took 3ms
+2026-03-14T11:09:07.741+05:30  INFO 21696 --- [member-service] [http-nio-8081-exec-6] S.member.aspect.LoggingAspect            : Controller method getAllMembers returned: [getMemberDTO(memberId=9e81d566-9de3-465f-a91f-cada66cc1584, fullName=Naina, email=vjrje@gmail.com), getMemberDTO(memberId=91409b89-bcc7-446e-8222-87f32aa446a8, fullName=Smrithi, email=fhwjcja@gmail.com)]
+2026-03-14T11:09:07.741+05:30  INFO 21696 --- [member-service] [http-nio-8081-exec-6] S.member.aspect.LoggingAspect            : Controller method: getAllMembers took 17ms
+2026-03-14T11:09:28.891+05:30  INFO 21696 --- [member-service] [http-nio-8081-exec-7] S.member.aspect.LoggingAspect            : Controller Method containsMember is executing
+2026-03-14T11:09:28.891+05:30  INFO 21696 --- [member-service] [http-nio-8081-exec-7] S.member.aspect.LoggingAspect            : Controller Method: containsMember gets the arguments: [954f78d8-9fe8-450e-8a01-545bd01a3a73]
+2026-03-14T11:09:28.892+05:30  INFO 21696 --- [member-service] [http-nio-8081-exec-7] S.member.aspect.LoggingAspect            : Service method: containsMember executing
+2026-03-14T11:09:28.892+05:30  INFO 21696 --- [member-service] [http-nio-8081-exec-7] S.member.aspect.LoggingAspect            : Service Method: containsMember gets the arguments: [954f78d8-9fe8-450e-8a01-545bd01a3a73]
+2026-03-14T11:09:28.892+05:30  INFO 21696 --- [member-service] [http-nio-8081-exec-7] S.member.aspect.LoggingAspect            : Service method containsMember returned false
+2026-03-14T11:09:28.896+05:30  INFO 21696 --- [member-service] [http-nio-8081-exec-7] S.member.aspect.LoggingAspect            : Service method containsMember took 4ms
+2026-03-14T11:09:28.896+05:30  INFO 21696 --- [member-service] [http-nio-8081-exec-7] S.member.aspect.LoggingAspect            : Controller method containsMember returned: false
+2026-03-14T11:09:28.896+05:30  INFO 21696 --- [member-service] [http-nio-8081-exec-7] S.member.aspect.LoggingAspect            : Controller method: containsMember took 5ms
+2026-03-14T11:10:57.017+05:30  INFO 21696 --- [member-service] [http-nio-8081-exec-10] S.member.aspect.LoggingAspect            : Controller Method containsMember is executing
+2026-03-14T11:10:57.017+05:30  INFO 21696 --- [member-service] [http-nio-8081-exec-10] S.member.aspect.LoggingAspect            : Controller Method: containsMember gets the arguments: [9e81d566-9de3-465f-a91f-cada66cc1584]
+2026-03-14T11:10:57.017+05:30  INFO 21696 --- [member-service] [http-nio-8081-exec-10] S.member.aspect.LoggingAspect            : Service method: containsMember executing
+2026-03-14T11:10:57.025+05:30  INFO 21696 --- [member-service] [http-nio-8081-exec-10] S.member.aspect.LoggingAspect            : Service Method: containsMember gets the arguments: [9e81d566-9de3-465f-a91f-cada66cc1584]
+2026-03-14T11:10:57.025+05:30  INFO 21696 --- [member-service] [http-nio-8081-exec-10] S.member.aspect.LoggingAspect            : Service method containsMember returned true
+2026-03-14T11:10:57.025+05:30  INFO 21696 --- [member-service] [http-nio-8081-exec-10] S.member.aspect.LoggingAspect            : Service method containsMember took 8ms
+2026-03-14T11:10:57.025+05:30  INFO 21696 --- [member-service] [http-nio-8081-exec-10] S.member.aspect.LoggingAspect            : Controller method containsMember returned: true
+2026-03-14T11:10:57.025+05:30  INFO 21696 --- [member-service] [http-nio-8081-exec-10] S.member.aspect.LoggingAspect            : Controller method: containsMember took 8ms
+2026-03-14T11:11:55.653+05:30  INFO 21696 --- [member-service] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-03-14T11:11:55.689+05:30  INFO 21696 --- [member-service] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-03-14T11:24:18.177+05:30  INFO 10564 --- [member-service] [main] S.member.MemberApplication               : Starting MemberApplication using Java 21.0.10 with PID 10564 (C:\Users\SaiSmrithiMuthukumar\git_repo\Weekend_Assignments\Order-management-system-microservices attempt\member\target\classes started by SaiSmrithiMuthukumar in C:\Users\SaiSmrithiMuthukumar\git_repo\Weekend_Assignments\Order-management-system-microservices attempt\member)
+2026-03-14T11:24:18.178+05:30  INFO 10564 --- [member-service] [main] S.member.MemberApplication               : No active profile set, falling back to 1 default profile: "default"
+2026-03-14T11:24:21.216+05:30  INFO 10564 --- [member-service] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8081 (http)
+2026-03-14T11:24:21.260+05:30  INFO 10564 --- [member-service] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-03-14T11:24:21.260+05:30  INFO 10564 --- [member-service] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.18]
+2026-03-14T11:24:21.455+05:30  INFO 10564 --- [member-service] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 3164 ms
+2026-03-14T11:24:22.847+05:30  INFO 10564 --- [member-service] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8081 (http) with context path '/'
+2026-03-14T11:24:22.856+05:30  INFO 10564 --- [member-service] [main] S.member.MemberApplication               : Started MemberApplication in 5.562 seconds (process running for 6.396)
+2026-03-14T11:24:46.705+05:30  INFO 10564 --- [member-service] [http-nio-8081-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-03-14T11:24:46.707+05:30  INFO 10564 --- [member-service] [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-03-14T11:24:46.713+05:30  INFO 10564 --- [member-service] [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2026-03-14T11:24:47.524+05:30  INFO 10564 --- [member-service] [http-nio-8081-exec-2] S.member.aspect.LoggingAspect            : Controller Method addMember is executing
+2026-03-14T11:24:47.527+05:30  INFO 10564 --- [member-service] [http-nio-8081-exec-2] S.member.aspect.LoggingAspect            : Controller Method: addMember gets the arguments: [addMemberDTO(fullName=Naina, email=vjrje@gmail.com, password=573vkjq90i8)]
+2026-03-14T11:24:47.527+05:30  INFO 10564 --- [member-service] [http-nio-8081-exec-2] S.member.aspect.LoggingAspect            : Service method: addMember executing
+2026-03-14T11:24:47.531+05:30  INFO 10564 --- [member-service] [http-nio-8081-exec-2] S.member.aspect.LoggingAspect            : Service Method: addMember gets the arguments: [addMemberDTO(fullName=Naina, email=vjrje@gmail.com, password=573vkjq90i8)]
+2026-03-14T11:24:47.563+05:30  INFO 10564 --- [member-service] [http-nio-8081-exec-2] S.member.aspect.LoggingAspect            : Service method addMember returned <200 OK OK,Member added successfully,[]>
+2026-03-14T11:24:47.571+05:30  INFO 10564 --- [member-service] [http-nio-8081-exec-2] S.member.aspect.LoggingAspect            : Service method addMember took 36ms
+2026-03-14T11:24:47.571+05:30  INFO 10564 --- [member-service] [http-nio-8081-exec-2] S.member.aspect.LoggingAspect            : Controller method addMember returned: <200 OK OK,Member added successfully,[]>
+2026-03-14T11:24:47.579+05:30  INFO 10564 --- [member-service] [http-nio-8081-exec-2] S.member.aspect.LoggingAspect            : Controller method: addMember took 49ms
+2026-03-14T11:25:09.760+05:30  INFO 10564 --- [member-service] [http-nio-8081-exec-4] S.member.aspect.LoggingAspect            : Controller Method addMember is executing
+2026-03-14T11:25:09.760+05:30  INFO 10564 --- [member-service] [http-nio-8081-exec-4] S.member.aspect.LoggingAspect            : Controller Method: addMember gets the arguments: [addMemberDTO(fullName=Smrithi, email=fh78@yahoo.com, password=ghe358291AsD)]
+2026-03-14T11:25:09.768+05:30  INFO 10564 --- [member-service] [http-nio-8081-exec-4] S.member.aspect.LoggingAspect            : Service method: addMember executing
+2026-03-14T11:25:09.768+05:30  INFO 10564 --- [member-service] [http-nio-8081-exec-4] S.member.aspect.LoggingAspect            : Service Method: addMember gets the arguments: [addMemberDTO(fullName=Smrithi, email=fh78@yahoo.com, password=ghe358291AsD)]
+2026-03-14T11:25:09.768+05:30  INFO 10564 --- [member-service] [http-nio-8081-exec-4] S.member.aspect.LoggingAspect            : Service method addMember returned <200 OK OK,Member added successfully,[]>
+2026-03-14T11:25:09.768+05:30  INFO 10564 --- [member-service] [http-nio-8081-exec-4] S.member.aspect.LoggingAspect            : Service method addMember took 0ms
+2026-03-14T11:25:09.768+05:30  INFO 10564 --- [member-service] [http-nio-8081-exec-4] S.member.aspect.LoggingAspect            : Controller method addMember returned: <200 OK OK,Member added successfully,[]>
+2026-03-14T11:25:09.768+05:30  INFO 10564 --- [member-service] [http-nio-8081-exec-4] S.member.aspect.LoggingAspect            : Controller method: addMember took 8ms
+2026-03-14T11:25:12.706+05:30  INFO 10564 --- [member-service] [http-nio-8081-exec-3] S.member.aspect.LoggingAspect            : Controller Method getAllMembers is executing
+2026-03-14T11:25:12.706+05:30  INFO 10564 --- [member-service] [http-nio-8081-exec-3] S.member.aspect.LoggingAspect            : Controller Method: getAllMembers gets the arguments: []
+2026-03-14T11:25:12.708+05:30  INFO 10564 --- [member-service] [http-nio-8081-exec-3] S.member.aspect.LoggingAspect            : Service method: getAllMembers executing
+2026-03-14T11:25:12.708+05:30  INFO 10564 --- [member-service] [http-nio-8081-exec-3] S.member.aspect.LoggingAspect            : Service Method: getAllMembers gets the arguments: []
+2026-03-14T11:25:12.708+05:30  INFO 10564 --- [member-service] [http-nio-8081-exec-3] S.member.aspect.LoggingAspect            : Service method getAllMembers returned [getMemberDTO(memberId=f67ca1b7-fa92-48e0-9221-a4fa882ab0d5, fullName=Naina, email=vjrje@gmail.com), getMemberDTO(memberId=abcfba75-8684-4f2c-ad55-daea6a292229, fullName=Smrithi, email=fh78@yahoo.com)]
+2026-03-14T11:25:12.708+05:30  INFO 10564 --- [member-service] [http-nio-8081-exec-3] S.member.aspect.LoggingAspect            : Service method getAllMembers took 0ms
+2026-03-14T11:25:12.714+05:30  INFO 10564 --- [member-service] [http-nio-8081-exec-3] S.member.aspect.LoggingAspect            : Controller method getAllMembers returned: [getMemberDTO(memberId=f67ca1b7-fa92-48e0-9221-a4fa882ab0d5, fullName=Naina, email=vjrje@gmail.com), getMemberDTO(memberId=abcfba75-8684-4f2c-ad55-daea6a292229, fullName=Smrithi, email=fh78@yahoo.com)]
+2026-03-14T11:25:12.714+05:30  INFO 10564 --- [member-service] [http-nio-8081-exec-3] S.member.aspect.LoggingAspect            : Controller method: getAllMembers took 8ms
+2026-03-14T11:25:21.455+05:30  INFO 10564 --- [member-service] [http-nio-8081-exec-5] S.member.aspect.LoggingAspect            : Controller Method containsMember is executing
+2026-03-14T11:25:21.457+05:30  INFO 10564 --- [member-service] [http-nio-8081-exec-5] S.member.aspect.LoggingAspect            : Controller Method: containsMember gets the arguments: [9e81d566-9de3-465f-a91f-cada66cc1584]
+2026-03-14T11:25:21.457+05:30  INFO 10564 --- [member-service] [http-nio-8081-exec-5] S.member.aspect.LoggingAspect            : Service method: containsMember executing
+2026-03-14T11:25:21.459+05:30  INFO 10564 --- [member-service] [http-nio-8081-exec-5] S.member.aspect.LoggingAspect            : Service Method: containsMember gets the arguments: [9e81d566-9de3-465f-a91f-cada66cc1584]
+2026-03-14T11:25:21.463+05:30  INFO 10564 --- [member-service] [http-nio-8081-exec-5] S.member.aspect.LoggingAspect            : Service method containsMember returned false
+2026-03-14T11:25:21.465+05:30  INFO 10564 --- [member-service] [http-nio-8081-exec-5] S.member.aspect.LoggingAspect            : Service method containsMember took 8ms
+2026-03-14T11:25:21.467+05:30  INFO 10564 --- [member-service] [http-nio-8081-exec-5] S.member.aspect.LoggingAspect            : Controller method containsMember returned: false
+2026-03-14T11:25:21.467+05:30  INFO 10564 --- [member-service] [http-nio-8081-exec-5] S.member.aspect.LoggingAspect            : Controller method: containsMember took 12ms
+2026-03-14T11:26:05.830+05:30  INFO 10564 --- [member-service] [http-nio-8081-exec-6] S.member.aspect.LoggingAspect            : Controller Method containsMember is executing
+2026-03-14T11:26:05.830+05:30  INFO 10564 --- [member-service] [http-nio-8081-exec-6] S.member.aspect.LoggingAspect            : Controller Method: containsMember gets the arguments: [abcfba75-8684-4f2c-ad55-daea6a292229]
+2026-03-14T11:26:05.830+05:30  INFO 10564 --- [member-service] [http-nio-8081-exec-6] S.member.aspect.LoggingAspect            : Service method: containsMember executing
+2026-03-14T11:26:05.830+05:30  INFO 10564 --- [member-service] [http-nio-8081-exec-6] S.member.aspect.LoggingAspect            : Service Method: containsMember gets the arguments: [abcfba75-8684-4f2c-ad55-daea6a292229]
+2026-03-14T11:26:05.830+05:30  INFO 10564 --- [member-service] [http-nio-8081-exec-6] S.member.aspect.LoggingAspect            : Service method containsMember returned true
+2026-03-14T11:26:05.830+05:30  INFO 10564 --- [member-service] [http-nio-8081-exec-6] S.member.aspect.LoggingAspect            : Service method containsMember took 0ms
+2026-03-14T11:26:05.836+05:30  INFO 10564 --- [member-service] [http-nio-8081-exec-6] S.member.aspect.LoggingAspect            : Controller method containsMember returned: true
+2026-03-14T11:26:05.836+05:30  INFO 10564 --- [member-service] [http-nio-8081-exec-6] S.member.aspect.LoggingAspect            : Controller method: containsMember took 6ms
+2026-03-14T11:34:49.539+05:30  INFO 10564 --- [member-service] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-03-14T11:34:49.574+05:30  INFO 10564 --- [member-service] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-03-14T11:35:36.898+05:30  INFO 10948 --- [member-service] [main] S.member.MemberApplication               : Starting MemberApplication using Java 21.0.10 with PID 10948 (C:\Users\SaiSmrithiMuthukumar\git_repo\Weekend_Assignments\Order-management-system-microservices attempt\member\target\classes started by SaiSmrithiMuthukumar in C:\Users\SaiSmrithiMuthukumar\git_repo\Weekend_Assignments\Order-management-system-microservices attempt\member)
+2026-03-14T11:35:36.919+05:30  INFO 10948 --- [member-service] [main] S.member.MemberApplication               : No active profile set, falling back to 1 default profile: "default"
+2026-03-14T11:35:40.175+05:30  INFO 10948 --- [member-service] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8081 (http)
+2026-03-14T11:35:40.188+05:30  INFO 10948 --- [member-service] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-03-14T11:35:40.188+05:30  INFO 10948 --- [member-service] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.18]
+2026-03-14T11:35:40.270+05:30  INFO 10948 --- [member-service] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 3121 ms
+2026-03-14T11:35:41.150+05:30  INFO 10948 --- [member-service] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8081 (http) with context path '/'
+2026-03-14T11:35:41.157+05:30  INFO 10948 --- [member-service] [main] S.member.MemberApplication               : Started MemberApplication in 5.895 seconds (process running for 7.147)
+2026-03-14T11:36:04.257+05:30  INFO 10948 --- [member-service] [http-nio-8081-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-03-14T11:36:04.257+05:30  INFO 10948 --- [member-service] [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-03-14T11:36:04.261+05:30  INFO 10948 --- [member-service] [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2026-03-14T11:36:05.166+05:30  INFO 10948 --- [member-service] [http-nio-8081-exec-2] S.member.aspect.LoggingAspect            : Controller Method addMember is executing
+2026-03-14T11:36:05.174+05:30  INFO 10948 --- [member-service] [http-nio-8081-exec-2] S.member.aspect.LoggingAspect            : Controller Method: addMember gets the arguments: [addMemberDTO(fullName=Smrithi, email=fh78@yahoo.com, password=ghe358291AsD)]
+2026-03-14T11:36:05.174+05:30  INFO 10948 --- [member-service] [http-nio-8081-exec-2] S.member.aspect.LoggingAspect            : Service method: addMember executing
+2026-03-14T11:36:05.174+05:30  INFO 10948 --- [member-service] [http-nio-8081-exec-2] S.member.aspect.LoggingAspect            : Service Method: addMember gets the arguments: [addMemberDTO(fullName=Smrithi, email=fh78@yahoo.com, password=ghe358291AsD)]
+2026-03-14T11:36:05.191+05:30  INFO 10948 --- [member-service] [http-nio-8081-exec-2] S.member.aspect.LoggingAspect            : Service method addMember returned <200 OK OK,Member added successfully,[]>
+2026-03-14T11:36:05.199+05:30  INFO 10948 --- [member-service] [http-nio-8081-exec-2] S.member.aspect.LoggingAspect            : Service method addMember took 17ms
+2026-03-14T11:36:05.199+05:30  INFO 10948 --- [member-service] [http-nio-8081-exec-2] S.member.aspect.LoggingAspect            : Controller method addMember returned: <200 OK OK,Member added successfully,[]>
+2026-03-14T11:36:05.199+05:30  INFO 10948 --- [member-service] [http-nio-8081-exec-2] S.member.aspect.LoggingAspect            : Controller method: addMember took 33ms
+2026-03-14T11:36:34.501+05:30  INFO 10948 --- [member-service] [http-nio-8081-exec-4] S.member.aspect.LoggingAspect            : Controller Method addMember is executing
+2026-03-14T11:36:34.509+05:30  INFO 10948 --- [member-service] [http-nio-8081-exec-4] S.member.aspect.LoggingAspect            : Controller Method: addMember gets the arguments: [addMemberDTO(fullName=Naina, email=g483@gmail.com, password=s2o40937)]
+2026-03-14T11:36:34.509+05:30  INFO 10948 --- [member-service] [http-nio-8081-exec-4] S.member.aspect.LoggingAspect            : Service method: addMember executing
+2026-03-14T11:36:34.509+05:30  INFO 10948 --- [member-service] [http-nio-8081-exec-4] S.member.aspect.LoggingAspect            : Service Method: addMember gets the arguments: [addMemberDTO(fullName=Naina, email=g483@gmail.com, password=s2o40937)]
+2026-03-14T11:36:34.509+05:30  INFO 10948 --- [member-service] [http-nio-8081-exec-4] S.member.aspect.LoggingAspect            : Service method addMember returned <200 OK OK,Member added successfully,[]>
+2026-03-14T11:36:34.509+05:30  INFO 10948 --- [member-service] [http-nio-8081-exec-4] S.member.aspect.LoggingAspect            : Service method addMember took 0ms
+2026-03-14T11:36:34.509+05:30  INFO 10948 --- [member-service] [http-nio-8081-exec-4] S.member.aspect.LoggingAspect            : Controller method addMember returned: <200 OK OK,Member added successfully,[]>
+2026-03-14T11:36:34.517+05:30  INFO 10948 --- [member-service] [http-nio-8081-exec-4] S.member.aspect.LoggingAspect            : Controller method: addMember took 16ms
+2026-03-14T11:36:37.755+05:30  INFO 10948 --- [member-service] [http-nio-8081-exec-6] S.member.aspect.LoggingAspect            : Controller Method getAllMembers is executing
+2026-03-14T11:36:37.755+05:30  INFO 10948 --- [member-service] [http-nio-8081-exec-6] S.member.aspect.LoggingAspect            : Controller Method: getAllMembers gets the arguments: []
+2026-03-14T11:36:37.757+05:30  INFO 10948 --- [member-service] [http-nio-8081-exec-6] S.member.aspect.LoggingAspect            : Service method: getAllMembers executing
+2026-03-14T11:36:37.757+05:30  INFO 10948 --- [member-service] [http-nio-8081-exec-6] S.member.aspect.LoggingAspect            : Service Method: getAllMembers gets the arguments: []
+2026-03-14T11:36:37.759+05:30  INFO 10948 --- [member-service] [http-nio-8081-exec-6] S.member.aspect.LoggingAspect            : Service method getAllMembers returned [getMemberDTO(memberId=3ab5180e-fdb0-499f-9507-80278c633196, fullName=Naina, email=g483@gmail.com), getMemberDTO(memberId=ec2cb3dd-acba-4d9a-a9ab-6a446971f7f3, fullName=Smrithi, email=fh78@yahoo.com)]
+2026-03-14T11:36:37.761+05:30  INFO 10948 --- [member-service] [http-nio-8081-exec-6] S.member.aspect.LoggingAspect            : Service method getAllMembers took 4ms
+2026-03-14T11:36:37.761+05:30  INFO 10948 --- [member-service] [http-nio-8081-exec-6] S.member.aspect.LoggingAspect            : Controller method getAllMembers returned: [getMemberDTO(memberId=3ab5180e-fdb0-499f-9507-80278c633196, fullName=Naina, email=g483@gmail.com), getMemberDTO(memberId=ec2cb3dd-acba-4d9a-a9ab-6a446971f7f3, fullName=Smrithi, email=fh78@yahoo.com)]
+2026-03-14T11:36:37.761+05:30  INFO 10948 --- [member-service] [http-nio-8081-exec-6] S.member.aspect.LoggingAspect            : Controller method: getAllMembers took 8ms
+2026-03-14T11:36:47.909+05:30  INFO 10948 --- [member-service] [http-nio-8081-exec-7] S.member.aspect.LoggingAspect            : Controller Method containsMember is executing
+2026-03-14T11:36:47.912+05:30  INFO 10948 --- [member-service] [http-nio-8081-exec-7] S.member.aspect.LoggingAspect            : Controller Method: containsMember gets the arguments: [abcfba75-8684-4f2c-ad55-daea6a292229]
+2026-03-14T11:36:47.912+05:30  INFO 10948 --- [member-service] [http-nio-8081-exec-7] S.member.aspect.LoggingAspect            : Service method: containsMember executing
+2026-03-14T11:36:47.912+05:30  INFO 10948 --- [member-service] [http-nio-8081-exec-7] S.member.aspect.LoggingAspect            : Service Method: containsMember gets the arguments: [abcfba75-8684-4f2c-ad55-daea6a292229]
+2026-03-14T11:36:47.912+05:30  INFO 10948 --- [member-service] [http-nio-8081-exec-7] S.member.aspect.LoggingAspect            : Service method containsMember returned false
+2026-03-14T11:36:47.912+05:30  INFO 10948 --- [member-service] [http-nio-8081-exec-7] S.member.aspect.LoggingAspect            : Service method containsMember took 0ms
+2026-03-14T11:36:47.912+05:30  INFO 10948 --- [member-service] [http-nio-8081-exec-7] S.member.aspect.LoggingAspect            : Controller method containsMember returned: false
+2026-03-14T11:36:47.917+05:30  INFO 10948 --- [member-service] [http-nio-8081-exec-7] S.member.aspect.LoggingAspect            : Controller method: containsMember took 8ms
+2026-03-14T11:37:05.751+05:30  INFO 10948 --- [member-service] [http-nio-8081-exec-8] S.member.aspect.LoggingAspect            : Controller Method containsMember is executing
+2026-03-14T11:37:05.751+05:30  INFO 10948 --- [member-service] [http-nio-8081-exec-8] S.member.aspect.LoggingAspect            : Controller Method: containsMember gets the arguments: [ec2cb3dd-acba-4d9a-a9ab-6a446971f7f3]
+2026-03-14T11:37:05.751+05:30  INFO 10948 --- [member-service] [http-nio-8081-exec-8] S.member.aspect.LoggingAspect            : Service method: containsMember executing
+2026-03-14T11:37:05.751+05:30  INFO 10948 --- [member-service] [http-nio-8081-exec-8] S.member.aspect.LoggingAspect            : Service Method: containsMember gets the arguments: [ec2cb3dd-acba-4d9a-a9ab-6a446971f7f3]
+2026-03-14T11:37:05.751+05:30  INFO 10948 --- [member-service] [http-nio-8081-exec-8] S.member.aspect.LoggingAspect            : Service method containsMember returned true
+2026-03-14T11:37:05.751+05:30  INFO 10948 --- [member-service] [http-nio-8081-exec-8] S.member.aspect.LoggingAspect            : Service method containsMember took 0ms
+2026-03-14T11:37:05.759+05:30  INFO 10948 --- [member-service] [http-nio-8081-exec-8] S.member.aspect.LoggingAspect            : Controller method containsMember returned: true
+2026-03-14T11:37:05.759+05:30  INFO 10948 --- [member-service] [http-nio-8081-exec-8] S.member.aspect.LoggingAspect            : Controller method: containsMember took 8ms
+2026-03-14T11:37:31.327+05:30  INFO 10948 --- [member-service] [http-nio-8081-exec-9] S.member.aspect.LoggingAspect            : Controller Method containsMember is executing
+2026-03-14T11:37:31.327+05:30  INFO 10948 --- [member-service] [http-nio-8081-exec-9] S.member.aspect.LoggingAspect            : Controller Method: containsMember gets the arguments: [ec2cb3dd-acba-4d9a-a9ab-6a446971f7f3]
+2026-03-14T11:37:31.335+05:30  INFO 10948 --- [member-service] [http-nio-8081-exec-9] S.member.aspect.LoggingAspect            : Service method: containsMember executing
+2026-03-14T11:37:31.335+05:30  INFO 10948 --- [member-service] [http-nio-8081-exec-9] S.member.aspect.LoggingAspect            : Service Method: containsMember gets the arguments: [ec2cb3dd-acba-4d9a-a9ab-6a446971f7f3]
+2026-03-14T11:37:31.335+05:30  INFO 10948 --- [member-service] [http-nio-8081-exec-9] S.member.aspect.LoggingAspect            : Service method containsMember returned true
+2026-03-14T11:37:31.335+05:30  INFO 10948 --- [member-service] [http-nio-8081-exec-9] S.member.aspect.LoggingAspect            : Service method containsMember took 0ms
+2026-03-14T11:37:31.344+05:30  INFO 10948 --- [member-service] [http-nio-8081-exec-9] S.member.aspect.LoggingAspect            : Controller method containsMember returned: true
+2026-03-14T11:37:31.344+05:30  INFO 10948 --- [member-service] [http-nio-8081-exec-9] S.member.aspect.LoggingAspect            : Controller method: containsMember took 17ms
+2026-03-14T11:37:53.428+05:30  INFO 10948 --- [member-service] [http-nio-8081-exec-1] S.member.aspect.LoggingAspect            : Controller Method containsMember is executing
+2026-03-14T11:37:53.430+05:30  INFO 10948 --- [member-service] [http-nio-8081-exec-1] S.member.aspect.LoggingAspect            : Controller Method: containsMember gets the arguments: [ec2cb3dd-acba-4d9a-a9ab-6a446971f7f3]
+2026-03-14T11:37:53.430+05:30  INFO 10948 --- [member-service] [http-nio-8081-exec-1] S.member.aspect.LoggingAspect            : Service method: containsMember executing
+2026-03-14T11:37:53.431+05:30  INFO 10948 --- [member-service] [http-nio-8081-exec-1] S.member.aspect.LoggingAspect            : Service Method: containsMember gets the arguments: [ec2cb3dd-acba-4d9a-a9ab-6a446971f7f3]
+2026-03-14T11:37:53.431+05:30  INFO 10948 --- [member-service] [http-nio-8081-exec-1] S.member.aspect.LoggingAspect            : Service method containsMember returned true
+2026-03-14T11:37:53.431+05:30  INFO 10948 --- [member-service] [http-nio-8081-exec-1] S.member.aspect.LoggingAspect            : Service method containsMember took 1ms
+2026-03-14T11:37:53.431+05:30  INFO 10948 --- [member-service] [http-nio-8081-exec-1] S.member.aspect.LoggingAspect            : Controller method containsMember returned: true
+2026-03-14T11:37:53.431+05:30  INFO 10948 --- [member-service] [http-nio-8081-exec-1] S.member.aspect.LoggingAspect            : Controller method: containsMember took 3ms
+2026-03-14T11:38:00.742+05:30  INFO 10948 --- [member-service] [http-nio-8081-exec-2] S.member.aspect.LoggingAspect            : Controller Method containsMember is executing
+2026-03-14T11:38:00.742+05:30  INFO 10948 --- [member-service] [http-nio-8081-exec-2] S.member.aspect.LoggingAspect            : Controller Method: containsMember gets the arguments: [ec2cb3dd-acba-4d9a-a9ab-6a446971f7f3]
+2026-03-14T11:38:00.742+05:30  INFO 10948 --- [member-service] [http-nio-8081-exec-2] S.member.aspect.LoggingAspect            : Service method: containsMember executing
+2026-03-14T11:38:00.742+05:30  INFO 10948 --- [member-service] [http-nio-8081-exec-2] S.member.aspect.LoggingAspect            : Service Method: containsMember gets the arguments: [ec2cb3dd-acba-4d9a-a9ab-6a446971f7f3]
+2026-03-14T11:38:00.742+05:30  INFO 10948 --- [member-service] [http-nio-8081-exec-2] S.member.aspect.LoggingAspect            : Service method containsMember returned true
+2026-03-14T11:38:00.750+05:30  INFO 10948 --- [member-service] [http-nio-8081-exec-2] S.member.aspect.LoggingAspect            : Service method containsMember took 8ms
+2026-03-14T11:38:00.750+05:30  INFO 10948 --- [member-service] [http-nio-8081-exec-2] S.member.aspect.LoggingAspect            : Controller method containsMember returned: true
+2026-03-14T11:38:00.750+05:30  INFO 10948 --- [member-service] [http-nio-8081-exec-2] S.member.aspect.LoggingAspect            : Controller method: containsMember took 8ms
+2026-03-14T11:38:38.381+05:30  INFO 10948 --- [member-service] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-03-14T11:38:38.399+05:30  INFO 10948 --- [member-service] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-03-14T11:56:55.037+05:30  INFO 4548 --- [member-service] [main] S.member.MemberApplication               : Starting MemberApplication using Java 21.0.10 with PID 4548 (C:\Users\SaiSmrithiMuthukumar\git_repo\Weekend_Assignments\Order-management-system-microservices attempt\member\target\classes started by SaiSmrithiMuthukumar in C:\Users\SaiSmrithiMuthukumar\git_repo\Weekend_Assignments\Order-management-system-microservices attempt\member)
+2026-03-14T11:56:55.042+05:30  INFO 4548 --- [member-service] [main] S.member.MemberApplication               : No active profile set, falling back to 1 default profile: "default"
+2026-03-14T11:56:57.102+05:30  INFO 4548 --- [member-service] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8081 (http)
+2026-03-14T11:56:57.145+05:30  INFO 4548 --- [member-service] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-03-14T11:56:57.145+05:30  INFO 4548 --- [member-service] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.18]
+2026-03-14T11:56:57.226+05:30  INFO 4548 --- [member-service] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 2013 ms
+2026-03-14T11:56:58.555+05:30  INFO 4548 --- [member-service] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8081 (http) with context path '/'
+2026-03-14T11:56:58.560+05:30  INFO 4548 --- [member-service] [main] S.member.MemberApplication               : Started MemberApplication in 4.378 seconds (process running for 5.003)
+2026-03-14T11:57:35.090+05:30  INFO 4548 --- [member-service] [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-03-14T11:57:35.090+05:30  INFO 4548 --- [member-service] [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-03-14T11:57:35.098+05:30  INFO 4548 --- [member-service] [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
+2026-03-14T11:57:36.158+05:30  INFO 4548 --- [member-service] [http-nio-8081-exec-1] S.member.aspect.LoggingAspect            : Controller Method addMember is executing
+2026-03-14T11:57:36.160+05:30  INFO 4548 --- [member-service] [http-nio-8081-exec-1] S.member.aspect.LoggingAspect            : Controller Method: addMember gets the arguments: [addMemberDTO(fullName=Naina, email=g483@gmail.com, password=s2o40937)]
+2026-03-14T11:57:36.163+05:30  INFO 4548 --- [member-service] [http-nio-8081-exec-1] S.member.aspect.LoggingAspect            : Service method: addMember executing
+2026-03-14T11:57:36.165+05:30  INFO 4548 --- [member-service] [http-nio-8081-exec-1] S.member.aspect.LoggingAspect            : Service Method: addMember gets the arguments: [addMemberDTO(fullName=Naina, email=g483@gmail.com, password=s2o40937)]
+2026-03-14T11:57:36.183+05:30  INFO 4548 --- [member-service] [http-nio-8081-exec-1] S.member.aspect.LoggingAspect            : Service method addMember returned <200 OK OK,Member added successfully,[]>
+2026-03-14T11:57:36.190+05:30  INFO 4548 --- [member-service] [http-nio-8081-exec-1] S.member.aspect.LoggingAspect            : Service method addMember took 22ms
+2026-03-14T11:57:36.191+05:30  INFO 4548 --- [member-service] [http-nio-8081-exec-1] S.member.aspect.LoggingAspect            : Controller method addMember returned: <200 OK OK,Member added successfully,[]>
+2026-03-14T11:57:36.193+05:30  INFO 4548 --- [member-service] [http-nio-8081-exec-1] S.member.aspect.LoggingAspect            : Controller method: addMember took 39ms
+2026-03-14T11:58:04.577+05:30  INFO 4548 --- [member-service] [http-nio-8081-exec-3] S.member.aspect.LoggingAspect            : Controller Method addMember is executing
+2026-03-14T11:58:04.585+05:30  INFO 4548 --- [member-service] [http-nio-8081-exec-3] S.member.aspect.LoggingAspect            : Controller Method: addMember gets the arguments: [addMemberDTO(fullName=Smrithi, email=gj47282@yahoo.com, password=gj48392Kl)]
+2026-03-14T11:58:04.585+05:30  INFO 4548 --- [member-service] [http-nio-8081-exec-3] S.member.aspect.LoggingAspect            : Service method: addMember executing
+2026-03-14T11:58:04.585+05:30  INFO 4548 --- [member-service] [http-nio-8081-exec-3] S.member.aspect.LoggingAspect            : Service Method: addMember gets the arguments: [addMemberDTO(fullName=Smrithi, email=gj47282@yahoo.com, password=gj48392Kl)]
+2026-03-14T11:58:04.585+05:30  INFO 4548 --- [member-service] [http-nio-8081-exec-3] S.member.aspect.LoggingAspect            : Service method addMember returned <200 OK OK,Member added successfully,[]>
+2026-03-14T11:58:04.585+05:30  INFO 4548 --- [member-service] [http-nio-8081-exec-3] S.member.aspect.LoggingAspect            : Service method addMember took 0ms
+2026-03-14T11:58:04.593+05:30  INFO 4548 --- [member-service] [http-nio-8081-exec-3] S.member.aspect.LoggingAspect            : Controller method addMember returned: <200 OK OK,Member added successfully,[]>
+2026-03-14T11:58:04.593+05:30  INFO 4548 --- [member-service] [http-nio-8081-exec-3] S.member.aspect.LoggingAspect            : Controller method: addMember took 16ms
+2026-03-14T11:58:06.184+05:30  INFO 4548 --- [member-service] [http-nio-8081-exec-4] S.member.aspect.LoggingAspect            : Controller Method getAllMembers is executing
+2026-03-14T11:58:06.184+05:30  INFO 4548 --- [member-service] [http-nio-8081-exec-4] S.member.aspect.LoggingAspect            : Controller Method: getAllMembers gets the arguments: []
+2026-03-14T11:58:06.184+05:30  INFO 4548 --- [member-service] [http-nio-8081-exec-4] S.member.aspect.LoggingAspect            : Service method: getAllMembers executing
+2026-03-14T11:58:06.189+05:30  INFO 4548 --- [member-service] [http-nio-8081-exec-4] S.member.aspect.LoggingAspect            : Service Method: getAllMembers gets the arguments: []
+2026-03-14T11:58:06.189+05:30  INFO 4548 --- [member-service] [http-nio-8081-exec-4] S.member.aspect.LoggingAspect            : Service method getAllMembers returned [getMemberDTO(memberId=44e5fe6a-8cae-4cc5-b51e-34714e03e0e8, fullName=Smrithi, email=gj47282@yahoo.com), getMemberDTO(memberId=c1ac24ba-e216-405c-9872-92cbed0d3786, fullName=Naina, email=g483@gmail.com)]
+2026-03-14T11:58:06.197+05:30  INFO 4548 --- [member-service] [http-nio-8081-exec-4] S.member.aspect.LoggingAspect            : Service method getAllMembers took 13ms
+2026-03-14T11:58:06.205+05:30  INFO 4548 --- [member-service] [http-nio-8081-exec-4] S.member.aspect.LoggingAspect            : Controller method getAllMembers returned: [getMemberDTO(memberId=44e5fe6a-8cae-4cc5-b51e-34714e03e0e8, fullName=Smrithi, email=gj47282@yahoo.com), getMemberDTO(memberId=c1ac24ba-e216-405c-9872-92cbed0d3786, fullName=Naina, email=g483@gmail.com)]
+2026-03-14T11:58:06.205+05:30  INFO 4548 --- [member-service] [http-nio-8081-exec-4] S.member.aspect.LoggingAspect            : Controller method: getAllMembers took 21ms
+2026-03-14T11:58:16.191+05:30  INFO 4548 --- [member-service] [http-nio-8081-exec-5] S.member.aspect.LoggingAspect            : Controller Method containsMember is executing
+2026-03-14T11:58:16.195+05:30  INFO 4548 --- [member-service] [http-nio-8081-exec-5] S.member.aspect.LoggingAspect            : Controller Method: containsMember gets the arguments: [ec2cb3dd-acba-4d9a-a9ab-6a446971f7f3]
+2026-03-14T11:58:16.195+05:30  INFO 4548 --- [member-service] [http-nio-8081-exec-5] S.member.aspect.LoggingAspect            : Service method: containsMember executing
+2026-03-14T11:58:16.195+05:30  INFO 4548 --- [member-service] [http-nio-8081-exec-5] S.member.aspect.LoggingAspect            : Service Method: containsMember gets the arguments: [ec2cb3dd-acba-4d9a-a9ab-6a446971f7f3]
+2026-03-14T11:58:16.197+05:30  INFO 4548 --- [member-service] [http-nio-8081-exec-5] S.member.aspect.LoggingAspect            : Service method containsMember returned false
+2026-03-14T11:58:16.197+05:30  INFO 4548 --- [member-service] [http-nio-8081-exec-5] S.member.aspect.LoggingAspect            : Service method containsMember took 2ms
+2026-03-14T11:58:16.197+05:30  INFO 4548 --- [member-service] [http-nio-8081-exec-5] S.member.aspect.LoggingAspect            : Controller method containsMember returned: false
+2026-03-14T11:58:16.197+05:30  INFO 4548 --- [member-service] [http-nio-8081-exec-5] S.member.aspect.LoggingAspect            : Controller method: containsMember took 6ms
+2026-03-14T11:58:45.300+05:30  INFO 4548 --- [member-service] [http-nio-8081-exec-6] S.member.aspect.LoggingAspect            : Controller Method containsMember is executing
+2026-03-14T11:58:45.300+05:30  INFO 4548 --- [member-service] [http-nio-8081-exec-6] S.member.aspect.LoggingAspect            : Controller Method: containsMember gets the arguments: [c1ac24ba-e216-405c-9872-92cbed0d3786]
+2026-03-14T11:58:45.300+05:30  INFO 4548 --- [member-service] [http-nio-8081-exec-6] S.member.aspect.LoggingAspect            : Service method: containsMember executing
+2026-03-14T11:58:45.300+05:30  INFO 4548 --- [member-service] [http-nio-8081-exec-6] S.member.aspect.LoggingAspect            : Service Method: containsMember gets the arguments: [c1ac24ba-e216-405c-9872-92cbed0d3786]
+2026-03-14T11:58:45.300+05:30  INFO 4548 --- [member-service] [http-nio-8081-exec-6] S.member.aspect.LoggingAspect            : Service method containsMember returned true
+2026-03-14T11:58:45.308+05:30  INFO 4548 --- [member-service] [http-nio-8081-exec-6] S.member.aspect.LoggingAspect            : Service method containsMember took 8ms
+2026-03-14T11:58:45.308+05:30  INFO 4548 --- [member-service] [http-nio-8081-exec-6] S.member.aspect.LoggingAspect            : Controller method containsMember returned: true
+2026-03-14T11:58:45.308+05:30  INFO 4548 --- [member-service] [http-nio-8081-exec-6] S.member.aspect.LoggingAspect            : Controller method: containsMember took 8ms
+2026-03-14T11:58:52.777+05:30  INFO 4548 --- [member-service] [http-nio-8081-exec-7] S.member.aspect.LoggingAspect            : Controller Method containsMember is executing
+2026-03-14T11:58:52.777+05:30  INFO 4548 --- [member-service] [http-nio-8081-exec-7] S.member.aspect.LoggingAspect            : Controller Method: containsMember gets the arguments: [c1ac24ba-e216-405c-9872-92cbed0d3786]
+2026-03-14T11:58:52.777+05:30  INFO 4548 --- [member-service] [http-nio-8081-exec-7] S.member.aspect.LoggingAspect            : Service method: containsMember executing
+2026-03-14T11:58:52.777+05:30  INFO 4548 --- [member-service] [http-nio-8081-exec-7] S.member.aspect.LoggingAspect            : Service Method: containsMember gets the arguments: [c1ac24ba-e216-405c-9872-92cbed0d3786]
+2026-03-14T11:58:52.777+05:30  INFO 4548 --- [member-service] [http-nio-8081-exec-7] S.member.aspect.LoggingAspect            : Service method containsMember returned true
+2026-03-14T11:58:52.777+05:30  INFO 4548 --- [member-service] [http-nio-8081-exec-7] S.member.aspect.LoggingAspect            : Service method containsMember took 0ms
+2026-03-14T11:58:52.777+05:30  INFO 4548 --- [member-service] [http-nio-8081-exec-7] S.member.aspect.LoggingAspect            : Controller method containsMember returned: true
+2026-03-14T11:58:52.777+05:30  INFO 4548 --- [member-service] [http-nio-8081-exec-7] S.member.aspect.LoggingAspect            : Controller method: containsMember took 0ms
+2026-03-14T11:59:03.001+05:30  INFO 4548 --- [member-service] [http-nio-8081-exec-8] S.member.aspect.LoggingAspect            : Controller Method containsMember is executing
+2026-03-14T11:59:03.003+05:30  INFO 4548 --- [member-service] [http-nio-8081-exec-8] S.member.aspect.LoggingAspect            : Controller Method: containsMember gets the arguments: [c1ac24ba-e216-405c-9872-92cbed0d3786]
+2026-03-14T11:59:03.004+05:30  INFO 4548 --- [member-service] [http-nio-8081-exec-8] S.member.aspect.LoggingAspect            : Service method: containsMember executing
+2026-03-14T11:59:03.006+05:30  INFO 4548 --- [member-service] [http-nio-8081-exec-8] S.member.aspect.LoggingAspect            : Service Method: containsMember gets the arguments: [c1ac24ba-e216-405c-9872-92cbed0d3786]
+2026-03-14T11:59:03.009+05:30  INFO 4548 --- [member-service] [http-nio-8081-exec-8] S.member.aspect.LoggingAspect            : Service method containsMember returned true
+2026-03-14T11:59:03.009+05:30  INFO 4548 --- [member-service] [http-nio-8081-exec-8] S.member.aspect.LoggingAspect            : Service method containsMember took 5ms
+2026-03-14T11:59:03.009+05:30  INFO 4548 --- [member-service] [http-nio-8081-exec-8] S.member.aspect.LoggingAspect            : Controller method containsMember returned: true
+2026-03-14T11:59:03.014+05:30  INFO 4548 --- [member-service] [http-nio-8081-exec-8] S.member.aspect.LoggingAspect            : Controller method: containsMember took 13ms
+2026-03-14T11:59:20.832+05:30  INFO 4548 --- [member-service] [http-nio-8081-exec-10] S.member.aspect.LoggingAspect            : Controller Method containsMember is executing
+2026-03-14T11:59:20.834+05:30  INFO 4548 --- [member-service] [http-nio-8081-exec-10] S.member.aspect.LoggingAspect            : Controller Method: containsMember gets the arguments: [c1ac24ba-e216-405c-9872-92cbed0d3786]
+2026-03-14T11:59:20.836+05:30  INFO 4548 --- [member-service] [http-nio-8081-exec-10] S.member.aspect.LoggingAspect            : Service method: containsMember executing
+2026-03-14T11:59:20.838+05:30  INFO 4548 --- [member-service] [http-nio-8081-exec-10] S.member.aspect.LoggingAspect            : Service Method: containsMember gets the arguments: [c1ac24ba-e216-405c-9872-92cbed0d3786]
+2026-03-14T11:59:20.839+05:30  INFO 4548 --- [member-service] [http-nio-8081-exec-10] S.member.aspect.LoggingAspect            : Service method containsMember returned true
+2026-03-14T11:59:20.842+05:30  INFO 4548 --- [member-service] [http-nio-8081-exec-10] S.member.aspect.LoggingAspect            : Service method containsMember took 6ms
+2026-03-14T11:59:20.844+05:30  INFO 4548 --- [member-service] [http-nio-8081-exec-10] S.member.aspect.LoggingAspect            : Controller method containsMember returned: true
+2026-03-14T11:59:20.844+05:30  INFO 4548 --- [member-service] [http-nio-8081-exec-10] S.member.aspect.LoggingAspect            : Controller method: containsMember took 12ms
+2026-03-14T12:00:22.872+05:30  INFO 4548 --- [member-service] [http-nio-8081-exec-1] S.member.aspect.LoggingAspect            : Controller Method containsMember is executing
+2026-03-14T12:00:22.872+05:30  INFO 4548 --- [member-service] [http-nio-8081-exec-1] S.member.aspect.LoggingAspect            : Controller Method: containsMember gets the arguments: [c1ac24ba-e216-405c-9872-92cbed0d3786]
+2026-03-14T12:00:22.872+05:30  INFO 4548 --- [member-service] [http-nio-8081-exec-1] S.member.aspect.LoggingAspect            : Service method: containsMember executing
+2026-03-14T12:00:22.872+05:30  INFO 4548 --- [member-service] [http-nio-8081-exec-1] S.member.aspect.LoggingAspect            : Service Method: containsMember gets the arguments: [c1ac24ba-e216-405c-9872-92cbed0d3786]
+2026-03-14T12:00:22.872+05:30  INFO 4548 --- [member-service] [http-nio-8081-exec-1] S.member.aspect.LoggingAspect            : Service method containsMember returned true
+2026-03-14T12:00:22.872+05:30  INFO 4548 --- [member-service] [http-nio-8081-exec-1] S.member.aspect.LoggingAspect            : Service method containsMember took 0ms
+2026-03-14T12:00:22.872+05:30  INFO 4548 --- [member-service] [http-nio-8081-exec-1] S.member.aspect.LoggingAspect            : Controller method containsMember returned: true
+2026-03-14T12:00:22.872+05:30  INFO 4548 --- [member-service] [http-nio-8081-exec-1] S.member.aspect.LoggingAspect            : Controller method: containsMember took 0ms
+2026-03-14T12:02:21.952+05:30  INFO 4548 --- [member-service] [http-nio-8081-exec-4] S.member.aspect.LoggingAspect            : Controller Method containsMember is executing
+2026-03-14T12:02:21.959+05:30  INFO 4548 --- [member-service] [http-nio-8081-exec-4] S.member.aspect.LoggingAspect            : Controller Method: containsMember gets the arguments: [c1ac24ba-e216-405c-9872-92cbed0d3786]
+2026-03-14T12:02:21.959+05:30  INFO 4548 --- [member-service] [http-nio-8081-exec-4] S.member.aspect.LoggingAspect            : Service method: containsMember executing
+2026-03-14T12:02:21.959+05:30  INFO 4548 --- [member-service] [http-nio-8081-exec-4] S.member.aspect.LoggingAspect            : Service Method: containsMember gets the arguments: [c1ac24ba-e216-405c-9872-92cbed0d3786]
+2026-03-14T12:02:21.959+05:30  INFO 4548 --- [member-service] [http-nio-8081-exec-4] S.member.aspect.LoggingAspect            : Service method containsMember returned true
+2026-03-14T12:02:21.959+05:30  INFO 4548 --- [member-service] [http-nio-8081-exec-4] S.member.aspect.LoggingAspect            : Service method containsMember took 0ms
+2026-03-14T12:02:21.959+05:30  INFO 4548 --- [member-service] [http-nio-8081-exec-4] S.member.aspect.LoggingAspect            : Controller method containsMember returned: true
+2026-03-14T12:02:21.959+05:30  INFO 4548 --- [member-service] [http-nio-8081-exec-4] S.member.aspect.LoggingAspect            : Controller method: containsMember took 7ms
+2026-03-14T12:02:32.911+05:30  INFO 4548 --- [member-service] [http-nio-8081-exec-5] S.member.aspect.LoggingAspect            : Controller Method containsMember is executing
+2026-03-14T12:02:32.911+05:30  INFO 4548 --- [member-service] [http-nio-8081-exec-5] S.member.aspect.LoggingAspect            : Controller Method: containsMember gets the arguments: [c1ac24ba-e216-405c-9872-92cbed0d3786]
+2026-03-14T12:02:32.911+05:30  INFO 4548 --- [member-service] [http-nio-8081-exec-5] S.member.aspect.LoggingAspect            : Service method: containsMember executing
+2026-03-14T12:02:32.911+05:30  INFO 4548 --- [member-service] [http-nio-8081-exec-5] S.member.aspect.LoggingAspect            : Service Method: containsMember gets the arguments: [c1ac24ba-e216-405c-9872-92cbed0d3786]
+2026-03-14T12:02:32.911+05:30  INFO 4548 --- [member-service] [http-nio-8081-exec-5] S.member.aspect.LoggingAspect            : Service method containsMember returned true
+2026-03-14T12:02:32.911+05:30  INFO 4548 --- [member-service] [http-nio-8081-exec-5] S.member.aspect.LoggingAspect            : Service method containsMember took 0ms
+2026-03-14T12:02:32.913+05:30  INFO 4548 --- [member-service] [http-nio-8081-exec-5] S.member.aspect.LoggingAspect            : Controller method containsMember returned: true
+2026-03-14T12:02:32.913+05:30  INFO 4548 --- [member-service] [http-nio-8081-exec-5] S.member.aspect.LoggingAspect            : Controller method: containsMember took 2ms
+2026-03-14T12:03:41.716+05:30  INFO 4548 --- [member-service] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-03-14T12:03:41.726+05:30  INFO 4548 --- [member-service] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-03-14T12:08:41.176+05:30  INFO 13564 --- [member-service] [main] S.member.MemberApplication               : Starting MemberApplication using Java 21.0.10 with PID 13564 (C:\Users\SaiSmrithiMuthukumar\git_repo\Weekend_Assignments\Order-management-system-microservices attempt\member\target\classes started by SaiSmrithiMuthukumar in C:\Users\SaiSmrithiMuthukumar\git_repo\Weekend_Assignments\Order-management-system-microservices attempt\member)
+2026-03-14T12:08:41.188+05:30  INFO 13564 --- [member-service] [main] S.member.MemberApplication               : No active profile set, falling back to 1 default profile: "default"
+2026-03-14T12:08:43.877+05:30  INFO 13564 --- [member-service] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8081 (http)
+2026-03-14T12:08:43.901+05:30  INFO 13564 --- [member-service] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-03-14T12:08:43.901+05:30  INFO 13564 --- [member-service] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.18]
+2026-03-14T12:08:44.011+05:30  INFO 13564 --- [member-service] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 2652 ms
+2026-03-14T12:08:45.125+05:30  INFO 13564 --- [member-service] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8081 (http) with context path '/'
+2026-03-14T12:08:45.131+05:30  INFO 13564 --- [member-service] [main] S.member.MemberApplication               : Started MemberApplication in 5.102 seconds (process running for 5.955)
+2026-03-14T12:08:53.973+05:30  INFO 13564 --- [member-service] [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-03-14T12:08:53.973+05:30  INFO 13564 --- [member-service] [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-03-14T12:08:53.973+05:30  INFO 13564 --- [member-service] [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2026-03-14T12:08:54.805+05:30  INFO 13564 --- [member-service] [http-nio-8081-exec-1] S.member.aspect.LoggingAspect            : Controller Method addMember is executing
+2026-03-14T12:08:54.805+05:30  INFO 13564 --- [member-service] [http-nio-8081-exec-1] S.member.aspect.LoggingAspect            : Controller Method: addMember gets the arguments: [addMemberDTO(fullName=Smrithi, email=gj47282@yahoo.com, password=gj48392Kl)]
+2026-03-14T12:08:54.805+05:30  INFO 13564 --- [member-service] [http-nio-8081-exec-1] S.member.aspect.LoggingAspect            : Service method: addMember executing
+2026-03-14T12:08:54.805+05:30  INFO 13564 --- [member-service] [http-nio-8081-exec-1] S.member.aspect.LoggingAspect            : Service Method: addMember gets the arguments: [addMemberDTO(fullName=Smrithi, email=gj47282@yahoo.com, password=gj48392Kl)]
+2026-03-14T12:08:54.821+05:30  INFO 13564 --- [member-service] [http-nio-8081-exec-1] S.member.aspect.LoggingAspect            : Service method addMember returned <200 OK OK,Member added successfully,[]>
+2026-03-14T12:08:54.831+05:30  INFO 13564 --- [member-service] [http-nio-8081-exec-1] S.member.aspect.LoggingAspect            : Service method addMember took 16ms
+2026-03-14T12:08:54.831+05:30  INFO 13564 --- [member-service] [http-nio-8081-exec-1] S.member.aspect.LoggingAspect            : Controller method addMember returned: <200 OK OK,Member added successfully,[]>
+2026-03-14T12:08:54.831+05:30  INFO 13564 --- [member-service] [http-nio-8081-exec-1] S.member.aspect.LoggingAspect            : Controller method: addMember took 35ms
+2026-03-14T12:09:09.182+05:30  INFO 13564 --- [member-service] [http-nio-8081-exec-3] S.member.aspect.LoggingAspect            : Controller Method addMember is executing
+2026-03-14T12:09:09.182+05:30  INFO 13564 --- [member-service] [http-nio-8081-exec-3] S.member.aspect.LoggingAspect            : Controller Method: addMember gets the arguments: [addMemberDTO(fullName=Naina, email=np5u3@yahoo.com, password=gke28209)]
+2026-03-14T12:09:09.182+05:30  INFO 13564 --- [member-service] [http-nio-8081-exec-3] S.member.aspect.LoggingAspect            : Service method: addMember executing
+2026-03-14T12:09:09.182+05:30  INFO 13564 --- [member-service] [http-nio-8081-exec-3] S.member.aspect.LoggingAspect            : Service Method: addMember gets the arguments: [addMemberDTO(fullName=Naina, email=np5u3@yahoo.com, password=gke28209)]
+2026-03-14T12:09:09.190+05:30  INFO 13564 --- [member-service] [http-nio-8081-exec-3] S.member.aspect.LoggingAspect            : Service method addMember returned <200 OK OK,Member added successfully,[]>
+2026-03-14T12:09:09.190+05:30  INFO 13564 --- [member-service] [http-nio-8081-exec-3] S.member.aspect.LoggingAspect            : Service method addMember took 8ms
+2026-03-14T12:09:09.190+05:30  INFO 13564 --- [member-service] [http-nio-8081-exec-3] S.member.aspect.LoggingAspect            : Controller method addMember returned: <200 OK OK,Member added successfully,[]>
+2026-03-14T12:09:09.190+05:30  INFO 13564 --- [member-service] [http-nio-8081-exec-3] S.member.aspect.LoggingAspect            : Controller method: addMember took 8ms
+2026-03-14T12:09:12.395+05:30  INFO 13564 --- [member-service] [http-nio-8081-exec-4] S.member.aspect.LoggingAspect            : Controller Method getAllMembers is executing
+2026-03-14T12:09:12.395+05:30  INFO 13564 --- [member-service] [http-nio-8081-exec-4] S.member.aspect.LoggingAspect            : Controller Method: getAllMembers gets the arguments: []
+2026-03-14T12:09:12.395+05:30  INFO 13564 --- [member-service] [http-nio-8081-exec-4] S.member.aspect.LoggingAspect            : Service method: getAllMembers executing
+2026-03-14T12:09:12.395+05:30  INFO 13564 --- [member-service] [http-nio-8081-exec-4] S.member.aspect.LoggingAspect            : Service Method: getAllMembers gets the arguments: []
+2026-03-14T12:09:12.406+05:30  INFO 13564 --- [member-service] [http-nio-8081-exec-4] S.member.aspect.LoggingAspect            : Service method getAllMembers returned [getMemberDTO(memberId=2873c94f-e25d-4a88-8e91-253c0e87b6b3, fullName=Naina, email=np5u3@yahoo.com), getMemberDTO(memberId=32d0953f-bbb6-4662-9448-029b714a0a3e, fullName=Smrithi, email=gj47282@yahoo.com)]
+2026-03-14T12:09:12.406+05:30  INFO 13564 --- [member-service] [http-nio-8081-exec-4] S.member.aspect.LoggingAspect            : Service method getAllMembers took 11ms
+2026-03-14T12:09:12.406+05:30  INFO 13564 --- [member-service] [http-nio-8081-exec-4] S.member.aspect.LoggingAspect            : Controller method getAllMembers returned: [getMemberDTO(memberId=2873c94f-e25d-4a88-8e91-253c0e87b6b3, fullName=Naina, email=np5u3@yahoo.com), getMemberDTO(memberId=32d0953f-bbb6-4662-9448-029b714a0a3e, fullName=Smrithi, email=gj47282@yahoo.com)]
+2026-03-14T12:09:12.410+05:30  INFO 13564 --- [member-service] [http-nio-8081-exec-4] S.member.aspect.LoggingAspect            : Controller method: getAllMembers took 15ms
+2026-03-14T12:09:27.904+05:30  INFO 13564 --- [member-service] [http-nio-8081-exec-5] S.member.aspect.LoggingAspect            : Controller Method containsMember is executing
+2026-03-14T12:09:27.906+05:30  INFO 13564 --- [member-service] [http-nio-8081-exec-5] S.member.aspect.LoggingAspect            : Controller Method: containsMember gets the arguments: [c1ac24ba-e216-405c-9872-92cbed0d3786]
+2026-03-14T12:09:27.908+05:30  INFO 13564 --- [member-service] [http-nio-8081-exec-5] S.member.aspect.LoggingAspect            : Service method: containsMember executing
+2026-03-14T12:09:27.908+05:30  INFO 13564 --- [member-service] [http-nio-8081-exec-5] S.member.aspect.LoggingAspect            : Service Method: containsMember gets the arguments: [c1ac24ba-e216-405c-9872-92cbed0d3786]
+2026-03-14T12:09:27.910+05:30  INFO 13564 --- [member-service] [http-nio-8081-exec-5] S.member.aspect.LoggingAspect            : Service method containsMember returned false
+2026-03-14T12:09:27.912+05:30  INFO 13564 --- [member-service] [http-nio-8081-exec-5] S.member.aspect.LoggingAspect            : Service method containsMember took 4ms
+2026-03-14T12:09:27.912+05:30  INFO 13564 --- [member-service] [http-nio-8081-exec-5] S.member.aspect.LoggingAspect            : Controller method containsMember returned: false
+2026-03-14T12:09:27.914+05:30  INFO 13564 --- [member-service] [http-nio-8081-exec-5] S.member.aspect.LoggingAspect            : Controller method: containsMember took 10ms
+2026-03-14T12:10:07.321+05:30  INFO 13564 --- [member-service] [http-nio-8081-exec-6] S.member.aspect.LoggingAspect            : Controller Method containsMember is executing
+2026-03-14T12:10:07.321+05:30  INFO 13564 --- [member-service] [http-nio-8081-exec-6] S.member.aspect.LoggingAspect            : Controller Method: containsMember gets the arguments: [2873c94f-e25d-4a88-8e91-253c0e87b6b3]
+2026-03-14T12:10:07.321+05:30  INFO 13564 --- [member-service] [http-nio-8081-exec-6] S.member.aspect.LoggingAspect            : Service method: containsMember executing
+2026-03-14T12:10:07.321+05:30  INFO 13564 --- [member-service] [http-nio-8081-exec-6] S.member.aspect.LoggingAspect            : Service Method: containsMember gets the arguments: [2873c94f-e25d-4a88-8e91-253c0e87b6b3]
+2026-03-14T12:10:07.321+05:30  INFO 13564 --- [member-service] [http-nio-8081-exec-6] S.member.aspect.LoggingAspect            : Service method containsMember returned true
+2026-03-14T12:10:07.329+05:30  INFO 13564 --- [member-service] [http-nio-8081-exec-6] S.member.aspect.LoggingAspect            : Service method containsMember took 8ms
+2026-03-14T12:10:07.329+05:30  INFO 13564 --- [member-service] [http-nio-8081-exec-6] S.member.aspect.LoggingAspect            : Controller method containsMember returned: true
+2026-03-14T12:10:07.329+05:30  INFO 13564 --- [member-service] [http-nio-8081-exec-6] S.member.aspect.LoggingAspect            : Controller method: containsMember took 8ms
+2026-03-14T12:11:09.257+05:30  INFO 13564 --- [member-service] [http-nio-8081-exec-9] S.member.aspect.LoggingAspect            : Controller Method containsMember is executing
+2026-03-14T12:11:09.257+05:30  INFO 13564 --- [member-service] [http-nio-8081-exec-9] S.member.aspect.LoggingAspect            : Controller Method: containsMember gets the arguments: [2873c94f-e25d-4a88-8e91-253c0e87b6b3]
+2026-03-14T12:11:09.257+05:30  INFO 13564 --- [member-service] [http-nio-8081-exec-9] S.member.aspect.LoggingAspect            : Service method: containsMember executing
+2026-03-14T12:11:09.257+05:30  INFO 13564 --- [member-service] [http-nio-8081-exec-9] S.member.aspect.LoggingAspect            : Service Method: containsMember gets the arguments: [2873c94f-e25d-4a88-8e91-253c0e87b6b3]
+2026-03-14T12:11:09.257+05:30  INFO 13564 --- [member-service] [http-nio-8081-exec-9] S.member.aspect.LoggingAspect            : Service method containsMember returned true
+2026-03-14T12:11:09.257+05:30  INFO 13564 --- [member-service] [http-nio-8081-exec-9] S.member.aspect.LoggingAspect            : Service method containsMember took 0ms
+2026-03-14T12:11:09.257+05:30  INFO 13564 --- [member-service] [http-nio-8081-exec-9] S.member.aspect.LoggingAspect            : Controller method containsMember returned: true
+2026-03-14T12:11:09.257+05:30  INFO 13564 --- [member-service] [http-nio-8081-exec-9] S.member.aspect.LoggingAspect            : Controller method: containsMember took 0ms
+2026-03-14T12:11:22.909+05:30  INFO 13564 --- [member-service] [http-nio-8081-exec-10] S.member.aspect.LoggingAspect            : Controller Method containsMember is executing
+2026-03-14T12:11:22.911+05:30  INFO 13564 --- [member-service] [http-nio-8081-exec-10] S.member.aspect.LoggingAspect            : Controller Method: containsMember gets the arguments: [2873c94f-e25d-4a88-8e91-253c0e87b6b3]
+2026-03-14T12:11:22.913+05:30  INFO 13564 --- [member-service] [http-nio-8081-exec-10] S.member.aspect.LoggingAspect            : Service method: containsMember executing
+2026-03-14T12:11:22.917+05:30  INFO 13564 --- [member-service] [http-nio-8081-exec-10] S.member.aspect.LoggingAspect            : Service Method: containsMember gets the arguments: [2873c94f-e25d-4a88-8e91-253c0e87b6b3]
+2026-03-14T12:11:22.921+05:30  INFO 13564 --- [member-service] [http-nio-8081-exec-10] S.member.aspect.LoggingAspect            : Service method containsMember returned true
+2026-03-14T12:11:22.941+05:30  INFO 13564 --- [member-service] [http-nio-8081-exec-10] S.member.aspect.LoggingAspect            : Service method containsMember took 28ms
+2026-03-14T12:11:22.941+05:30  INFO 13564 --- [member-service] [http-nio-8081-exec-10] S.member.aspect.LoggingAspect            : Controller method containsMember returned: true
+2026-03-14T12:11:22.941+05:30  INFO 13564 --- [member-service] [http-nio-8081-exec-10] S.member.aspect.LoggingAspect            : Controller method: containsMember took 32ms
+2026-03-14T12:11:59.124+05:30  INFO 13564 --- [member-service] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-03-14T12:11:59.136+05:30  INFO 13564 --- [member-service] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-03-14T14:11:24.207+05:30  INFO 2052 --- [member-service] [main] S.member.MemberApplication               : Starting MemberApplication using Java 21.0.10 with PID 2052 (C:\Users\SaiSmrithiMuthukumar\git_repo\Weekend_Assignments\Order-management-system-microservices attempt\member\target\classes started by SaiSmrithiMuthukumar in C:\Users\SaiSmrithiMuthukumar\git_repo\Weekend_Assignments\Order-management-system-microservices attempt\member)
+2026-03-14T14:11:24.223+05:30  INFO 2052 --- [member-service] [main] S.member.MemberApplication               : No active profile set, falling back to 1 default profile: "default"
+2026-03-14T14:11:26.022+05:30  INFO 2052 --- [member-service] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8081 (http)
+2026-03-14T14:11:26.040+05:30  INFO 2052 --- [member-service] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-03-14T14:11:26.040+05:30  INFO 2052 --- [member-service] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.18]
+2026-03-14T14:11:26.134+05:30  INFO 2052 --- [member-service] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 1803 ms
+2026-03-14T14:11:27.211+05:30  INFO 2052 --- [member-service] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8081 (http) with context path '/'
+2026-03-14T14:11:27.211+05:30  INFO 2052 --- [member-service] [main] S.member.MemberApplication               : Started MemberApplication in 3.723 seconds (process running for 4.508)
+2026-03-14T14:11:45.138+05:30  INFO 2052 --- [member-service] [http-nio-8081-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-03-14T14:11:45.138+05:30  INFO 2052 --- [member-service] [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-03-14T14:11:45.154+05:30  INFO 2052 --- [member-service] [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
+2026-03-14T14:11:46.010+05:30  INFO 2052 --- [member-service] [http-nio-8081-exec-2] S.member.aspect.LoggingAspect            : Controller Method addMember is executing
+2026-03-14T14:11:46.016+05:30  INFO 2052 --- [member-service] [http-nio-8081-exec-2] S.member.aspect.LoggingAspect            : Controller Method: addMember gets the arguments: [addMemberDTO(fullName=Naina, email=np5u3@yahoo.com, password=gke28209)]
+2026-03-14T14:11:46.019+05:30  INFO 2052 --- [member-service] [http-nio-8081-exec-2] S.member.aspect.LoggingAspect            : Service method: addMember executing
+2026-03-14T14:11:46.019+05:30  INFO 2052 --- [member-service] [http-nio-8081-exec-2] S.member.aspect.LoggingAspect            : Service Method: addMember gets the arguments: [addMemberDTO(fullName=Naina, email=np5u3@yahoo.com, password=gke28209)]
+2026-03-14T14:11:46.052+05:30  INFO 2052 --- [member-service] [http-nio-8081-exec-2] S.member.aspect.LoggingAspect            : Service method addMember returned <200 OK OK,Member added successfully,[]>
+2026-03-14T14:11:46.060+05:30  INFO 2052 --- [member-service] [http-nio-8081-exec-2] S.member.aspect.LoggingAspect            : Service method addMember took 41ms
+2026-03-14T14:11:46.076+05:30  INFO 2052 --- [member-service] [http-nio-8081-exec-2] S.member.aspect.LoggingAspect            : Controller method addMember returned: <200 OK OK,Member added successfully,[]>
+2026-03-14T14:11:46.076+05:30  INFO 2052 --- [member-service] [http-nio-8081-exec-2] S.member.aspect.LoggingAspect            : Controller method: addMember took 81ms
+2026-03-14T14:12:11.713+05:30  INFO 2052 --- [member-service] [http-nio-8081-exec-3] S.member.aspect.LoggingAspect            : Controller Method addMember is executing
+2026-03-14T14:12:11.713+05:30  INFO 2052 --- [member-service] [http-nio-8081-exec-3] S.member.aspect.LoggingAspect            : Controller Method: addMember gets the arguments: [addMemberDTO(fullName=Smrithi, email=fger45j@yahoo.com, password=f56(8^7fA0)]
+2026-03-14T14:12:11.713+05:30  INFO 2052 --- [member-service] [http-nio-8081-exec-3] S.member.aspect.LoggingAspect            : Service method: addMember executing
+2026-03-14T14:12:11.714+05:30  INFO 2052 --- [member-service] [http-nio-8081-exec-3] S.member.aspect.LoggingAspect            : Service Method: addMember gets the arguments: [addMemberDTO(fullName=Smrithi, email=fger45j@yahoo.com, password=f56(8^7fA0)]
+2026-03-14T14:12:11.714+05:30  INFO 2052 --- [member-service] [http-nio-8081-exec-3] S.member.aspect.LoggingAspect            : Service method addMember returned <200 OK OK,Member added successfully,[]>
+2026-03-14T14:12:11.714+05:30  INFO 2052 --- [member-service] [http-nio-8081-exec-3] S.member.aspect.LoggingAspect            : Service method addMember took 1ms
+2026-03-14T14:12:11.714+05:30  INFO 2052 --- [member-service] [http-nio-8081-exec-3] S.member.aspect.LoggingAspect            : Controller method addMember returned: <200 OK OK,Member added successfully,[]>
+2026-03-14T14:12:11.716+05:30  INFO 2052 --- [member-service] [http-nio-8081-exec-3] S.member.aspect.LoggingAspect            : Controller method: addMember took 5ms
+2026-03-14T14:12:15.191+05:30  INFO 2052 --- [member-service] [http-nio-8081-exec-4] S.member.aspect.LoggingAspect            : Controller Method getAllMembers is executing
+2026-03-14T14:12:15.191+05:30  INFO 2052 --- [member-service] [http-nio-8081-exec-4] S.member.aspect.LoggingAspect            : Controller Method: getAllMembers gets the arguments: []
+2026-03-14T14:12:15.193+05:30  INFO 2052 --- [member-service] [http-nio-8081-exec-4] S.member.aspect.LoggingAspect            : Service method: getAllMembers executing
+2026-03-14T14:12:15.199+05:30  INFO 2052 --- [member-service] [http-nio-8081-exec-4] S.member.aspect.LoggingAspect            : Service Method: getAllMembers gets the arguments: []
+2026-03-14T14:12:15.201+05:30  INFO 2052 --- [member-service] [http-nio-8081-exec-4] S.member.aspect.LoggingAspect            : Service method getAllMembers returned [getMemberDTO(memberId=65685dde-9bc8-447d-9492-ae661bd4b539, fullName=Smrithi, email=fger45j@yahoo.com), getMemberDTO(memberId=11cff223-d30e-4a90-9bfb-547650482f2b, fullName=Naina, email=np5u3@yahoo.com)]
+2026-03-14T14:12:15.201+05:30  INFO 2052 --- [member-service] [http-nio-8081-exec-4] S.member.aspect.LoggingAspect            : Service method getAllMembers took 8ms
+2026-03-14T14:12:15.201+05:30  INFO 2052 --- [member-service] [http-nio-8081-exec-4] S.member.aspect.LoggingAspect            : Controller method getAllMembers returned: [getMemberDTO(memberId=65685dde-9bc8-447d-9492-ae661bd4b539, fullName=Smrithi, email=fger45j@yahoo.com), getMemberDTO(memberId=11cff223-d30e-4a90-9bfb-547650482f2b, fullName=Naina, email=np5u3@yahoo.com)]
+2026-03-14T14:12:15.201+05:30  INFO 2052 --- [member-service] [http-nio-8081-exec-4] S.member.aspect.LoggingAspect            : Controller method: getAllMembers took 10ms
+2026-03-14T14:14:18.583+05:30  INFO 2052 --- [member-service] [http-nio-8081-exec-6] S.member.aspect.LoggingAspect            : Controller Method containsMember is executing
+2026-03-14T14:14:18.583+05:30  INFO 2052 --- [member-service] [http-nio-8081-exec-6] S.member.aspect.LoggingAspect            : Controller Method: containsMember gets the arguments: [2873c94f-e25d-4a88-8e91-253c0e87b6b3]
+2026-03-14T14:14:18.583+05:30  INFO 2052 --- [member-service] [http-nio-8081-exec-6] S.member.aspect.LoggingAspect            : Service method: containsMember executing
+2026-03-14T14:14:18.583+05:30  INFO 2052 --- [member-service] [http-nio-8081-exec-6] S.member.aspect.LoggingAspect            : Service Method: containsMember gets the arguments: [2873c94f-e25d-4a88-8e91-253c0e87b6b3]
+2026-03-14T14:14:18.583+05:30  INFO 2052 --- [member-service] [http-nio-8081-exec-6] S.member.aspect.LoggingAspect            : Service method containsMember returned false
+2026-03-14T14:14:18.583+05:30  INFO 2052 --- [member-service] [http-nio-8081-exec-6] S.member.aspect.LoggingAspect            : Service method containsMember took 0ms
+2026-03-14T14:14:18.583+05:30  INFO 2052 --- [member-service] [http-nio-8081-exec-6] S.member.aspect.LoggingAspect            : Controller method containsMember returned: false
+2026-03-14T14:14:18.583+05:30  INFO 2052 --- [member-service] [http-nio-8081-exec-6] S.member.aspect.LoggingAspect            : Controller method: containsMember took 0ms
+2026-03-14T14:14:58.992+05:30  INFO 2052 --- [member-service] [http-nio-8081-exec-7] S.member.aspect.LoggingAspect            : Controller Method containsMember is executing
+2026-03-14T14:14:58.992+05:30  INFO 2052 --- [member-service] [http-nio-8081-exec-7] S.member.aspect.LoggingAspect            : Controller Method: containsMember gets the arguments: [11cff223-d30e-4a90-9bfb-547650482f2b]
+2026-03-14T14:14:58.992+05:30  INFO 2052 --- [member-service] [http-nio-8081-exec-7] S.member.aspect.LoggingAspect            : Service method: containsMember executing
+2026-03-14T14:14:58.992+05:30  INFO 2052 --- [member-service] [http-nio-8081-exec-7] S.member.aspect.LoggingAspect            : Service Method: containsMember gets the arguments: [11cff223-d30e-4a90-9bfb-547650482f2b]
+2026-03-14T14:14:58.992+05:30  INFO 2052 --- [member-service] [http-nio-8081-exec-7] S.member.aspect.LoggingAspect            : Service method containsMember returned true
+2026-03-14T14:14:58.992+05:30  INFO 2052 --- [member-service] [http-nio-8081-exec-7] S.member.aspect.LoggingAspect            : Service method containsMember took 0ms
+2026-03-14T14:14:58.992+05:30  INFO 2052 --- [member-service] [http-nio-8081-exec-7] S.member.aspect.LoggingAspect            : Controller method containsMember returned: true
+2026-03-14T14:14:58.992+05:30  INFO 2052 --- [member-service] [http-nio-8081-exec-7] S.member.aspect.LoggingAspect            : Controller method: containsMember took 0ms
+2026-03-14T14:15:08.925+05:30  INFO 2052 --- [member-service] [http-nio-8081-exec-8] S.member.aspect.LoggingAspect            : Controller Method containsMember is executing
+2026-03-14T14:15:08.933+05:30  INFO 2052 --- [member-service] [http-nio-8081-exec-8] S.member.aspect.LoggingAspect            : Controller Method: containsMember gets the arguments: [11cff223-d30e-4a90-9bfb-547650482f2b]
+2026-03-14T14:15:08.933+05:30  INFO 2052 --- [member-service] [http-nio-8081-exec-8] S.member.aspect.LoggingAspect            : Service method: containsMember executing
+2026-03-14T14:15:08.933+05:30  INFO 2052 --- [member-service] [http-nio-8081-exec-8] S.member.aspect.LoggingAspect            : Service Method: containsMember gets the arguments: [11cff223-d30e-4a90-9bfb-547650482f2b]
+2026-03-14T14:15:08.933+05:30  INFO 2052 --- [member-service] [http-nio-8081-exec-8] S.member.aspect.LoggingAspect            : Service method containsMember returned true
+2026-03-14T14:15:08.933+05:30  INFO 2052 --- [member-service] [http-nio-8081-exec-8] S.member.aspect.LoggingAspect            : Service method containsMember took 0ms
+2026-03-14T14:15:08.933+05:30  INFO 2052 --- [member-service] [http-nio-8081-exec-8] S.member.aspect.LoggingAspect            : Controller method containsMember returned: true
+2026-03-14T14:15:08.933+05:30  INFO 2052 --- [member-service] [http-nio-8081-exec-8] S.member.aspect.LoggingAspect            : Controller method: containsMember took 8ms
+2026-03-14T14:15:14.134+05:30  INFO 2052 --- [member-service] [http-nio-8081-exec-9] S.member.aspect.LoggingAspect            : Controller Method containsMember is executing
+2026-03-14T14:15:14.134+05:30  INFO 2052 --- [member-service] [http-nio-8081-exec-9] S.member.aspect.LoggingAspect            : Controller Method: containsMember gets the arguments: [11cff223-d30e-4a90-9bfb-547650482f2b]
+2026-03-14T14:15:14.138+05:30  INFO 2052 --- [member-service] [http-nio-8081-exec-9] S.member.aspect.LoggingAspect            : Service method: containsMember executing
+2026-03-14T14:15:14.138+05:30  INFO 2052 --- [member-service] [http-nio-8081-exec-9] S.member.aspect.LoggingAspect            : Service Method: containsMember gets the arguments: [11cff223-d30e-4a90-9bfb-547650482f2b]
+2026-03-14T14:15:14.138+05:30  INFO 2052 --- [member-service] [http-nio-8081-exec-9] S.member.aspect.LoggingAspect            : Service method containsMember returned true
+2026-03-14T14:15:14.138+05:30  INFO 2052 --- [member-service] [http-nio-8081-exec-9] S.member.aspect.LoggingAspect            : Service method containsMember took 0ms
+2026-03-14T14:15:14.138+05:30  INFO 2052 --- [member-service] [http-nio-8081-exec-9] S.member.aspect.LoggingAspect            : Controller method containsMember returned: true
+2026-03-14T14:15:14.142+05:30  INFO 2052 --- [member-service] [http-nio-8081-exec-9] S.member.aspect.LoggingAspect            : Controller method: containsMember took 8ms
+2026-03-14T14:16:03.986+05:30  INFO 2052 --- [member-service] [http-nio-8081-exec-10] S.member.aspect.LoggingAspect            : Controller Method containsMember is executing
+2026-03-14T14:16:03.986+05:30  INFO 2052 --- [member-service] [http-nio-8081-exec-10] S.member.aspect.LoggingAspect            : Controller Method: containsMember gets the arguments: [65685dde-9bc8-447d-9492-ae661bd4b539]
+2026-03-14T14:16:03.986+05:30  INFO 2052 --- [member-service] [http-nio-8081-exec-10] S.member.aspect.LoggingAspect            : Service method: containsMember executing
+2026-03-14T14:16:03.986+05:30  INFO 2052 --- [member-service] [http-nio-8081-exec-10] S.member.aspect.LoggingAspect            : Service Method: containsMember gets the arguments: [65685dde-9bc8-447d-9492-ae661bd4b539]
+2026-03-14T14:16:03.986+05:30  INFO 2052 --- [member-service] [http-nio-8081-exec-10] S.member.aspect.LoggingAspect            : Service method containsMember returned true
+2026-03-14T14:16:03.986+05:30  INFO 2052 --- [member-service] [http-nio-8081-exec-10] S.member.aspect.LoggingAspect            : Service method containsMember took 0ms
+2026-03-14T14:16:03.986+05:30  INFO 2052 --- [member-service] [http-nio-8081-exec-10] S.member.aspect.LoggingAspect            : Controller method containsMember returned: true
+2026-03-14T14:16:03.986+05:30  INFO 2052 --- [member-service] [http-nio-8081-exec-10] S.member.aspect.LoggingAspect            : Controller method: containsMember took 0ms
+2026-03-14T14:16:46.986+05:30  INFO 2052 --- [member-service] [http-nio-8081-exec-1] S.member.aspect.LoggingAspect            : Controller Method containsMember is executing
+2026-03-14T14:16:46.986+05:30  INFO 2052 --- [member-service] [http-nio-8081-exec-1] S.member.aspect.LoggingAspect            : Controller Method: containsMember gets the arguments: [65685dde-9bc8-447d-9492-ae661bd4b539]
+2026-03-14T14:16:46.986+05:30  INFO 2052 --- [member-service] [http-nio-8081-exec-1] S.member.aspect.LoggingAspect            : Service method: containsMember executing
+2026-03-14T14:16:46.986+05:30  INFO 2052 --- [member-service] [http-nio-8081-exec-1] S.member.aspect.LoggingAspect            : Service Method: containsMember gets the arguments: [65685dde-9bc8-447d-9492-ae661bd4b539]
+2026-03-14T14:16:46.986+05:30  INFO 2052 --- [member-service] [http-nio-8081-exec-1] S.member.aspect.LoggingAspect            : Service method containsMember returned true
+2026-03-14T14:16:46.986+05:30  INFO 2052 --- [member-service] [http-nio-8081-exec-1] S.member.aspect.LoggingAspect            : Service method containsMember took 0ms
+2026-03-14T14:16:46.986+05:30  INFO 2052 --- [member-service] [http-nio-8081-exec-1] S.member.aspect.LoggingAspect            : Controller method containsMember returned: true
+2026-03-14T14:16:46.986+05:30  INFO 2052 --- [member-service] [http-nio-8081-exec-1] S.member.aspect.LoggingAspect            : Controller method: containsMember took 0ms
+2026-03-14T14:22:06.971+05:30  INFO 2052 --- [member-service] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-03-14T14:22:06.986+05:30  INFO 2052 --- [member-service] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-03-14T14:23:51.380+05:30  INFO 2676 --- [member-service] [main] S.member.MemberApplication               : Starting MemberApplication using Java 21.0.10 with PID 2676 (C:\Users\SaiSmrithiMuthukumar\git_repo\Weekend_Assignments\Order-management-system-microservices attempt\member\target\classes started by SaiSmrithiMuthukumar in C:\Users\SaiSmrithiMuthukumar\git_repo\Weekend_Assignments\Order-management-system-microservices attempt\member)
+2026-03-14T14:23:51.380+05:30  INFO 2676 --- [member-service] [main] S.member.MemberApplication               : No active profile set, falling back to 1 default profile: "default"
+2026-03-14T14:23:52.949+05:30  INFO 2676 --- [member-service] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8081 (http)
+2026-03-14T14:23:52.965+05:30  INFO 2676 --- [member-service] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-03-14T14:23:52.965+05:30  INFO 2676 --- [member-service] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.18]
+2026-03-14T14:23:53.029+05:30  INFO 2676 --- [member-service] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 1543 ms
+2026-03-14T14:23:53.905+05:30  INFO 2676 --- [member-service] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8081 (http) with context path '/'
+2026-03-14T14:23:53.919+05:30  INFO 2676 --- [member-service] [main] S.member.MemberApplication               : Started MemberApplication in 3.249 seconds (process running for 4.161)
+2026-03-14T14:24:58.052+05:30  INFO 2676 --- [member-service] [http-nio-8081-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-03-14T14:24:58.052+05:30  INFO 2676 --- [member-service] [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-03-14T14:24:58.052+05:30  INFO 2676 --- [member-service] [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2026-03-14T14:24:58.924+05:30  INFO 2676 --- [member-service] [http-nio-8081-exec-2] S.member.aspect.LoggingAspect            : Controller Method addMember is executing
+2026-03-14T14:24:58.924+05:30  INFO 2676 --- [member-service] [http-nio-8081-exec-2] S.member.aspect.LoggingAspect            : Controller Method: addMember gets the arguments: [addMemberDTO(fullName=Smrithi, email=fger45j@yahoo.com, password=f56(8^7fA0)]
+2026-03-14T14:24:58.924+05:30  INFO 2676 --- [member-service] [http-nio-8081-exec-2] S.member.aspect.LoggingAspect            : Service method: addMember executing
+2026-03-14T14:24:58.924+05:30  INFO 2676 --- [member-service] [http-nio-8081-exec-2] S.member.aspect.LoggingAspect            : Service Method: addMember gets the arguments: [addMemberDTO(fullName=Smrithi, email=fger45j@yahoo.com, password=f56(8^7fA0)]
+2026-03-14T14:24:58.948+05:30  INFO 2676 --- [member-service] [http-nio-8081-exec-2] S.member.aspect.LoggingAspect            : Service method addMember returned <200 OK OK,Member added successfully,[]>
+2026-03-14T14:24:58.973+05:30  INFO 2676 --- [member-service] [http-nio-8081-exec-2] S.member.aspect.LoggingAspect            : Service method addMember took 24ms
+2026-03-14T14:24:58.973+05:30  INFO 2676 --- [member-service] [http-nio-8081-exec-2] S.member.aspect.LoggingAspect            : Controller method addMember returned: <200 OK OK,Member added successfully,[]>
+2026-03-14T14:24:58.981+05:30  INFO 2676 --- [member-service] [http-nio-8081-exec-2] S.member.aspect.LoggingAspect            : Controller method: addMember took 64ms
+2026-03-14T14:25:18.333+05:30  INFO 2676 --- [member-service] [http-nio-8081-exec-3] S.member.aspect.LoggingAspect            : Controller Method addMember is executing
+2026-03-14T14:25:18.335+05:30  INFO 2676 --- [member-service] [http-nio-8081-exec-3] S.member.aspect.LoggingAspect            : Controller Method: addMember gets the arguments: [addMemberDTO(fullName=Naina, email=gh&82we@yahoo.com, password=f0po&836)]
+2026-03-14T14:25:18.337+05:30  INFO 2676 --- [member-service] [http-nio-8081-exec-3] S.member.aspect.LoggingAspect            : Service method: addMember executing
+2026-03-14T14:25:18.339+05:30  INFO 2676 --- [member-service] [http-nio-8081-exec-3] S.member.aspect.LoggingAspect            : Service Method: addMember gets the arguments: [addMemberDTO(fullName=Naina, email=gh&82we@yahoo.com, password=f0po&836)]
+2026-03-14T14:25:18.339+05:30  INFO 2676 --- [member-service] [http-nio-8081-exec-3] S.member.aspect.LoggingAspect            : Service method addMember returned <200 OK OK,Member added successfully,[]>
+2026-03-14T14:25:18.342+05:30  INFO 2676 --- [member-service] [http-nio-8081-exec-3] S.member.aspect.LoggingAspect            : Service method addMember took 5ms
+2026-03-14T14:25:18.342+05:30  INFO 2676 --- [member-service] [http-nio-8081-exec-3] S.member.aspect.LoggingAspect            : Controller method addMember returned: <200 OK OK,Member added successfully,[]>
+2026-03-14T14:25:18.344+05:30  INFO 2676 --- [member-service] [http-nio-8081-exec-3] S.member.aspect.LoggingAspect            : Controller method: addMember took 11ms
+2026-03-14T14:25:21.626+05:30  INFO 2676 --- [member-service] [http-nio-8081-exec-4] S.member.aspect.LoggingAspect            : Controller Method getAllMembers is executing
+2026-03-14T14:25:21.626+05:30  INFO 2676 --- [member-service] [http-nio-8081-exec-4] S.member.aspect.LoggingAspect            : Controller Method: getAllMembers gets the arguments: []
+2026-03-14T14:25:21.626+05:30  INFO 2676 --- [member-service] [http-nio-8081-exec-4] S.member.aspect.LoggingAspect            : Service method: getAllMembers executing
+2026-03-14T14:25:21.632+05:30  INFO 2676 --- [member-service] [http-nio-8081-exec-4] S.member.aspect.LoggingAspect            : Service Method: getAllMembers gets the arguments: []
+2026-03-14T14:25:21.632+05:30  INFO 2676 --- [member-service] [http-nio-8081-exec-4] S.member.aspect.LoggingAspect            : Service method getAllMembers returned [getMemberDTO(memberId=de3124ce-88ba-49ae-b336-81ed6d6281ce, fullName=Naina, email=gh&82we@yahoo.com), getMemberDTO(memberId=0ef05c57-5b48-4f7e-9b46-0e6996637192, fullName=Smrithi, email=fger45j@yahoo.com)]
+2026-03-14T14:25:21.632+05:30  INFO 2676 --- [member-service] [http-nio-8081-exec-4] S.member.aspect.LoggingAspect            : Service method getAllMembers took 6ms
+2026-03-14T14:25:21.632+05:30  INFO 2676 --- [member-service] [http-nio-8081-exec-4] S.member.aspect.LoggingAspect            : Controller method getAllMembers returned: [getMemberDTO(memberId=de3124ce-88ba-49ae-b336-81ed6d6281ce, fullName=Naina, email=gh&82we@yahoo.com), getMemberDTO(memberId=0ef05c57-5b48-4f7e-9b46-0e6996637192, fullName=Smrithi, email=fger45j@yahoo.com)]
+2026-03-14T14:25:21.640+05:30  INFO 2676 --- [member-service] [http-nio-8081-exec-4] S.member.aspect.LoggingAspect            : Controller method: getAllMembers took 6ms
+2026-03-14T14:25:35.843+05:30  INFO 2676 --- [member-service] [http-nio-8081-exec-5] S.member.aspect.LoggingAspect            : Controller Method containsMember is executing
+2026-03-14T14:25:35.843+05:30  INFO 2676 --- [member-service] [http-nio-8081-exec-5] S.member.aspect.LoggingAspect            : Controller Method: containsMember gets the arguments: [65685dde-9bc8-447d-9492-ae661bd4b539]
+2026-03-14T14:25:35.848+05:30  INFO 2676 --- [member-service] [http-nio-8081-exec-5] S.member.aspect.LoggingAspect            : Service method: containsMember executing
+2026-03-14T14:25:35.848+05:30  INFO 2676 --- [member-service] [http-nio-8081-exec-5] S.member.aspect.LoggingAspect            : Service Method: containsMember gets the arguments: [65685dde-9bc8-447d-9492-ae661bd4b539]
+2026-03-14T14:25:35.854+05:30  INFO 2676 --- [member-service] [http-nio-8081-exec-5] S.member.aspect.LoggingAspect            : Service method containsMember returned false
+2026-03-14T14:25:35.854+05:30  INFO 2676 --- [member-service] [http-nio-8081-exec-5] S.member.aspect.LoggingAspect            : Service method containsMember took 6ms
+2026-03-14T14:25:35.854+05:30  INFO 2676 --- [member-service] [http-nio-8081-exec-5] S.member.aspect.LoggingAspect            : Controller method containsMember returned: false
+2026-03-14T14:25:35.854+05:30  INFO 2676 --- [member-service] [http-nio-8081-exec-5] S.member.aspect.LoggingAspect            : Controller method: containsMember took 11ms
+2026-03-14T14:26:10.718+05:30  INFO 2676 --- [member-service] [http-nio-8081-exec-6] S.member.aspect.LoggingAspect            : Controller Method containsMember is executing
+2026-03-14T14:26:10.718+05:30  INFO 2676 --- [member-service] [http-nio-8081-exec-6] S.member.aspect.LoggingAspect            : Controller Method: containsMember gets the arguments: [0ef05c57-5b48-4f7e-9b46-0e6996637192]
+2026-03-14T14:26:10.718+05:30  INFO 2676 --- [member-service] [http-nio-8081-exec-6] S.member.aspect.LoggingAspect            : Service method: containsMember executing
+2026-03-14T14:26:10.726+05:30  INFO 2676 --- [member-service] [http-nio-8081-exec-6] S.member.aspect.LoggingAspect            : Service Method: containsMember gets the arguments: [0ef05c57-5b48-4f7e-9b46-0e6996637192]
+2026-03-14T14:26:10.726+05:30  INFO 2676 --- [member-service] [http-nio-8081-exec-6] S.member.aspect.LoggingAspect            : Service method containsMember returned true
+2026-03-14T14:26:10.726+05:30  INFO 2676 --- [member-service] [http-nio-8081-exec-6] S.member.aspect.LoggingAspect            : Service method containsMember took 8ms
+2026-03-14T14:26:10.726+05:30  INFO 2676 --- [member-service] [http-nio-8081-exec-6] S.member.aspect.LoggingAspect            : Controller method containsMember returned: true
+2026-03-14T14:26:10.726+05:30  INFO 2676 --- [member-service] [http-nio-8081-exec-6] S.member.aspect.LoggingAspect            : Controller method: containsMember took 8ms
+2026-03-14T14:26:14.106+05:30  INFO 2676 --- [member-service] [http-nio-8081-exec-7] S.member.aspect.LoggingAspect            : Controller Method containsMember is executing
+2026-03-14T14:26:14.106+05:30  INFO 2676 --- [member-service] [http-nio-8081-exec-7] S.member.aspect.LoggingAspect            : Controller Method: containsMember gets the arguments: [0ef05c57-5b48-4f7e-9b46-0e6996637192]
+2026-03-14T14:26:14.106+05:30  INFO 2676 --- [member-service] [http-nio-8081-exec-7] S.member.aspect.LoggingAspect            : Service method: containsMember executing
+2026-03-14T14:26:14.106+05:30  INFO 2676 --- [member-service] [http-nio-8081-exec-7] S.member.aspect.LoggingAspect            : Service Method: containsMember gets the arguments: [0ef05c57-5b48-4f7e-9b46-0e6996637192]
+2026-03-14T14:26:14.106+05:30  INFO 2676 --- [member-service] [http-nio-8081-exec-7] S.member.aspect.LoggingAspect            : Service method containsMember returned true
+2026-03-14T14:26:14.115+05:30  INFO 2676 --- [member-service] [http-nio-8081-exec-7] S.member.aspect.LoggingAspect            : Service method containsMember took 9ms
+2026-03-14T14:26:14.115+05:30  INFO 2676 --- [member-service] [http-nio-8081-exec-7] S.member.aspect.LoggingAspect            : Controller method containsMember returned: true
+2026-03-14T14:26:14.115+05:30  INFO 2676 --- [member-service] [http-nio-8081-exec-7] S.member.aspect.LoggingAspect            : Controller method: containsMember took 9ms
+2026-03-14T14:27:16.892+05:30  INFO 2676 --- [member-service] [http-nio-8081-exec-10] S.member.aspect.LoggingAspect            : Controller Method containsMember is executing
+2026-03-14T14:27:16.894+05:30  INFO 2676 --- [member-service] [http-nio-8081-exec-10] S.member.aspect.LoggingAspect            : Controller Method: containsMember gets the arguments: [de3124ce-88ba-49ae-b336-81ed6d6281ce]
+2026-03-14T14:27:16.894+05:30  INFO 2676 --- [member-service] [http-nio-8081-exec-10] S.member.aspect.LoggingAspect            : Service method: containsMember executing
+2026-03-14T14:27:16.894+05:30  INFO 2676 --- [member-service] [http-nio-8081-exec-10] S.member.aspect.LoggingAspect            : Service Method: containsMember gets the arguments: [de3124ce-88ba-49ae-b336-81ed6d6281ce]
+2026-03-14T14:27:16.894+05:30  INFO 2676 --- [member-service] [http-nio-8081-exec-10] S.member.aspect.LoggingAspect            : Service method containsMember returned true
+2026-03-14T14:27:16.898+05:30  INFO 2676 --- [member-service] [http-nio-8081-exec-10] S.member.aspect.LoggingAspect            : Service method containsMember took 4ms
+2026-03-14T14:27:16.898+05:30  INFO 2676 --- [member-service] [http-nio-8081-exec-10] S.member.aspect.LoggingAspect            : Controller method containsMember returned: true
+2026-03-14T14:27:16.898+05:30  INFO 2676 --- [member-service] [http-nio-8081-exec-10] S.member.aspect.LoggingAspect            : Controller method: containsMember took 6ms
+2026-03-14T14:28:09.002+05:30  INFO 2676 --- [member-service] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-03-14T14:28:09.044+05:30  INFO 2676 --- [member-service] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-03-14T14:30:48.552+05:30  INFO 6044 --- [member-service] [main] S.member.MemberApplication               : Starting MemberApplication using Java 21.0.10 with PID 6044 (C:\Users\SaiSmrithiMuthukumar\git_repo\Weekend_Assignments\Order-management-system-microservices attempt\member\target\classes started by SaiSmrithiMuthukumar in C:\Users\SaiSmrithiMuthukumar\git_repo\Weekend_Assignments\Order-management-system-microservices attempt\member)
+2026-03-14T14:30:48.563+05:30  INFO 6044 --- [member-service] [main] S.member.MemberApplication               : No active profile set, falling back to 1 default profile: "default"
+2026-03-14T14:30:50.154+05:30  INFO 6044 --- [member-service] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8081 (http)
+2026-03-14T14:30:50.168+05:30  INFO 6044 --- [member-service] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-03-14T14:30:50.168+05:30  INFO 6044 --- [member-service] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.18]
+2026-03-14T14:30:50.232+05:30  INFO 6044 --- [member-service] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 1520 ms
+2026-03-14T14:30:51.023+05:30  INFO 6044 --- [member-service] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8081 (http) with context path '/'
+2026-03-14T14:30:51.023+05:30  INFO 6044 --- [member-service] [main] S.member.MemberApplication               : Started MemberApplication in 3.518 seconds (process running for 4.497)
+2026-03-14T14:31:09.179+05:30  INFO 6044 --- [member-service] [http-nio-8081-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-03-14T14:31:09.181+05:30  INFO 6044 --- [member-service] [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-03-14T14:31:09.186+05:30  INFO 6044 --- [member-service] [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2026-03-14T14:31:09.631+05:30  INFO 6044 --- [member-service] [http-nio-8081-exec-2] S.member.aspect.LoggingAspect            : Controller Method addMember is executing
+2026-03-14T14:31:09.633+05:30  INFO 6044 --- [member-service] [http-nio-8081-exec-2] S.member.aspect.LoggingAspect            : Controller Method: addMember gets the arguments: [addMemberDTO(fullName=Naina, email=gh&82we@yahoo.com, password=f0po&836)]
+2026-03-14T14:31:09.634+05:30  INFO 6044 --- [member-service] [http-nio-8081-exec-2] S.member.aspect.LoggingAspect            : Service method: addMember executing
+2026-03-14T14:31:09.635+05:30  INFO 6044 --- [member-service] [http-nio-8081-exec-2] S.member.aspect.LoggingAspect            : Service Method: addMember gets the arguments: [addMemberDTO(fullName=Naina, email=gh&82we@yahoo.com, password=f0po&836)]
+2026-03-14T14:31:09.648+05:30  INFO 6044 --- [member-service] [http-nio-8081-exec-2] S.member.aspect.LoggingAspect            : Service method addMember returned <200 OK OK,Member added successfully,[]>
+2026-03-14T14:31:09.652+05:30  INFO 6044 --- [member-service] [http-nio-8081-exec-2] S.member.aspect.LoggingAspect            : Service method addMember took 14ms
+2026-03-14T14:31:09.653+05:30  INFO 6044 --- [member-service] [http-nio-8081-exec-2] S.member.aspect.LoggingAspect            : Controller method addMember returned: <200 OK OK,Member added successfully,[]>
+2026-03-14T14:31:09.654+05:30  INFO 6044 --- [member-service] [http-nio-8081-exec-2] S.member.aspect.LoggingAspect            : Controller method: addMember took 26ms
+2026-03-14T14:31:34.031+05:30  INFO 6044 --- [member-service] [http-nio-8081-exec-3] S.member.aspect.LoggingAspect            : Controller Method addMember is executing
+2026-03-14T14:31:34.031+05:30  INFO 6044 --- [member-service] [http-nio-8081-exec-3] S.member.aspect.LoggingAspect            : Controller Method: addMember gets the arguments: [addMemberDTO(fullName=Smrithi, email=fg^712@yahoo.com, password=fg&8233&&^)]
+2026-03-14T14:31:34.032+05:30  INFO 6044 --- [member-service] [http-nio-8081-exec-3] S.member.aspect.LoggingAspect            : Service method: addMember executing
+2026-03-14T14:31:34.033+05:30  INFO 6044 --- [member-service] [http-nio-8081-exec-3] S.member.aspect.LoggingAspect            : Service Method: addMember gets the arguments: [addMemberDTO(fullName=Smrithi, email=fg^712@yahoo.com, password=fg&8233&&^)]
+2026-03-14T14:31:34.034+05:30  INFO 6044 --- [member-service] [http-nio-8081-exec-3] S.member.aspect.LoggingAspect            : Service method addMember returned <200 OK OK,Member added successfully,[]>
+2026-03-14T14:31:34.035+05:30  INFO 6044 --- [member-service] [http-nio-8081-exec-3] S.member.aspect.LoggingAspect            : Service method addMember took 3ms
+2026-03-14T14:31:34.036+05:30  INFO 6044 --- [member-service] [http-nio-8081-exec-3] S.member.aspect.LoggingAspect            : Controller method addMember returned: <200 OK OK,Member added successfully,[]>
+2026-03-14T14:31:34.037+05:30  INFO 6044 --- [member-service] [http-nio-8081-exec-3] S.member.aspect.LoggingAspect            : Controller method: addMember took 6ms
+2026-03-14T14:31:37.065+05:30  INFO 6044 --- [member-service] [http-nio-8081-exec-4] S.member.aspect.LoggingAspect            : Controller Method getAllMembers is executing
+2026-03-14T14:31:37.066+05:30  INFO 6044 --- [member-service] [http-nio-8081-exec-4] S.member.aspect.LoggingAspect            : Controller Method: getAllMembers gets the arguments: []
+2026-03-14T14:31:37.067+05:30  INFO 6044 --- [member-service] [http-nio-8081-exec-4] S.member.aspect.LoggingAspect            : Service method: getAllMembers executing
+2026-03-14T14:31:37.067+05:30  INFO 6044 --- [member-service] [http-nio-8081-exec-4] S.member.aspect.LoggingAspect            : Service Method: getAllMembers gets the arguments: []
+2026-03-14T14:31:37.072+05:30  INFO 6044 --- [member-service] [http-nio-8081-exec-4] S.member.aspect.LoggingAspect            : Service method getAllMembers returned [getMemberDTO(memberId=2b81de48-89ba-43f3-8809-75f3fab4a6e4, fullName=Smrithi, email=fg^712@yahoo.com), getMemberDTO(memberId=d608f92b-0cbe-4efd-a9e6-d78bd41969ab, fullName=Naina, email=gh&82we@yahoo.com)]
+2026-03-14T14:31:37.072+05:30  INFO 6044 --- [member-service] [http-nio-8081-exec-4] S.member.aspect.LoggingAspect            : Service method getAllMembers took 5ms
+2026-03-14T14:31:37.074+05:30  INFO 6044 --- [member-service] [http-nio-8081-exec-4] S.member.aspect.LoggingAspect            : Controller method getAllMembers returned: [getMemberDTO(memberId=2b81de48-89ba-43f3-8809-75f3fab4a6e4, fullName=Smrithi, email=fg^712@yahoo.com), getMemberDTO(memberId=d608f92b-0cbe-4efd-a9e6-d78bd41969ab, fullName=Naina, email=gh&82we@yahoo.com)]
+2026-03-14T14:31:37.074+05:30  INFO 6044 --- [member-service] [http-nio-8081-exec-4] S.member.aspect.LoggingAspect            : Controller method: getAllMembers took 9ms
+2026-03-14T14:32:03.003+05:30  INFO 6044 --- [member-service] [http-nio-8081-exec-5] S.member.aspect.LoggingAspect            : Controller Method containsMember is executing
+2026-03-14T14:32:03.004+05:30  INFO 6044 --- [member-service] [http-nio-8081-exec-5] S.member.aspect.LoggingAspect            : Controller Method: containsMember gets the arguments: [2b81de48-89ba-43f3-8809-75f3fab4a6e4]
+2026-03-14T14:32:03.005+05:30  INFO 6044 --- [member-service] [http-nio-8081-exec-5] S.member.aspect.LoggingAspect            : Service method: containsMember executing
+2026-03-14T14:32:03.006+05:30  INFO 6044 --- [member-service] [http-nio-8081-exec-5] S.member.aspect.LoggingAspect            : Service Method: containsMember gets the arguments: [2b81de48-89ba-43f3-8809-75f3fab4a6e4]
+2026-03-14T14:32:03.007+05:30  INFO 6044 --- [member-service] [http-nio-8081-exec-5] S.member.aspect.LoggingAspect            : Service method containsMember returned true
+2026-03-14T14:32:03.008+05:30  INFO 6044 --- [member-service] [http-nio-8081-exec-5] S.member.aspect.LoggingAspect            : Service method containsMember took 3ms
+2026-03-14T14:32:03.008+05:30  INFO 6044 --- [member-service] [http-nio-8081-exec-5] S.member.aspect.LoggingAspect            : Controller method containsMember returned: true
+2026-03-14T14:32:03.008+05:30  INFO 6044 --- [member-service] [http-nio-8081-exec-5] S.member.aspect.LoggingAspect            : Controller method: containsMember took 6ms
+2026-03-14T14:32:56.316+05:30  INFO 6044 --- [member-service] [http-nio-8081-exec-7] S.member.aspect.LoggingAspect            : Controller Method containsMember is executing
+2026-03-14T14:32:56.317+05:30  INFO 6044 --- [member-service] [http-nio-8081-exec-7] S.member.aspect.LoggingAspect            : Controller Method: containsMember gets the arguments: [2b81de48-89ba-43f3-8809-75f3fab4a6e4]
+2026-03-14T14:32:56.318+05:30  INFO 6044 --- [member-service] [http-nio-8081-exec-7] S.member.aspect.LoggingAspect            : Service method: containsMember executing
+2026-03-14T14:32:56.319+05:30  INFO 6044 --- [member-service] [http-nio-8081-exec-7] S.member.aspect.LoggingAspect            : Service Method: containsMember gets the arguments: [2b81de48-89ba-43f3-8809-75f3fab4a6e4]
+2026-03-14T14:32:56.320+05:30  INFO 6044 --- [member-service] [http-nio-8081-exec-7] S.member.aspect.LoggingAspect            : Service method containsMember returned true
+2026-03-14T14:32:56.320+05:30  INFO 6044 --- [member-service] [http-nio-8081-exec-7] S.member.aspect.LoggingAspect            : Service method containsMember took 2ms
+2026-03-14T14:32:56.321+05:30  INFO 6044 --- [member-service] [http-nio-8081-exec-7] S.member.aspect.LoggingAspect            : Controller method containsMember returned: true
+2026-03-14T14:32:56.322+05:30  INFO 6044 --- [member-service] [http-nio-8081-exec-7] S.member.aspect.LoggingAspect            : Controller method: containsMember took 6ms
+2026-03-14T14:36:01.570+05:30  INFO 6044 --- [member-service] [http-nio-8081-exec-9] S.member.aspect.LoggingAspect            : Controller Method containsMember is executing
+2026-03-14T14:36:01.571+05:30  INFO 6044 --- [member-service] [http-nio-8081-exec-9] S.member.aspect.LoggingAspect            : Controller Method: containsMember gets the arguments: [2b81de48-89ba-43f3-8809-75f3fab4a6e4]
+2026-03-14T14:36:01.572+05:30  INFO 6044 --- [member-service] [http-nio-8081-exec-9] S.member.aspect.LoggingAspect            : Service method: containsMember executing
+2026-03-14T14:36:01.572+05:30  INFO 6044 --- [member-service] [http-nio-8081-exec-9] S.member.aspect.LoggingAspect            : Service Method: containsMember gets the arguments: [2b81de48-89ba-43f3-8809-75f3fab4a6e4]
+2026-03-14T14:36:01.572+05:30  INFO 6044 --- [member-service] [http-nio-8081-exec-9] S.member.aspect.LoggingAspect            : Service method containsMember returned true
+2026-03-14T14:36:01.573+05:30  INFO 6044 --- [member-service] [http-nio-8081-exec-9] S.member.aspect.LoggingAspect            : Service method containsMember took 1ms
+2026-03-14T14:36:01.573+05:30  INFO 6044 --- [member-service] [http-nio-8081-exec-9] S.member.aspect.LoggingAspect            : Controller method containsMember returned: true
+2026-03-14T14:36:01.573+05:30  INFO 6044 --- [member-service] [http-nio-8081-exec-9] S.member.aspect.LoggingAspect            : Controller method: containsMember took 3ms
+2026-03-14T14:36:06.036+05:30  INFO 6044 --- [member-service] [http-nio-8081-exec-10] S.member.aspect.LoggingAspect            : Controller Method containsMember is executing
+2026-03-14T14:36:06.036+05:30  INFO 6044 --- [member-service] [http-nio-8081-exec-10] S.member.aspect.LoggingAspect            : Controller Method: containsMember gets the arguments: [2b81de48-89ba-43f3-8809-75f3fab4a6e4]
+2026-03-14T14:36:06.037+05:30  INFO 6044 --- [member-service] [http-nio-8081-exec-10] S.member.aspect.LoggingAspect            : Service method: containsMember executing
+2026-03-14T14:36:06.037+05:30  INFO 6044 --- [member-service] [http-nio-8081-exec-10] S.member.aspect.LoggingAspect            : Service Method: containsMember gets the arguments: [2b81de48-89ba-43f3-8809-75f3fab4a6e4]
+2026-03-14T14:36:06.037+05:30  INFO 6044 --- [member-service] [http-nio-8081-exec-10] S.member.aspect.LoggingAspect            : Service method containsMember returned true
+2026-03-14T14:36:06.037+05:30  INFO 6044 --- [member-service] [http-nio-8081-exec-10] S.member.aspect.LoggingAspect            : Service method containsMember took 0ms
+2026-03-14T14:36:06.037+05:30  INFO 6044 --- [member-service] [http-nio-8081-exec-10] S.member.aspect.LoggingAspect            : Controller method containsMember returned: true
+2026-03-14T14:36:06.038+05:30  INFO 6044 --- [member-service] [http-nio-8081-exec-10] S.member.aspect.LoggingAspect            : Controller method: containsMember took 2ms
+2026-03-14T14:36:47.972+05:30  INFO 6044 --- [member-service] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-03-14T14:36:47.982+05:30  INFO 6044 --- [member-service] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-03-14T15:14:35.618+05:30  INFO 22420 --- [member-service] [main] S.member.MemberApplication               : Starting MemberApplication using Java 21.0.10 with PID 22420 (C:\Users\SaiSmrithiMuthukumar\git_repo\Weekend_Assignments\Order-management-system-microservices attempt\member\target\classes started by SaiSmrithiMuthukumar in C:\Users\SaiSmrithiMuthukumar\git_repo\Weekend_Assignments\Order-management-system-microservices attempt\member)
+2026-03-14T15:14:35.626+05:30  INFO 22420 --- [member-service] [main] S.member.MemberApplication               : No active profile set, falling back to 1 default profile: "default"
+2026-03-14T15:14:37.612+05:30  INFO 22420 --- [member-service] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8081 (http)
+2026-03-14T15:14:37.632+05:30  INFO 22420 --- [member-service] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-03-14T15:14:37.633+05:30  INFO 22420 --- [member-service] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.18]
+2026-03-14T15:14:37.747+05:30  INFO 22420 --- [member-service] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 1998 ms
+2026-03-14T15:14:39.089+05:30  INFO 22420 --- [member-service] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8081 (http) with context path '/'
+2026-03-14T15:14:39.101+05:30  INFO 22420 --- [member-service] [main] S.member.MemberApplication               : Started MemberApplication in 4.378 seconds (process running for 5.374)
+2026-03-14T15:20:15.466+05:30  INFO 22420 --- [member-service] [http-nio-8081-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-03-14T15:20:15.466+05:30  INFO 22420 --- [member-service] [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-03-14T15:20:15.471+05:30  INFO 22420 --- [member-service] [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2026-03-14T15:20:16.107+05:30  INFO 22420 --- [member-service] [http-nio-8081-exec-2] S.member.aspect.LoggingAspect            : Controller Method addMember is executing
+2026-03-14T15:20:16.109+05:30  INFO 22420 --- [member-service] [http-nio-8081-exec-2] S.member.aspect.LoggingAspect            : Controller Method: addMember gets the arguments: [addMemberDTO(fullName=Smrithi, email=fg^712@yahoo.com, password=fg&8233&&^)]
+2026-03-14T15:20:16.110+05:30  INFO 22420 --- [member-service] [http-nio-8081-exec-2] S.member.aspect.LoggingAspect            : Service method: addMember executing
+2026-03-14T15:20:16.110+05:30  INFO 22420 --- [member-service] [http-nio-8081-exec-2] S.member.aspect.LoggingAspect            : Service Method: addMember gets the arguments: [addMemberDTO(fullName=Smrithi, email=fg^712@yahoo.com, password=fg&8233&&^)]
+2026-03-14T15:20:16.122+05:30  INFO 22420 --- [member-service] [http-nio-8081-exec-2] S.member.aspect.LoggingAspect            : Service method addMember returned <200 OK OK,Member added successfully,[]>
+2026-03-14T15:20:16.127+05:30  INFO 22420 --- [member-service] [http-nio-8081-exec-2] S.member.aspect.LoggingAspect            : Service method addMember took 13ms
+2026-03-14T15:20:16.128+05:30  INFO 22420 --- [member-service] [http-nio-8081-exec-2] S.member.aspect.LoggingAspect            : Controller method addMember returned: <200 OK OK,Member added successfully,[]>
+2026-03-14T15:20:16.128+05:30  INFO 22420 --- [member-service] [http-nio-8081-exec-2] S.member.aspect.LoggingAspect            : Controller method: addMember took 24ms
+2026-03-14T15:20:45.184+05:30  INFO 22420 --- [member-service] [http-nio-8081-exec-3] S.member.aspect.LoggingAspect            : Controller Method addMember is executing
+2026-03-14T15:20:45.185+05:30  INFO 22420 --- [member-service] [http-nio-8081-exec-3] S.member.aspect.LoggingAspect            : Controller Method: addMember gets the arguments: [addMemberDTO(fullName=Naina, email=sgrtyo09@yahoo.com, password=fg&8233&&^)]
+2026-03-14T15:20:45.185+05:30  INFO 22420 --- [member-service] [http-nio-8081-exec-3] S.member.aspect.LoggingAspect            : Service method: addMember executing
+2026-03-14T15:20:45.185+05:30  INFO 22420 --- [member-service] [http-nio-8081-exec-3] S.member.aspect.LoggingAspect            : Service Method: addMember gets the arguments: [addMemberDTO(fullName=Naina, email=sgrtyo09@yahoo.com, password=fg&8233&&^)]
+2026-03-14T15:20:45.185+05:30  INFO 22420 --- [member-service] [http-nio-8081-exec-3] S.member.aspect.LoggingAspect            : Service method addMember returned <200 OK OK,Member added successfully,[]>
+2026-03-14T15:20:45.186+05:30  INFO 22420 --- [member-service] [http-nio-8081-exec-3] S.member.aspect.LoggingAspect            : Service method addMember took 1ms
+2026-03-14T15:20:45.186+05:30  INFO 22420 --- [member-service] [http-nio-8081-exec-3] S.member.aspect.LoggingAspect            : Controller method addMember returned: <200 OK OK,Member added successfully,[]>
+2026-03-14T15:20:45.186+05:30  INFO 22420 --- [member-service] [http-nio-8081-exec-3] S.member.aspect.LoggingAspect            : Controller method: addMember took 2ms
+2026-03-14T15:20:54.545+05:30  INFO 22420 --- [member-service] [http-nio-8081-exec-4] S.member.aspect.LoggingAspect            : Controller Method getAllMembers is executing
+2026-03-14T15:20:54.546+05:30  INFO 22420 --- [member-service] [http-nio-8081-exec-4] S.member.aspect.LoggingAspect            : Controller Method: getAllMembers gets the arguments: []
+2026-03-14T15:20:54.546+05:30  INFO 22420 --- [member-service] [http-nio-8081-exec-4] S.member.aspect.LoggingAspect            : Service method: getAllMembers executing
+2026-03-14T15:20:54.546+05:30  INFO 22420 --- [member-service] [http-nio-8081-exec-4] S.member.aspect.LoggingAspect            : Service Method: getAllMembers gets the arguments: []
+2026-03-14T15:20:54.550+05:30  INFO 22420 --- [member-service] [http-nio-8081-exec-4] S.member.aspect.LoggingAspect            : Service method getAllMembers returned [getMemberDTO(memberId=270a7666-57e4-4dc1-87e1-615e4baa525e, fullName=Naina, email=sgrtyo09@yahoo.com), getMemberDTO(memberId=97300788-0397-4199-ab57-afd9d22a405c, fullName=Smrithi, email=fg^712@yahoo.com)]
+2026-03-14T15:20:54.550+05:30  INFO 22420 --- [member-service] [http-nio-8081-exec-4] S.member.aspect.LoggingAspect            : Service method getAllMembers took 4ms
+2026-03-14T15:20:54.550+05:30  INFO 22420 --- [member-service] [http-nio-8081-exec-4] S.member.aspect.LoggingAspect            : Controller method getAllMembers returned: [getMemberDTO(memberId=270a7666-57e4-4dc1-87e1-615e4baa525e, fullName=Naina, email=sgrtyo09@yahoo.com), getMemberDTO(memberId=97300788-0397-4199-ab57-afd9d22a405c, fullName=Smrithi, email=fg^712@yahoo.com)]
+2026-03-14T15:20:54.551+05:30  INFO 22420 --- [member-service] [http-nio-8081-exec-4] S.member.aspect.LoggingAspect            : Controller method: getAllMembers took 6ms
+2026-03-14T15:22:09.392+05:30  INFO 22420 --- [member-service] [http-nio-8081-exec-6] S.member.aspect.LoggingAspect            : Controller Method containsMember is executing
+2026-03-14T15:22:09.393+05:30  INFO 22420 --- [member-service] [http-nio-8081-exec-6] S.member.aspect.LoggingAspect            : Controller Method: containsMember gets the arguments: [270a7666-57e4-4dc1-87e1-615e4baa525e]
+2026-03-14T15:22:09.393+05:30  INFO 22420 --- [member-service] [http-nio-8081-exec-6] S.member.aspect.LoggingAspect            : Service method: containsMember executing
+2026-03-14T15:22:09.393+05:30  INFO 22420 --- [member-service] [http-nio-8081-exec-6] S.member.aspect.LoggingAspect            : Service Method: containsMember gets the arguments: [270a7666-57e4-4dc1-87e1-615e4baa525e]
+2026-03-14T15:22:09.394+05:30  INFO 22420 --- [member-service] [http-nio-8081-exec-6] S.member.aspect.LoggingAspect            : Service method containsMember returned true
+2026-03-14T15:22:09.395+05:30  INFO 22420 --- [member-service] [http-nio-8081-exec-6] S.member.aspect.LoggingAspect            : Service method containsMember took 2ms
+2026-03-14T15:22:09.395+05:30  INFO 22420 --- [member-service] [http-nio-8081-exec-6] S.member.aspect.LoggingAspect            : Controller method containsMember returned: true
+2026-03-14T15:22:09.395+05:30  INFO 22420 --- [member-service] [http-nio-8081-exec-6] S.member.aspect.LoggingAspect            : Controller method: containsMember took 3ms
+2026-03-14T15:22:19.946+05:30  INFO 22420 --- [member-service] [http-nio-8081-exec-7] S.member.aspect.LoggingAspect            : Controller Method containsMember is executing
+2026-03-14T15:22:19.947+05:30  INFO 22420 --- [member-service] [http-nio-8081-exec-7] S.member.aspect.LoggingAspect            : Controller Method: containsMember gets the arguments: [270a7666-57e4-4dc1-87e1-615e4baa525e]
+2026-03-14T15:22:19.947+05:30  INFO 22420 --- [member-service] [http-nio-8081-exec-7] S.member.aspect.LoggingAspect            : Service method: containsMember executing
+2026-03-14T15:22:19.947+05:30  INFO 22420 --- [member-service] [http-nio-8081-exec-7] S.member.aspect.LoggingAspect            : Service Method: containsMember gets the arguments: [270a7666-57e4-4dc1-87e1-615e4baa525e]
+2026-03-14T15:22:19.947+05:30  INFO 22420 --- [member-service] [http-nio-8081-exec-7] S.member.aspect.LoggingAspect            : Service method containsMember returned true
+2026-03-14T15:22:19.948+05:30  INFO 22420 --- [member-service] [http-nio-8081-exec-7] S.member.aspect.LoggingAspect            : Service method containsMember took 1ms
+2026-03-14T15:22:19.948+05:30  INFO 22420 --- [member-service] [http-nio-8081-exec-7] S.member.aspect.LoggingAspect            : Controller method containsMember returned: true
+2026-03-14T15:22:19.948+05:30  INFO 22420 --- [member-service] [http-nio-8081-exec-7] S.member.aspect.LoggingAspect            : Controller method: containsMember took 2ms
+2026-03-14T15:22:47.800+05:30  INFO 22420 --- [member-service] [http-nio-8081-exec-8] S.member.aspect.LoggingAspect            : Controller Method containsMember is executing
+2026-03-14T15:22:47.800+05:30  INFO 22420 --- [member-service] [http-nio-8081-exec-8] S.member.aspect.LoggingAspect            : Controller Method: containsMember gets the arguments: [270a7666-57e4-4dc1-87e1-615e4baa525e]
+2026-03-14T15:22:47.801+05:30  INFO 22420 --- [member-service] [http-nio-8081-exec-8] S.member.aspect.LoggingAspect            : Service method: containsMember executing
+2026-03-14T15:22:47.801+05:30  INFO 22420 --- [member-service] [http-nio-8081-exec-8] S.member.aspect.LoggingAspect            : Service Method: containsMember gets the arguments: [270a7666-57e4-4dc1-87e1-615e4baa525e]
+2026-03-14T15:22:47.801+05:30  INFO 22420 --- [member-service] [http-nio-8081-exec-8] S.member.aspect.LoggingAspect            : Service method containsMember returned true
+2026-03-14T15:22:47.802+05:30  INFO 22420 --- [member-service] [http-nio-8081-exec-8] S.member.aspect.LoggingAspect            : Service method containsMember took 1ms
+2026-03-14T15:22:47.802+05:30  INFO 22420 --- [member-service] [http-nio-8081-exec-8] S.member.aspect.LoggingAspect            : Controller method containsMember returned: true
+2026-03-14T15:22:47.803+05:30  INFO 22420 --- [member-service] [http-nio-8081-exec-8] S.member.aspect.LoggingAspect            : Controller method: containsMember took 3ms
+2026-03-14T15:23:38.096+05:30  INFO 22420 --- [member-service] [http-nio-8081-exec-9] S.member.aspect.LoggingAspect            : Controller Method containsMember is executing
+2026-03-14T15:23:38.097+05:30  INFO 22420 --- [member-service] [http-nio-8081-exec-9] S.member.aspect.LoggingAspect            : Controller Method: containsMember gets the arguments: [97300788-0397-4199-ab57-afd9d22a405c]
+2026-03-14T15:23:38.097+05:30  INFO 22420 --- [member-service] [http-nio-8081-exec-9] S.member.aspect.LoggingAspect            : Service method: containsMember executing
+2026-03-14T15:23:38.098+05:30  INFO 22420 --- [member-service] [http-nio-8081-exec-9] S.member.aspect.LoggingAspect            : Service Method: containsMember gets the arguments: [97300788-0397-4199-ab57-afd9d22a405c]
+2026-03-14T15:23:38.099+05:30  INFO 22420 --- [member-service] [http-nio-8081-exec-9] S.member.aspect.LoggingAspect            : Service method containsMember returned true
+2026-03-14T15:23:38.099+05:30  INFO 22420 --- [member-service] [http-nio-8081-exec-9] S.member.aspect.LoggingAspect            : Service method containsMember took 2ms
+2026-03-14T15:23:38.100+05:30  INFO 22420 --- [member-service] [http-nio-8081-exec-9] S.member.aspect.LoggingAspect            : Controller method containsMember returned: true
+2026-03-14T15:23:38.101+05:30  INFO 22420 --- [member-service] [http-nio-8081-exec-9] S.member.aspect.LoggingAspect            : Controller method: containsMember took 5ms
+2026-03-14T15:28:04.292+05:30  INFO 22420 --- [member-service] [http-nio-8081-exec-1] S.member.aspect.LoggingAspect            : Controller Method getAllMembers is executing
+2026-03-14T15:28:04.292+05:30  INFO 22420 --- [member-service] [http-nio-8081-exec-1] S.member.aspect.LoggingAspect            : Controller Method: getAllMembers gets the arguments: []
+2026-03-14T15:28:04.292+05:30  INFO 22420 --- [member-service] [http-nio-8081-exec-1] S.member.aspect.LoggingAspect            : Service method: getAllMembers executing
+2026-03-14T15:28:04.292+05:30  INFO 22420 --- [member-service] [http-nio-8081-exec-1] S.member.aspect.LoggingAspect            : Service Method: getAllMembers gets the arguments: []
+2026-03-14T15:28:04.297+05:30  INFO 22420 --- [member-service] [http-nio-8081-exec-1] S.member.aspect.LoggingAspect            : Service method getAllMembers returned [getMemberDTO(memberId=270a7666-57e4-4dc1-87e1-615e4baa525e, fullName=Naina, email=sgrtyo09@yahoo.com), getMemberDTO(memberId=97300788-0397-4199-ab57-afd9d22a405c, fullName=Smrithi, email=fg^712@yahoo.com)]
+2026-03-14T15:28:04.297+05:30  INFO 22420 --- [member-service] [http-nio-8081-exec-1] S.member.aspect.LoggingAspect            : Service method getAllMembers took 5ms
+2026-03-14T15:28:04.297+05:30  INFO 22420 --- [member-service] [http-nio-8081-exec-1] S.member.aspect.LoggingAspect            : Controller method getAllMembers returned: [getMemberDTO(memberId=270a7666-57e4-4dc1-87e1-615e4baa525e, fullName=Naina, email=sgrtyo09@yahoo.com), getMemberDTO(memberId=97300788-0397-4199-ab57-afd9d22a405c, fullName=Smrithi, email=fg^712@yahoo.com)]
+2026-03-14T15:28:04.297+05:30  INFO 22420 --- [member-service] [http-nio-8081-exec-1] S.member.aspect.LoggingAspect            : Controller method: getAllMembers took 5ms
+2026-03-14T15:46:53.487+05:30  INFO 22420 --- [member-service] [http-nio-8081-exec-5] S.member.aspect.LoggingAspect            : Controller Method getAllMembers is executing
+2026-03-14T15:46:53.487+05:30  INFO 22420 --- [member-service] [http-nio-8081-exec-5] S.member.aspect.LoggingAspect            : Controller Method: getAllMembers gets the arguments: []
+2026-03-14T15:46:53.487+05:30  INFO 22420 --- [member-service] [http-nio-8081-exec-5] S.member.aspect.LoggingAspect            : Service method: getAllMembers executing
+2026-03-14T15:46:53.487+05:30  INFO 22420 --- [member-service] [http-nio-8081-exec-5] S.member.aspect.LoggingAspect            : Service Method: getAllMembers gets the arguments: []
+2026-03-14T15:46:53.487+05:30  INFO 22420 --- [member-service] [http-nio-8081-exec-5] S.member.aspect.LoggingAspect            : Service method getAllMembers returned [getMemberDTO(memberId=270a7666-57e4-4dc1-87e1-615e4baa525e, fullName=Naina, email=sgrtyo09@yahoo.com), getMemberDTO(memberId=97300788-0397-4199-ab57-afd9d22a405c, fullName=Smrithi, email=fg^712@yahoo.com)]
+2026-03-14T15:46:53.487+05:30  INFO 22420 --- [member-service] [http-nio-8081-exec-5] S.member.aspect.LoggingAspect            : Service method getAllMembers took 0ms
+2026-03-14T15:46:53.487+05:30  INFO 22420 --- [member-service] [http-nio-8081-exec-5] S.member.aspect.LoggingAspect            : Controller method getAllMembers returned: [getMemberDTO(memberId=270a7666-57e4-4dc1-87e1-615e4baa525e, fullName=Naina, email=sgrtyo09@yahoo.com), getMemberDTO(memberId=97300788-0397-4199-ab57-afd9d22a405c, fullName=Smrithi, email=fg^712@yahoo.com)]
+2026-03-14T15:46:53.487+05:30  INFO 22420 --- [member-service] [http-nio-8081-exec-5] S.member.aspect.LoggingAspect            : Controller method: getAllMembers took 0ms
+2026-03-14T15:47:47.390+05:30  INFO 22420 --- [member-service] [http-nio-8081-exec-6] S.member.aspect.LoggingAspect            : Controller Method containsMember is executing
+2026-03-14T15:47:47.390+05:30  INFO 22420 --- [member-service] [http-nio-8081-exec-6] S.member.aspect.LoggingAspect            : Controller Method: containsMember gets the arguments: [270a7666-57e4-4dc1-87e1-615e4baa525e]
+2026-03-14T15:47:47.390+05:30  INFO 22420 --- [member-service] [http-nio-8081-exec-6] S.member.aspect.LoggingAspect            : Service method: containsMember executing
+2026-03-14T15:47:47.394+05:30  INFO 22420 --- [member-service] [http-nio-8081-exec-6] S.member.aspect.LoggingAspect            : Service Method: containsMember gets the arguments: [270a7666-57e4-4dc1-87e1-615e4baa525e]
+2026-03-14T15:47:47.394+05:30  INFO 22420 --- [member-service] [http-nio-8081-exec-6] S.member.aspect.LoggingAspect            : Service method containsMember returned true
+2026-03-14T15:47:47.394+05:30  INFO 22420 --- [member-service] [http-nio-8081-exec-6] S.member.aspect.LoggingAspect            : Service method containsMember took 4ms
+2026-03-14T15:47:47.394+05:30  INFO 22420 --- [member-service] [http-nio-8081-exec-6] S.member.aspect.LoggingAspect            : Controller method containsMember returned: true
+2026-03-14T15:47:47.396+05:30  INFO 22420 --- [member-service] [http-nio-8081-exec-6] S.member.aspect.LoggingAspect            : Controller method: containsMember took 6ms
+2026-03-14T15:49:13.898+05:30  INFO 22420 --- [member-service] [http-nio-8081-exec-9] S.member.aspect.LoggingAspect            : Controller Method containsMember is executing
+2026-03-14T15:49:13.900+05:30  INFO 22420 --- [member-service] [http-nio-8081-exec-9] S.member.aspect.LoggingAspect            : Controller Method: containsMember gets the arguments: [97300788-0397-4199-ab57-afd9d22a405c]
+2026-03-14T15:49:13.900+05:30  INFO 22420 --- [member-service] [http-nio-8081-exec-9] S.member.aspect.LoggingAspect            : Service method: containsMember executing
+2026-03-14T15:49:13.900+05:30  INFO 22420 --- [member-service] [http-nio-8081-exec-9] S.member.aspect.LoggingAspect            : Service Method: containsMember gets the arguments: [97300788-0397-4199-ab57-afd9d22a405c]
+2026-03-14T15:49:13.900+05:30  INFO 22420 --- [member-service] [http-nio-8081-exec-9] S.member.aspect.LoggingAspect            : Service method containsMember returned true
+2026-03-14T15:49:13.900+05:30  INFO 22420 --- [member-service] [http-nio-8081-exec-9] S.member.aspect.LoggingAspect            : Service method containsMember took 0ms
+2026-03-14T15:49:13.904+05:30  INFO 22420 --- [member-service] [http-nio-8081-exec-9] S.member.aspect.LoggingAspect            : Controller method containsMember returned: true
+2026-03-14T15:49:13.904+05:30  INFO 22420 --- [member-service] [http-nio-8081-exec-9] S.member.aspect.LoggingAspect            : Controller method: containsMember took 6ms
+2026-03-14T15:49:26.835+05:30  INFO 22420 --- [member-service] [http-nio-8081-exec-10] S.member.aspect.LoggingAspect            : Controller Method containsMember is executing
+2026-03-14T15:49:26.839+05:30  INFO 22420 --- [member-service] [http-nio-8081-exec-10] S.member.aspect.LoggingAspect            : Controller Method: containsMember gets the arguments: [97300788-0397-4199-ab57-afd9d22a405c]
+2026-03-14T15:49:26.839+05:30  INFO 22420 --- [member-service] [http-nio-8081-exec-10] S.member.aspect.LoggingAspect            : Service method: containsMember executing
+2026-03-14T15:49:26.839+05:30  INFO 22420 --- [member-service] [http-nio-8081-exec-10] S.member.aspect.LoggingAspect            : Service Method: containsMember gets the arguments: [97300788-0397-4199-ab57-afd9d22a405c]
+2026-03-14T15:49:26.839+05:30  INFO 22420 --- [member-service] [http-nio-8081-exec-10] S.member.aspect.LoggingAspect            : Service method containsMember returned true
+2026-03-14T15:49:26.839+05:30  INFO 22420 --- [member-service] [http-nio-8081-exec-10] S.member.aspect.LoggingAspect            : Service method containsMember took 0ms
+2026-03-14T15:49:26.839+05:30  INFO 22420 --- [member-service] [http-nio-8081-exec-10] S.member.aspect.LoggingAspect            : Controller method containsMember returned: true
+2026-03-14T15:49:26.839+05:30  INFO 22420 --- [member-service] [http-nio-8081-exec-10] S.member.aspect.LoggingAspect            : Controller method: containsMember took 4ms
+2026-03-14T15:50:29.559+05:30  INFO 22420 --- [member-service] [http-nio-8081-exec-1] S.member.aspect.LoggingAspect            : Controller Method containsMember is executing
+2026-03-14T15:50:29.559+05:30  INFO 22420 --- [member-service] [http-nio-8081-exec-1] S.member.aspect.LoggingAspect            : Controller Method: containsMember gets the arguments: [97300788-0397-4199-ab57-afd9d22a405c]
+2026-03-14T15:50:29.559+05:30  INFO 22420 --- [member-service] [http-nio-8081-exec-1] S.member.aspect.LoggingAspect            : Service method: containsMember executing
+2026-03-14T15:50:29.559+05:30  INFO 22420 --- [member-service] [http-nio-8081-exec-1] S.member.aspect.LoggingAspect            : Service Method: containsMember gets the arguments: [97300788-0397-4199-ab57-afd9d22a405c]
+2026-03-14T15:50:29.559+05:30  INFO 22420 --- [member-service] [http-nio-8081-exec-1] S.member.aspect.LoggingAspect            : Service method containsMember returned true
+2026-03-14T15:50:29.559+05:30  INFO 22420 --- [member-service] [http-nio-8081-exec-1] S.member.aspect.LoggingAspect            : Service method containsMember took 0ms
+2026-03-14T15:50:29.559+05:30  INFO 22420 --- [member-service] [http-nio-8081-exec-1] S.member.aspect.LoggingAspect            : Controller method containsMember returned: true
+2026-03-14T15:50:29.559+05:30  INFO 22420 --- [member-service] [http-nio-8081-exec-1] S.member.aspect.LoggingAspect            : Controller method: containsMember took 0ms
+2026-03-14T15:51:08.298+05:30  INFO 22420 --- [member-service] [http-nio-8081-exec-3] S.member.aspect.LoggingAspect            : Controller Method containsMember is executing
+2026-03-14T15:51:08.298+05:30  INFO 22420 --- [member-service] [http-nio-8081-exec-3] S.member.aspect.LoggingAspect            : Controller Method: containsMember gets the arguments: [97300788-0397-4199-ab57-afd9d22a405c]
+2026-03-14T15:51:08.302+05:30  INFO 22420 --- [member-service] [http-nio-8081-exec-3] S.member.aspect.LoggingAspect            : Service method: containsMember executing
+2026-03-14T15:51:08.302+05:30  INFO 22420 --- [member-service] [http-nio-8081-exec-3] S.member.aspect.LoggingAspect            : Service Method: containsMember gets the arguments: [97300788-0397-4199-ab57-afd9d22a405c]
+2026-03-14T15:51:08.302+05:30  INFO 22420 --- [member-service] [http-nio-8081-exec-3] S.member.aspect.LoggingAspect            : Service method containsMember returned true
+2026-03-14T15:51:08.302+05:30  INFO 22420 --- [member-service] [http-nio-8081-exec-3] S.member.aspect.LoggingAspect            : Service method containsMember took 0ms
+2026-03-14T15:51:08.302+05:30  INFO 22420 --- [member-service] [http-nio-8081-exec-3] S.member.aspect.LoggingAspect            : Controller method containsMember returned: true
+2026-03-14T15:51:08.302+05:30  INFO 22420 --- [member-service] [http-nio-8081-exec-3] S.member.aspect.LoggingAspect            : Controller method: containsMember took 4ms
+2026-03-14T16:28:00.093+05:30  INFO 22420 --- [member-service] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-03-14T16:28:00.106+05:30  INFO 22420 --- [member-service] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-03-14T19:48:30.532+05:30  INFO 19156 --- [member-service] [main] S.member.MemberApplication               : Starting MemberApplication using Java 21.0.10 with PID 19156 (C:\Users\SaiSmrithiMuthukumar\git_repo\Weekend_Assignments\Order-management-system-microservices attempt\member\target\classes started by SaiSmrithiMuthukumar in C:\Users\SaiSmrithiMuthukumar\git_repo\Weekend_Assignments\Order-management-system-microservices attempt\member)
+2026-03-14T19:48:30.545+05:30  INFO 19156 --- [member-service] [main] S.member.MemberApplication               : No active profile set, falling back to 1 default profile: "default"
+2026-03-14T19:48:32.875+05:30  INFO 19156 --- [member-service] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8081 (http)
+2026-03-14T19:48:32.909+05:30  INFO 19156 --- [member-service] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-03-14T19:48:32.909+05:30  INFO 19156 --- [member-service] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.18]
+2026-03-14T19:48:33.001+05:30  INFO 19156 --- [member-service] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 2376 ms
+2026-03-14T19:48:34.368+05:30  INFO 19156 --- [member-service] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8081 (http) with context path '/'
+2026-03-14T19:48:34.375+05:30  INFO 19156 --- [member-service] [main] S.member.MemberApplication               : Started MemberApplication in 4.612 seconds (process running for 5.577)
+2026-03-14T19:50:13.343+05:30  INFO 19156 --- [member-service] [http-nio-8081-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-03-14T19:50:13.351+05:30  INFO 19156 --- [member-service] [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-03-14T19:50:13.359+05:30  INFO 19156 --- [member-service] [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+2026-03-14T19:50:43.563+05:30  INFO 19156 --- [member-service] [http-nio-8081-exec-4] S.member.aspect.LoggingAspect            : Controller Method addMember is executing
+2026-03-14T19:50:43.567+05:30  INFO 19156 --- [member-service] [http-nio-8081-exec-4] S.member.aspect.LoggingAspect            : Controller Method: addMember gets the arguments: [addMemberDTO(fullName=Smrithi, email=fhs@gmail.com, password=fhdA3g*9)()]
+2026-03-14T19:50:43.571+05:30  INFO 19156 --- [member-service] [http-nio-8081-exec-4] S.member.aspect.LoggingAspect            : Service method: addMember executing
+2026-03-14T19:50:43.571+05:30  INFO 19156 --- [member-service] [http-nio-8081-exec-4] S.member.aspect.LoggingAspect            : Service Method: addMember gets the arguments: [addMemberDTO(fullName=Smrithi, email=fhs@gmail.com, password=fhdA3g*9)()]
+2026-03-14T19:50:43.588+05:30  INFO 19156 --- [member-service] [http-nio-8081-exec-4] S.member.aspect.LoggingAspect            : Service method addMember returned <200 OK OK,Member added successfully,[]>
+2026-03-14T19:50:43.605+05:30  INFO 19156 --- [member-service] [http-nio-8081-exec-4] S.member.aspect.LoggingAspect            : Service method addMember took 25ms
+2026-03-14T19:50:43.605+05:30  INFO 19156 --- [member-service] [http-nio-8081-exec-4] S.member.aspect.LoggingAspect            : Controller method addMember returned: <200 OK OK,Member added successfully,[]>
+2026-03-14T19:50:43.605+05:30  INFO 19156 --- [member-service] [http-nio-8081-exec-4] S.member.aspect.LoggingAspect            : Controller method: addMember took 59ms
+2026-03-14T19:51:10.441+05:30  INFO 19156 --- [member-service] [http-nio-8081-exec-5] S.member.aspect.LoggingAspect            : Controller Method addMember is executing
+2026-03-14T19:51:10.443+05:30  INFO 19156 --- [member-service] [http-nio-8081-exec-5] S.member.aspect.LoggingAspect            : Controller Method: addMember gets the arguments: [addMemberDTO(fullName=Naina, email=fh235r@gmail.com, password=fh&82ASxcd)]
+2026-03-14T19:51:10.445+05:30  INFO 19156 --- [member-service] [http-nio-8081-exec-5] S.member.aspect.LoggingAspect            : Service method: addMember executing
+2026-03-14T19:51:10.445+05:30  INFO 19156 --- [member-service] [http-nio-8081-exec-5] S.member.aspect.LoggingAspect            : Service Method: addMember gets the arguments: [addMemberDTO(fullName=Naina, email=fh235r@gmail.com, password=fh&82ASxcd)]
+2026-03-14T19:51:10.445+05:30  INFO 19156 --- [member-service] [http-nio-8081-exec-5] S.member.aspect.LoggingAspect            : Service method addMember returned <200 OK OK,Member added successfully,[]>
+2026-03-14T19:51:10.445+05:30  INFO 19156 --- [member-service] [http-nio-8081-exec-5] S.member.aspect.LoggingAspect            : Service method addMember took 0ms
+2026-03-14T19:51:10.445+05:30  INFO 19156 --- [member-service] [http-nio-8081-exec-5] S.member.aspect.LoggingAspect            : Controller method addMember returned: <200 OK OK,Member added successfully,[]>
+2026-03-14T19:51:10.445+05:30  INFO 19156 --- [member-service] [http-nio-8081-exec-5] S.member.aspect.LoggingAspect            : Controller method: addMember took 4ms
+2026-03-14T19:51:14.412+05:30  INFO 19156 --- [member-service] [http-nio-8081-exec-6] S.member.aspect.LoggingAspect            : Controller Method getAllMembers is executing
+2026-03-14T19:51:14.412+05:30  INFO 19156 --- [member-service] [http-nio-8081-exec-6] S.member.aspect.LoggingAspect            : Controller Method: getAllMembers gets the arguments: []
+2026-03-14T19:51:14.416+05:30  INFO 19156 --- [member-service] [http-nio-8081-exec-6] S.member.aspect.LoggingAspect            : Service method: getAllMembers executing
+2026-03-14T19:51:14.416+05:30  INFO 19156 --- [member-service] [http-nio-8081-exec-6] S.member.aspect.LoggingAspect            : Service Method: getAllMembers gets the arguments: []
+2026-03-14T19:51:14.420+05:30  INFO 19156 --- [member-service] [http-nio-8081-exec-6] S.member.aspect.LoggingAspect            : Service method getAllMembers returned [getMemberDTO(memberId=aab4b20b-cbeb-4668-951f-719a3a028de5, fullName=Naina, email=fh235r@gmail.com), getMemberDTO(memberId=96f9ef8a-a762-4de7-bc29-d8315c0d40cc, fullName=Smrithi, email=fhs@gmail.com)]
+2026-03-14T19:51:14.420+05:30  INFO 19156 --- [member-service] [http-nio-8081-exec-6] S.member.aspect.LoggingAspect            : Service method getAllMembers took 4ms
+2026-03-14T19:51:14.420+05:30  INFO 19156 --- [member-service] [http-nio-8081-exec-6] S.member.aspect.LoggingAspect            : Controller method getAllMembers returned: [getMemberDTO(memberId=aab4b20b-cbeb-4668-951f-719a3a028de5, fullName=Naina, email=fh235r@gmail.com), getMemberDTO(memberId=96f9ef8a-a762-4de7-bc29-d8315c0d40cc, fullName=Smrithi, email=fhs@gmail.com)]
+2026-03-14T19:51:14.420+05:30  INFO 19156 --- [member-service] [http-nio-8081-exec-6] S.member.aspect.LoggingAspect            : Controller method: getAllMembers took 8ms
+2026-03-14T19:51:45.685+05:30  INFO 19156 --- [member-service] [http-nio-8081-exec-7] S.member.aspect.LoggingAspect            : Controller Method containsMember is executing
+2026-03-14T19:51:45.685+05:30  INFO 19156 --- [member-service] [http-nio-8081-exec-7] S.member.aspect.LoggingAspect            : Controller Method: containsMember gets the arguments: [97300788-0397-4199-ab57-afd9d22a405c]
+2026-03-14T19:51:45.685+05:30  INFO 19156 --- [member-service] [http-nio-8081-exec-7] S.member.aspect.LoggingAspect            : Service method: containsMember executing
+2026-03-14T19:51:45.685+05:30  INFO 19156 --- [member-service] [http-nio-8081-exec-7] S.member.aspect.LoggingAspect            : Service Method: containsMember gets the arguments: [97300788-0397-4199-ab57-afd9d22a405c]
+2026-03-14T19:51:45.685+05:30  INFO 19156 --- [member-service] [http-nio-8081-exec-7] S.member.aspect.LoggingAspect            : Service method containsMember returned false
+2026-03-14T19:51:45.685+05:30  INFO 19156 --- [member-service] [http-nio-8081-exec-7] S.member.aspect.LoggingAspect            : Service method containsMember took 0ms
+2026-03-14T19:51:45.685+05:30  INFO 19156 --- [member-service] [http-nio-8081-exec-7] S.member.aspect.LoggingAspect            : Controller method containsMember returned: false
+2026-03-14T19:51:45.685+05:30  INFO 19156 --- [member-service] [http-nio-8081-exec-7] S.member.aspect.LoggingAspect            : Controller method: containsMember took 0ms
+2026-03-14T19:52:16.545+05:30  INFO 19156 --- [member-service] [http-nio-8081-exec-9] S.member.aspect.LoggingAspect            : Controller Method containsMember is executing
+2026-03-14T19:52:16.554+05:30  INFO 19156 --- [member-service] [http-nio-8081-exec-9] S.member.aspect.LoggingAspect            : Controller Method: containsMember gets the arguments: [aab4b20b-cbeb-4668-951f-719a3a028de5]
+2026-03-14T19:52:16.554+05:30  INFO 19156 --- [member-service] [http-nio-8081-exec-9] S.member.aspect.LoggingAspect            : Service method: containsMember executing
+2026-03-14T19:52:16.554+05:30  INFO 19156 --- [member-service] [http-nio-8081-exec-9] S.member.aspect.LoggingAspect            : Service Method: containsMember gets the arguments: [aab4b20b-cbeb-4668-951f-719a3a028de5]
+2026-03-14T19:52:16.554+05:30  INFO 19156 --- [member-service] [http-nio-8081-exec-9] S.member.aspect.LoggingAspect            : Service method containsMember returned true
+2026-03-14T19:52:16.554+05:30  INFO 19156 --- [member-service] [http-nio-8081-exec-9] S.member.aspect.LoggingAspect            : Service method containsMember took 0ms
+2026-03-14T19:52:16.554+05:30  INFO 19156 --- [member-service] [http-nio-8081-exec-9] S.member.aspect.LoggingAspect            : Controller method containsMember returned: true
+2026-03-14T19:52:16.554+05:30  INFO 19156 --- [member-service] [http-nio-8081-exec-9] S.member.aspect.LoggingAspect            : Controller method: containsMember took 9ms
+2026-03-14T19:52:54.092+05:30  INFO 19156 --- [member-service] [http-nio-8081-exec-10] S.member.aspect.LoggingAspect            : Controller Method containsMember is executing
+2026-03-14T19:52:54.092+05:30  INFO 19156 --- [member-service] [http-nio-8081-exec-10] S.member.aspect.LoggingAspect            : Controller Method: containsMember gets the arguments: [aab4b20b-cbeb-4668-951f-719a3a028de5]
+2026-03-14T19:52:54.092+05:30  INFO 19156 --- [member-service] [http-nio-8081-exec-10] S.member.aspect.LoggingAspect            : Service method: containsMember executing
+2026-03-14T19:52:54.092+05:30  INFO 19156 --- [member-service] [http-nio-8081-exec-10] S.member.aspect.LoggingAspect            : Service Method: containsMember gets the arguments: [aab4b20b-cbeb-4668-951f-719a3a028de5]
+2026-03-14T19:52:54.092+05:30  INFO 19156 --- [member-service] [http-nio-8081-exec-10] S.member.aspect.LoggingAspect            : Service method containsMember returned true
+2026-03-14T19:52:54.092+05:30  INFO 19156 --- [member-service] [http-nio-8081-exec-10] S.member.aspect.LoggingAspect            : Service method containsMember took 0ms
+2026-03-14T19:52:54.092+05:30  INFO 19156 --- [member-service] [http-nio-8081-exec-10] S.member.aspect.LoggingAspect            : Controller method containsMember returned: true
+2026-03-14T19:52:54.100+05:30  INFO 19156 --- [member-service] [http-nio-8081-exec-10] S.member.aspect.LoggingAspect            : Controller method: containsMember took 8ms
+2026-03-14T19:53:04.338+05:30  INFO 19156 --- [member-service] [http-nio-8081-exec-1] S.member.aspect.LoggingAspect            : Controller Method containsMember is executing
+2026-03-14T19:53:04.338+05:30  INFO 19156 --- [member-service] [http-nio-8081-exec-1] S.member.aspect.LoggingAspect            : Controller Method: containsMember gets the arguments: [aab4b20b-cbeb-4668-951f-719a3a028de5]
+2026-03-14T19:53:04.338+05:30  INFO 19156 --- [member-service] [http-nio-8081-exec-1] S.member.aspect.LoggingAspect            : Service method: containsMember executing
+2026-03-14T19:53:04.338+05:30  INFO 19156 --- [member-service] [http-nio-8081-exec-1] S.member.aspect.LoggingAspect            : Service Method: containsMember gets the arguments: [aab4b20b-cbeb-4668-951f-719a3a028de5]
+2026-03-14T19:53:04.338+05:30  INFO 19156 --- [member-service] [http-nio-8081-exec-1] S.member.aspect.LoggingAspect            : Service method containsMember returned true
+2026-03-14T19:53:04.338+05:30  INFO 19156 --- [member-service] [http-nio-8081-exec-1] S.member.aspect.LoggingAspect            : Service method containsMember took 0ms
+2026-03-14T19:53:04.338+05:30  INFO 19156 --- [member-service] [http-nio-8081-exec-1] S.member.aspect.LoggingAspect            : Controller method containsMember returned: true
+2026-03-14T19:53:04.338+05:30  INFO 19156 --- [member-service] [http-nio-8081-exec-1] S.member.aspect.LoggingAspect            : Controller method: containsMember took 0ms
+2026-03-14T19:53:29.684+05:30  INFO 19156 --- [member-service] [http-nio-8081-exec-2] S.member.aspect.LoggingAspect            : Controller Method containsMember is executing
+2026-03-14T19:53:29.684+05:30  INFO 19156 --- [member-service] [http-nio-8081-exec-2] S.member.aspect.LoggingAspect            : Controller Method: containsMember gets the arguments: [aab4b20b-cbeb-4668-951f-719a3a028de5]
+2026-03-14T19:53:29.684+05:30  INFO 19156 --- [member-service] [http-nio-8081-exec-2] S.member.aspect.LoggingAspect            : Service method: containsMember executing
+2026-03-14T19:53:29.684+05:30  INFO 19156 --- [member-service] [http-nio-8081-exec-2] S.member.aspect.LoggingAspect            : Service Method: containsMember gets the arguments: [aab4b20b-cbeb-4668-951f-719a3a028de5]
+2026-03-14T19:53:29.684+05:30  INFO 19156 --- [member-service] [http-nio-8081-exec-2] S.member.aspect.LoggingAspect            : Service method containsMember returned true
+2026-03-14T19:53:29.684+05:30  INFO 19156 --- [member-service] [http-nio-8081-exec-2] S.member.aspect.LoggingAspect            : Service method containsMember took 0ms
+2026-03-14T19:53:29.684+05:30  INFO 19156 --- [member-service] [http-nio-8081-exec-2] S.member.aspect.LoggingAspect            : Controller method containsMember returned: true
+2026-03-14T19:53:29.684+05:30  INFO 19156 --- [member-service] [http-nio-8081-exec-2] S.member.aspect.LoggingAspect            : Controller method: containsMember took 0ms
+2026-03-14T19:54:41.444+05:30  INFO 19156 --- [member-service] [http-nio-8081-exec-4] S.member.aspect.LoggingAspect            : Controller Method containsMember is executing
+2026-03-14T19:54:41.444+05:30  INFO 19156 --- [member-service] [http-nio-8081-exec-4] S.member.aspect.LoggingAspect            : Controller Method: containsMember gets the arguments: [96f9ef8a-a762-4de7-bc29-d8315c0d40cc]
+2026-03-14T19:54:41.444+05:30  INFO 19156 --- [member-service] [http-nio-8081-exec-4] S.member.aspect.LoggingAspect            : Service method: containsMember executing
+2026-03-14T19:54:41.444+05:30  INFO 19156 --- [member-service] [http-nio-8081-exec-4] S.member.aspect.LoggingAspect            : Service Method: containsMember gets the arguments: [96f9ef8a-a762-4de7-bc29-d8315c0d40cc]
+2026-03-14T19:54:41.452+05:30  INFO 19156 --- [member-service] [http-nio-8081-exec-4] S.member.aspect.LoggingAspect            : Service method containsMember returned true
+2026-03-14T19:54:41.452+05:30  INFO 19156 --- [member-service] [http-nio-8081-exec-4] S.member.aspect.LoggingAspect            : Service method containsMember took 8ms
+2026-03-14T19:54:41.452+05:30  INFO 19156 --- [member-service] [http-nio-8081-exec-4] S.member.aspect.LoggingAspect            : Controller method containsMember returned: true
+2026-03-14T19:54:41.452+05:30  INFO 19156 --- [member-service] [http-nio-8081-exec-4] S.member.aspect.LoggingAspect            : Controller method: containsMember took 8ms
+2026-03-14T19:55:20.474+05:30  INFO 19156 --- [member-service] [http-nio-8081-exec-5] S.member.aspect.LoggingAspect            : Controller Method containsMember is executing
+2026-03-14T19:55:20.482+05:30  INFO 19156 --- [member-service] [http-nio-8081-exec-5] S.member.aspect.LoggingAspect            : Controller Method: containsMember gets the arguments: [96f9ef8a-a762-4de7-bc29-d8315c0d40cc]
+2026-03-14T19:55:20.482+05:30  INFO 19156 --- [member-service] [http-nio-8081-exec-5] S.member.aspect.LoggingAspect            : Service method: containsMember executing
+2026-03-14T19:55:20.482+05:30  INFO 19156 --- [member-service] [http-nio-8081-exec-5] S.member.aspect.LoggingAspect            : Service Method: containsMember gets the arguments: [96f9ef8a-a762-4de7-bc29-d8315c0d40cc]
+2026-03-14T19:55:20.482+05:30  INFO 19156 --- [member-service] [http-nio-8081-exec-5] S.member.aspect.LoggingAspect            : Service method containsMember returned true
+2026-03-14T19:55:20.482+05:30  INFO 19156 --- [member-service] [http-nio-8081-exec-5] S.member.aspect.LoggingAspect            : Service method containsMember took 0ms
+2026-03-14T19:55:20.482+05:30  INFO 19156 --- [member-service] [http-nio-8081-exec-5] S.member.aspect.LoggingAspect            : Controller method containsMember returned: true
+2026-03-14T19:55:20.482+05:30  INFO 19156 --- [member-service] [http-nio-8081-exec-5] S.member.aspect.LoggingAspect            : Controller method: containsMember took 8ms
+2026-03-14T19:59:42.892+05:30  INFO 19156 --- [member-service] [http-nio-8081-exec-7] S.member.aspect.LoggingAspect            : Controller Method containsMember is executing
+2026-03-14T19:59:42.900+05:30  INFO 19156 --- [member-service] [http-nio-8081-exec-7] S.member.aspect.LoggingAspect            : Controller Method: containsMember gets the arguments: [96f9ef8a-a762-4de7-bc29-d8315c0d40cc]
+2026-03-14T19:59:42.900+05:30  INFO 19156 --- [member-service] [http-nio-8081-exec-7] S.member.aspect.LoggingAspect            : Service method: containsMember executing
+2026-03-14T19:59:42.900+05:30  INFO 19156 --- [member-service] [http-nio-8081-exec-7] S.member.aspect.LoggingAspect            : Service Method: containsMember gets the arguments: [96f9ef8a-a762-4de7-bc29-d8315c0d40cc]
+2026-03-14T19:59:42.902+05:30  INFO 19156 --- [member-service] [http-nio-8081-exec-7] S.member.aspect.LoggingAspect            : Service method containsMember returned true
+2026-03-14T19:59:42.903+05:30  INFO 19156 --- [member-service] [http-nio-8081-exec-7] S.member.aspect.LoggingAspect            : Service method containsMember took 3ms
+2026-03-14T19:59:42.904+05:30  INFO 19156 --- [member-service] [http-nio-8081-exec-7] S.member.aspect.LoggingAspect            : Controller method containsMember returned: true
+2026-03-14T19:59:42.905+05:30  INFO 19156 --- [member-service] [http-nio-8081-exec-7] S.member.aspect.LoggingAspect            : Controller method: containsMember took 13ms
+2026-03-14T20:00:28.558+05:30  INFO 19156 --- [member-service] [http-nio-8081-exec-8] S.member.aspect.LoggingAspect            : Controller Method containsMember is executing
+2026-03-14T20:00:28.558+05:30  INFO 19156 --- [member-service] [http-nio-8081-exec-8] S.member.aspect.LoggingAspect            : Controller Method: containsMember gets the arguments: [96f9ef8a-a762-4de7-bc29-d8315c0d40cc]
+2026-03-14T20:00:28.558+05:30  INFO 19156 --- [member-service] [http-nio-8081-exec-8] S.member.aspect.LoggingAspect            : Service method: containsMember executing
+2026-03-14T20:00:28.558+05:30  INFO 19156 --- [member-service] [http-nio-8081-exec-8] S.member.aspect.LoggingAspect            : Service Method: containsMember gets the arguments: [96f9ef8a-a762-4de7-bc29-d8315c0d40cc]
+2026-03-14T20:00:28.558+05:30  INFO 19156 --- [member-service] [http-nio-8081-exec-8] S.member.aspect.LoggingAspect            : Service method containsMember returned true
+2026-03-14T20:00:28.558+05:30  INFO 19156 --- [member-service] [http-nio-8081-exec-8] S.member.aspect.LoggingAspect            : Service method containsMember took 0ms
+2026-03-14T20:00:28.562+05:30  INFO 19156 --- [member-service] [http-nio-8081-exec-8] S.member.aspect.LoggingAspect            : Controller method containsMember returned: true
+2026-03-14T20:00:28.562+05:30  INFO 19156 --- [member-service] [http-nio-8081-exec-8] S.member.aspect.LoggingAspect            : Controller method: containsMember took 4ms
+2026-03-14T20:03:21.446+05:30  INFO 19156 --- [member-service] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-03-14T20:03:21.475+05:30  INFO 19156 --- [member-service] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-03-14T20:05:07.491+05:30  INFO 20844 --- [member-service] [main] S.member.MemberApplication               : Starting MemberApplication using Java 21.0.10 with PID 20844 (C:\Users\SaiSmrithiMuthukumar\git_repo\Weekend_Assignments\Order-management-system-microservices attempt\member\target\classes started by SaiSmrithiMuthukumar in C:\Users\SaiSmrithiMuthukumar\git_repo\Weekend_Assignments\Order-management-system-microservices attempt\member)
+2026-03-14T20:05:07.506+05:30  INFO 20844 --- [member-service] [main] S.member.MemberApplication               : No active profile set, falling back to 1 default profile: "default"
+2026-03-14T20:05:10.628+05:30  INFO 20844 --- [member-service] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8081 (http)
+2026-03-14T20:05:10.666+05:30  INFO 20844 --- [member-service] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-03-14T20:05:10.666+05:30  INFO 20844 --- [member-service] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.18]
+2026-03-14T20:05:10.804+05:30  INFO 20844 --- [member-service] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 3098 ms
+2026-03-14T20:05:12.956+05:30  INFO 20844 --- [member-service] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8081 (http) with context path '/'
+2026-03-14T20:05:12.983+05:30  INFO 20844 --- [member-service] [main] S.member.MemberApplication               : Started MemberApplication in 6.413 seconds (process running for 7.244)
+2026-03-14T20:05:25.360+05:30  INFO 20844 --- [member-service] [http-nio-8081-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-03-14T20:05:25.364+05:30  INFO 20844 --- [member-service] [http-nio-8081-exec-3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-03-14T20:05:25.368+05:30  INFO 20844 --- [member-service] [http-nio-8081-exec-3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2026-03-14T20:05:26.230+05:30  INFO 20844 --- [member-service] [http-nio-8081-exec-3] S.member.aspect.LoggingAspect            : Controller Method addMember is executing
+2026-03-14T20:05:26.234+05:30  INFO 20844 --- [member-service] [http-nio-8081-exec-3] S.member.aspect.LoggingAspect            : Controller Method: addMember gets the arguments: [addMemberDTO(fullName=Naina, email=fh235r@gmail.com, password=fh&82ASxcd)]
+2026-03-14T20:05:26.236+05:30  INFO 20844 --- [member-service] [http-nio-8081-exec-3] S.member.aspect.LoggingAspect            : Service method: addMember executing
+2026-03-14T20:05:26.236+05:30  INFO 20844 --- [member-service] [http-nio-8081-exec-3] S.member.aspect.LoggingAspect            : Service Method: addMember gets the arguments: [addMemberDTO(fullName=Naina, email=fh235r@gmail.com, password=fh&82ASxcd)]
+2026-03-14T20:05:26.255+05:30  INFO 20844 --- [member-service] [http-nio-8081-exec-3] S.member.aspect.LoggingAspect            : Service method addMember returned <200 OK OK,Member added successfully,[]>
+2026-03-14T20:05:26.259+05:30  INFO 20844 --- [member-service] [http-nio-8081-exec-3] S.member.aspect.LoggingAspect            : Service method addMember took 21ms
+2026-03-14T20:05:26.263+05:30  INFO 20844 --- [member-service] [http-nio-8081-exec-3] S.member.aspect.LoggingAspect            : Controller method addMember returned: <200 OK OK,Member added successfully,[]>
+2026-03-14T20:05:26.263+05:30  INFO 20844 --- [member-service] [http-nio-8081-exec-3] S.member.aspect.LoggingAspect            : Controller method: addMember took 35ms
+2026-03-14T20:05:49.363+05:30  INFO 20844 --- [member-service] [http-nio-8081-exec-4] S.member.aspect.LoggingAspect            : Controller Method addMember is executing
+2026-03-14T20:05:49.365+05:30  INFO 20844 --- [member-service] [http-nio-8081-exec-4] S.member.aspect.LoggingAspect            : Controller Method: addMember gets the arguments: [addMemberDTO(fullName=Sai Smrithi, email=fhe68*r@gmail.com, password=as*9jjfgPl)]
+2026-03-14T20:05:49.365+05:30  INFO 20844 --- [member-service] [http-nio-8081-exec-4] S.member.aspect.LoggingAspect            : Service method: addMember executing
+2026-03-14T20:05:49.365+05:30  INFO 20844 --- [member-service] [http-nio-8081-exec-4] S.member.aspect.LoggingAspect            : Service Method: addMember gets the arguments: [addMemberDTO(fullName=Sai Smrithi, email=fhe68*r@gmail.com, password=as*9jjfgPl)]
+2026-03-14T20:05:49.367+05:30  INFO 20844 --- [member-service] [http-nio-8081-exec-4] S.member.aspect.LoggingAspect            : Service method addMember returned <200 OK OK,Member added successfully,[]>
+2026-03-14T20:05:49.371+05:30  INFO 20844 --- [member-service] [http-nio-8081-exec-4] S.member.aspect.LoggingAspect            : Service method addMember took 6ms
+2026-03-14T20:05:49.372+05:30  INFO 20844 --- [member-service] [http-nio-8081-exec-4] S.member.aspect.LoggingAspect            : Controller method addMember returned: <200 OK OK,Member added successfully,[]>
+2026-03-14T20:05:49.372+05:30  INFO 20844 --- [member-service] [http-nio-8081-exec-4] S.member.aspect.LoggingAspect            : Controller method: addMember took 9ms
+2026-03-14T20:05:53.127+05:30  INFO 20844 --- [member-service] [http-nio-8081-exec-5] S.member.aspect.LoggingAspect            : Controller Method getAllMembers is executing
+2026-03-14T20:05:53.129+05:30  INFO 20844 --- [member-service] [http-nio-8081-exec-5] S.member.aspect.LoggingAspect            : Controller Method: getAllMembers gets the arguments: []
+2026-03-14T20:05:53.129+05:30  INFO 20844 --- [member-service] [http-nio-8081-exec-5] S.member.aspect.LoggingAspect            : Service method: getAllMembers executing
+2026-03-14T20:05:53.129+05:30  INFO 20844 --- [member-service] [http-nio-8081-exec-5] S.member.aspect.LoggingAspect            : Service Method: getAllMembers gets the arguments: []
+2026-03-14T20:05:53.133+05:30  INFO 20844 --- [member-service] [http-nio-8081-exec-5] S.member.aspect.LoggingAspect            : Service method getAllMembers returned [getMemberDTO(memberId=d5c46270-8035-40fd-9d09-a2a7da22f097, fullName=Naina, email=fh235r@gmail.com), getMemberDTO(memberId=0c2a6613-379e-4b36-a365-357604ee44c4, fullName=Sai Smrithi, email=fhe68*r@gmail.com)]
+2026-03-14T20:05:53.135+05:30  INFO 20844 --- [member-service] [http-nio-8081-exec-5] S.member.aspect.LoggingAspect            : Service method getAllMembers took 6ms
+2026-03-14T20:05:53.137+05:30  INFO 20844 --- [member-service] [http-nio-8081-exec-5] S.member.aspect.LoggingAspect            : Controller method getAllMembers returned: [getMemberDTO(memberId=d5c46270-8035-40fd-9d09-a2a7da22f097, fullName=Naina, email=fh235r@gmail.com), getMemberDTO(memberId=0c2a6613-379e-4b36-a365-357604ee44c4, fullName=Sai Smrithi, email=fhe68*r@gmail.com)]
+2026-03-14T20:05:53.139+05:30  INFO 20844 --- [member-service] [http-nio-8081-exec-5] S.member.aspect.LoggingAspect            : Controller method: getAllMembers took 12ms
+2026-03-14T20:07:00.518+05:30  INFO 20844 --- [member-service] [http-nio-8081-exec-6] S.member.aspect.LoggingAspect            : Controller Method containsMember is executing
+2026-03-14T20:07:00.520+05:30  INFO 20844 --- [member-service] [http-nio-8081-exec-6] S.member.aspect.LoggingAspect            : Controller Method: containsMember gets the arguments: [0c2a6613-379e-4b36-a365-357604ee44c4]
+2026-03-14T20:07:00.520+05:30  INFO 20844 --- [member-service] [http-nio-8081-exec-6] S.member.aspect.LoggingAspect            : Service method: containsMember executing
+2026-03-14T20:07:00.520+05:30  INFO 20844 --- [member-service] [http-nio-8081-exec-6] S.member.aspect.LoggingAspect            : Service Method: containsMember gets the arguments: [0c2a6613-379e-4b36-a365-357604ee44c4]
+2026-03-14T20:07:00.523+05:30  INFO 20844 --- [member-service] [http-nio-8081-exec-6] S.member.aspect.LoggingAspect            : Service method containsMember returned true
+2026-03-14T20:07:00.527+05:30  INFO 20844 --- [member-service] [http-nio-8081-exec-6] S.member.aspect.LoggingAspect            : Service method containsMember took 7ms
+2026-03-14T20:07:00.527+05:30  INFO 20844 --- [member-service] [http-nio-8081-exec-6] S.member.aspect.LoggingAspect            : Controller method containsMember returned: true
+2026-03-14T20:07:00.530+05:30  INFO 20844 --- [member-service] [http-nio-8081-exec-6] S.member.aspect.LoggingAspect            : Controller method: containsMember took 9ms
+2026-03-14T20:07:32.860+05:30  INFO 20844 --- [member-service] [http-nio-8081-exec-7] S.member.aspect.LoggingAspect            : Controller Method containsMember is executing
+2026-03-14T20:07:32.862+05:30  INFO 20844 --- [member-service] [http-nio-8081-exec-7] S.member.aspect.LoggingAspect            : Controller Method: containsMember gets the arguments: [0c2a6613-379e-4b36-a365-357604ee44c4]
+2026-03-14T20:07:32.862+05:30  INFO 20844 --- [member-service] [http-nio-8081-exec-7] S.member.aspect.LoggingAspect            : Service method: containsMember executing
+2026-03-14T20:07:32.862+05:30  INFO 20844 --- [member-service] [http-nio-8081-exec-7] S.member.aspect.LoggingAspect            : Service Method: containsMember gets the arguments: [0c2a6613-379e-4b36-a365-357604ee44c4]
+2026-03-14T20:07:32.865+05:30  INFO 20844 --- [member-service] [http-nio-8081-exec-7] S.member.aspect.LoggingAspect            : Service method containsMember returned true
+2026-03-14T20:07:32.865+05:30  INFO 20844 --- [member-service] [http-nio-8081-exec-7] S.member.aspect.LoggingAspect            : Service method containsMember took 3ms
+2026-03-14T20:07:32.867+05:30  INFO 20844 --- [member-service] [http-nio-8081-exec-7] S.member.aspect.LoggingAspect            : Controller method containsMember returned: true
+2026-03-14T20:07:32.868+05:30  INFO 20844 --- [member-service] [http-nio-8081-exec-7] S.member.aspect.LoggingAspect            : Controller method: containsMember took 8ms
+2026-03-14T20:08:32.561+05:30  INFO 20844 --- [member-service] [http-nio-8081-exec-8] S.member.aspect.LoggingAspect            : Controller Method containsMember is executing
+2026-03-14T20:08:32.561+05:30  INFO 20844 --- [member-service] [http-nio-8081-exec-8] S.member.aspect.LoggingAspect            : Controller Method: containsMember gets the arguments: [d5c46270-8035-40fd-9d09-a2a7da22f097]
+2026-03-14T20:08:32.561+05:30  INFO 20844 --- [member-service] [http-nio-8081-exec-8] S.member.aspect.LoggingAspect            : Service method: containsMember executing
+2026-03-14T20:08:32.561+05:30  INFO 20844 --- [member-service] [http-nio-8081-exec-8] S.member.aspect.LoggingAspect            : Service Method: containsMember gets the arguments: [d5c46270-8035-40fd-9d09-a2a7da22f097]
+2026-03-14T20:08:32.561+05:30  INFO 20844 --- [member-service] [http-nio-8081-exec-8] S.member.aspect.LoggingAspect            : Service method containsMember returned true
+2026-03-14T20:08:32.561+05:30  INFO 20844 --- [member-service] [http-nio-8081-exec-8] S.member.aspect.LoggingAspect            : Service method containsMember took 0ms
+2026-03-14T20:08:32.561+05:30  INFO 20844 --- [member-service] [http-nio-8081-exec-8] S.member.aspect.LoggingAspect            : Controller method containsMember returned: true
+2026-03-14T20:08:32.569+05:30  INFO 20844 --- [member-service] [http-nio-8081-exec-8] S.member.aspect.LoggingAspect            : Controller method: containsMember took 8ms
+2026-03-14T21:40:38.327+05:30  INFO 20844 --- [member-service] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-03-14T21:40:38.349+05:30  INFO 20844 --- [member-service] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-03-14T22:03:42.585+05:30  INFO 22108 --- [member-service] [main] S.member.MemberApplication               : Starting MemberApplication using Java 21.0.10 with PID 22108 (C:\Users\SaiSmrithiMuthukumar\git_repo\Weekend_Assignments\Order-management-system-microservices-attempt\member\target\classes started by SaiSmrithiMuthukumar in C:\Users\SaiSmrithiMuthukumar\git_repo\Weekend_Assignments\Order-management-system-microservices-attempt\member)
+2026-03-14T22:03:42.606+05:30  INFO 22108 --- [member-service] [main] S.member.MemberApplication               : No active profile set, falling back to 1 default profile: "default"
+2026-03-14T22:03:46.974+05:30  INFO 22108 --- [member-service] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8081 (http)
+2026-03-14T22:03:47.010+05:30  INFO 22108 --- [member-service] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-03-14T22:03:47.011+05:30  INFO 22108 --- [member-service] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.18]
+2026-03-14T22:03:47.210+05:30  INFO 22108 --- [member-service] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 4364 ms
+2026-03-14T22:03:49.746+05:30  INFO 22108 --- [member-service] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8081 (http) with context path '/'
+2026-03-14T22:03:49.763+05:30  INFO 22108 --- [member-service] [main] S.member.MemberApplication               : Started MemberApplication in 8.78 seconds (process running for 10.606)
+2026-03-14T22:03:52.550+05:30  INFO 4352 --- [member-service] [main] S.member.MemberApplication               : Starting MemberApplication using Java 21.0.10 with PID 4352 (C:\Users\SaiSmrithiMuthukumar\git_repo\Weekend_Assignments\Order-management-system-microservices-attempt\member\target\classes started by SaiSmrithiMuthukumar in C:\Users\SaiSmrithiMuthukumar\git_repo\Weekend_Assignments\Order-management-system-microservices-attempt\member)
+2026-03-14T22:03:52.561+05:30  INFO 4352 --- [member-service] [main] S.member.MemberApplication               : No active profile set, falling back to 1 default profile: "default"
+2026-03-14T22:03:56.921+05:30  INFO 4352 --- [member-service] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8081 (http)
+2026-03-14T22:03:56.968+05:30  INFO 4352 --- [member-service] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-03-14T22:03:56.971+05:30  INFO 4352 --- [member-service] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.18]
+2026-03-14T22:03:57.192+05:30  INFO 4352 --- [member-service] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 4440 ms
+2026-03-14T22:03:59.772+05:30  WARN 4352 --- [member-service] [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2026-03-14T22:03:59.850+05:30  INFO 4352 --- [member-service] [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-03-14T22:03:59.932+05:30 ERROR 4352 --- [member-service] [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8081 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8081 or configure this application to listen on another port.
+
+2026-03-14T22:04:22.962+05:30  INFO 22108 --- [member-service] [http-nio-8081-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-03-14T22:04:22.962+05:30  INFO 22108 --- [member-service] [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-03-14T22:04:22.979+05:30  INFO 22108 --- [member-service] [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 11 ms
+2026-03-14T22:04:23.843+05:30  INFO 22108 --- [member-service] [http-nio-8081-exec-2] S.member.aspect.LoggingAspect            : Controller Method addMember is executing
+2026-03-14T22:04:23.846+05:30  INFO 22108 --- [member-service] [http-nio-8081-exec-2] S.member.aspect.LoggingAspect            : Controller Method: addMember gets the arguments: [addMemberDTO(fullName=Sai Smrithi, email=fhe68*r@gmail.com, password=as*9jjfgPl)]
+2026-03-14T22:04:23.846+05:30  INFO 22108 --- [member-service] [http-nio-8081-exec-2] S.member.aspect.LoggingAspect            : Service method: addMember executing
+2026-03-14T22:04:23.846+05:30  INFO 22108 --- [member-service] [http-nio-8081-exec-2] S.member.aspect.LoggingAspect            : Service Method: addMember gets the arguments: [addMemberDTO(fullName=Sai Smrithi, email=fhe68*r@gmail.com, password=as*9jjfgPl)]
+2026-03-14T22:04:23.862+05:30  INFO 22108 --- [member-service] [http-nio-8081-exec-2] S.member.aspect.LoggingAspect            : Service method addMember returned <200 OK OK,Member added successfully,[]>
+2026-03-14T22:04:23.870+05:30  INFO 22108 --- [member-service] [http-nio-8081-exec-2] S.member.aspect.LoggingAspect            : Service method addMember took 16ms
+2026-03-14T22:04:23.870+05:30  INFO 22108 --- [member-service] [http-nio-8081-exec-2] S.member.aspect.LoggingAspect            : Controller method addMember returned: <200 OK OK,Member added successfully,[]>
+2026-03-14T22:04:23.870+05:30  INFO 22108 --- [member-service] [http-nio-8081-exec-2] S.member.aspect.LoggingAspect            : Controller method: addMember took 41ms
+2026-03-14T22:04:47.993+05:30  INFO 22108 --- [member-service] [http-nio-8081-exec-5] S.member.aspect.LoggingAspect            : Controller Method addMember is executing
+2026-03-14T22:04:47.993+05:30  INFO 22108 --- [member-service] [http-nio-8081-exec-5] S.member.aspect.LoggingAspect            : Controller Method: addMember gets the arguments: [addMemberDTO(fullName=Naina, email=fheja&*jkL9a@gmail.com, password=as*9jjfgPl)]
+2026-03-14T22:04:47.995+05:30  INFO 22108 --- [member-service] [http-nio-8081-exec-5] S.member.aspect.LoggingAspect            : Service method: addMember executing
+2026-03-14T22:04:47.997+05:30  INFO 22108 --- [member-service] [http-nio-8081-exec-5] S.member.aspect.LoggingAspect            : Service Method: addMember gets the arguments: [addMemberDTO(fullName=Naina, email=fheja&*jkL9a@gmail.com, password=as*9jjfgPl)]
+2026-03-14T22:04:47.997+05:30  INFO 22108 --- [member-service] [http-nio-8081-exec-5] S.member.aspect.LoggingAspect            : Service method addMember returned <200 OK OK,Member added successfully,[]>
+2026-03-14T22:04:47.997+05:30  INFO 22108 --- [member-service] [http-nio-8081-exec-5] S.member.aspect.LoggingAspect            : Service method addMember took 2ms
+2026-03-14T22:04:48.000+05:30  INFO 22108 --- [member-service] [http-nio-8081-exec-5] S.member.aspect.LoggingAspect            : Controller method addMember returned: <200 OK OK,Member added successfully,[]>
+2026-03-14T22:04:48.000+05:30  INFO 22108 --- [member-service] [http-nio-8081-exec-5] S.member.aspect.LoggingAspect            : Controller method: addMember took 7ms
+2026-03-14T22:04:51.053+05:30  INFO 22108 --- [member-service] [http-nio-8081-exec-6] S.member.aspect.LoggingAspect            : Controller Method getAllMembers is executing
+2026-03-14T22:04:51.053+05:30  INFO 22108 --- [member-service] [http-nio-8081-exec-6] S.member.aspect.LoggingAspect            : Controller Method: getAllMembers gets the arguments: []
+2026-03-14T22:04:51.053+05:30  INFO 22108 --- [member-service] [http-nio-8081-exec-6] S.member.aspect.LoggingAspect            : Service method: getAllMembers executing
+2026-03-14T22:04:51.053+05:30  INFO 22108 --- [member-service] [http-nio-8081-exec-6] S.member.aspect.LoggingAspect            : Service Method: getAllMembers gets the arguments: []
+2026-03-14T22:04:51.053+05:30  INFO 22108 --- [member-service] [http-nio-8081-exec-6] S.member.aspect.LoggingAspect            : Service method getAllMembers returned [getMemberDTO(memberId=4d1ec973-fd0b-43bd-b0f0-2f554e7da236, fullName=Naina, email=fheja&*jkL9a@gmail.com), getMemberDTO(memberId=ecfec58d-e502-4c89-989d-6ebe25cb8aa7, fullName=Sai Smrithi, email=fhe68*r@gmail.com)]
+2026-03-14T22:04:51.061+05:30  INFO 22108 --- [member-service] [http-nio-8081-exec-6] S.member.aspect.LoggingAspect            : Service method getAllMembers took 8ms
+2026-03-14T22:04:51.061+05:30  INFO 22108 --- [member-service] [http-nio-8081-exec-6] S.member.aspect.LoggingAspect            : Controller method getAllMembers returned: [getMemberDTO(memberId=4d1ec973-fd0b-43bd-b0f0-2f554e7da236, fullName=Naina, email=fheja&*jkL9a@gmail.com), getMemberDTO(memberId=ecfec58d-e502-4c89-989d-6ebe25cb8aa7, fullName=Sai Smrithi, email=fhe68*r@gmail.com)]
+2026-03-14T22:04:51.061+05:30  INFO 22108 --- [member-service] [http-nio-8081-exec-6] S.member.aspect.LoggingAspect            : Controller method: getAllMembers took 8ms
+2026-03-14T22:05:04.330+05:30  INFO 22108 --- [member-service] [http-nio-8081-exec-7] S.member.aspect.LoggingAspect            : Controller Method containsMember is executing
+2026-03-14T22:05:04.330+05:30  INFO 22108 --- [member-service] [http-nio-8081-exec-7] S.member.aspect.LoggingAspect            : Controller Method: containsMember gets the arguments: [d5c46270-8035-40fd-9d09-a2a7da22f097]
+2026-03-14T22:05:04.330+05:30  INFO 22108 --- [member-service] [http-nio-8081-exec-7] S.member.aspect.LoggingAspect            : Service method: containsMember executing
+2026-03-14T22:05:04.332+05:30  INFO 22108 --- [member-service] [http-nio-8081-exec-7] S.member.aspect.LoggingAspect            : Service Method: containsMember gets the arguments: [d5c46270-8035-40fd-9d09-a2a7da22f097]
+2026-03-14T22:05:04.334+05:30  INFO 22108 --- [member-service] [http-nio-8081-exec-7] S.member.aspect.LoggingAspect            : Service method containsMember returned false
+2026-03-14T22:05:04.334+05:30  INFO 22108 --- [member-service] [http-nio-8081-exec-7] S.member.aspect.LoggingAspect            : Service method containsMember took 4ms
+2026-03-14T22:05:04.336+05:30  INFO 22108 --- [member-service] [http-nio-8081-exec-7] S.member.aspect.LoggingAspect            : Controller method containsMember returned: false
+2026-03-14T22:05:04.336+05:30  INFO 22108 --- [member-service] [http-nio-8081-exec-7] S.member.aspect.LoggingAspect            : Controller method: containsMember took 6ms
+2026-03-14T22:05:30.620+05:30  INFO 22108 --- [member-service] [http-nio-8081-exec-8] S.member.aspect.LoggingAspect            : Controller Method containsMember is executing
+2026-03-14T22:05:30.629+05:30  INFO 22108 --- [member-service] [http-nio-8081-exec-8] S.member.aspect.LoggingAspect            : Controller Method: containsMember gets the arguments: [4d1ec973-fd0b-43bd-b0f0-2f554e7da236]
+2026-03-14T22:05:30.629+05:30  INFO 22108 --- [member-service] [http-nio-8081-exec-8] S.member.aspect.LoggingAspect            : Service method: containsMember executing
+2026-03-14T22:05:30.629+05:30  INFO 22108 --- [member-service] [http-nio-8081-exec-8] S.member.aspect.LoggingAspect            : Service Method: containsMember gets the arguments: [4d1ec973-fd0b-43bd-b0f0-2f554e7da236]
+2026-03-14T22:05:30.629+05:30  INFO 22108 --- [member-service] [http-nio-8081-exec-8] S.member.aspect.LoggingAspect            : Service method containsMember returned true
+2026-03-14T22:05:30.629+05:30  INFO 22108 --- [member-service] [http-nio-8081-exec-8] S.member.aspect.LoggingAspect            : Service method containsMember took 0ms
+2026-03-14T22:05:30.629+05:30  INFO 22108 --- [member-service] [http-nio-8081-exec-8] S.member.aspect.LoggingAspect            : Controller method containsMember returned: true
+2026-03-14T22:05:30.629+05:30  INFO 22108 --- [member-service] [http-nio-8081-exec-8] S.member.aspect.LoggingAspect            : Controller method: containsMember took 9ms
+2026-03-14T22:06:21.223+05:30  INFO 22108 --- [member-service] [http-nio-8081-exec-10] S.member.aspect.LoggingAspect            : Controller Method containsMember is executing
+2026-03-14T22:06:21.227+05:30  INFO 22108 --- [member-service] [http-nio-8081-exec-10] S.member.aspect.LoggingAspect            : Controller Method: containsMember gets the arguments: [4d1ec973-fd0b-43bd-b0f0-2f554e7da236]
+2026-03-14T22:06:21.228+05:30  INFO 22108 --- [member-service] [http-nio-8081-exec-10] S.member.aspect.LoggingAspect            : Service method: containsMember executing
+2026-03-14T22:06:21.230+05:30  INFO 22108 --- [member-service] [http-nio-8081-exec-10] S.member.aspect.LoggingAspect            : Service Method: containsMember gets the arguments: [4d1ec973-fd0b-43bd-b0f0-2f554e7da236]
+2026-03-14T22:06:21.232+05:30  INFO 22108 --- [member-service] [http-nio-8081-exec-10] S.member.aspect.LoggingAspect            : Service method containsMember returned true
+2026-03-14T22:06:21.232+05:30  INFO 22108 --- [member-service] [http-nio-8081-exec-10] S.member.aspect.LoggingAspect            : Service method containsMember took 4ms
+2026-03-14T22:06:21.234+05:30  INFO 22108 --- [member-service] [http-nio-8081-exec-10] S.member.aspect.LoggingAspect            : Controller method containsMember returned: true
+2026-03-14T22:06:21.236+05:30  INFO 22108 --- [member-service] [http-nio-8081-exec-10] S.member.aspect.LoggingAspect            : Controller method: containsMember took 13ms
+2026-03-14T22:07:37.243+05:30  INFO 22108 --- [member-service] [http-nio-8081-exec-2] S.member.aspect.LoggingAspect            : Controller Method containsMember is executing
+2026-03-14T22:07:37.243+05:30  INFO 22108 --- [member-service] [http-nio-8081-exec-2] S.member.aspect.LoggingAspect            : Controller Method: containsMember gets the arguments: [4d1ec973-fd0b-43bd-b0f0-2f554e7da236]
+2026-03-14T22:07:37.243+05:30  INFO 22108 --- [member-service] [http-nio-8081-exec-2] S.member.aspect.LoggingAspect            : Service method: containsMember executing
+2026-03-14T22:07:37.243+05:30  INFO 22108 --- [member-service] [http-nio-8081-exec-2] S.member.aspect.LoggingAspect            : Service Method: containsMember gets the arguments: [4d1ec973-fd0b-43bd-b0f0-2f554e7da236]
+2026-03-14T22:07:37.248+05:30  INFO 22108 --- [member-service] [http-nio-8081-exec-2] S.member.aspect.LoggingAspect            : Service method containsMember returned true
+2026-03-14T22:07:37.248+05:30  INFO 22108 --- [member-service] [http-nio-8081-exec-2] S.member.aspect.LoggingAspect            : Service method containsMember took 5ms
+2026-03-14T22:07:37.248+05:30  INFO 22108 --- [member-service] [http-nio-8081-exec-2] S.member.aspect.LoggingAspect            : Controller method containsMember returned: true
+2026-03-14T22:07:37.248+05:30  INFO 22108 --- [member-service] [http-nio-8081-exec-2] S.member.aspect.LoggingAspect            : Controller method: containsMember took 5ms
+2026-03-14T22:08:12.450+05:30  INFO 22108 --- [member-service] [http-nio-8081-exec-3] S.member.aspect.LoggingAspect            : Controller Method containsMember is executing
+2026-03-14T22:08:12.458+05:30  INFO 22108 --- [member-service] [http-nio-8081-exec-3] S.member.aspect.LoggingAspect            : Controller Method: containsMember gets the arguments: [ecfec58d-e502-4c89-989d-6ebe25cb8aa7]
+2026-03-14T22:08:12.458+05:30  INFO 22108 --- [member-service] [http-nio-8081-exec-3] S.member.aspect.LoggingAspect            : Service method: containsMember executing
+2026-03-14T22:08:12.458+05:30  INFO 22108 --- [member-service] [http-nio-8081-exec-3] S.member.aspect.LoggingAspect            : Service Method: containsMember gets the arguments: [ecfec58d-e502-4c89-989d-6ebe25cb8aa7]
+2026-03-14T22:08:12.458+05:30  INFO 22108 --- [member-service] [http-nio-8081-exec-3] S.member.aspect.LoggingAspect            : Service method containsMember returned true
+2026-03-14T22:08:12.458+05:30  INFO 22108 --- [member-service] [http-nio-8081-exec-3] S.member.aspect.LoggingAspect            : Service method containsMember took 0ms
+2026-03-14T22:08:12.458+05:30  INFO 22108 --- [member-service] [http-nio-8081-exec-3] S.member.aspect.LoggingAspect            : Controller method containsMember returned: true
+2026-03-14T22:08:12.458+05:30  INFO 22108 --- [member-service] [http-nio-8081-exec-3] S.member.aspect.LoggingAspect            : Controller method: containsMember took 8ms
+2026-03-14T22:09:25.739+05:30  INFO 22108 --- [member-service] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-03-14T22:09:25.767+05:30  INFO 22108 --- [member-service] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-03-14T22:09:39.746+05:30  INFO 21092 --- [member-service] [main] S.member.MemberApplication               : Starting MemberApplication using Java 21.0.10 with PID 21092 (C:\Users\SaiSmrithiMuthukumar\git_repo\Weekend_Assignments\Order-management-system-microservices-attempt\member\target\classes started by SaiSmrithiMuthukumar in C:\Users\SaiSmrithiMuthukumar\git_repo\Weekend_Assignments\Order-management-system-microservices-attempt\member)
+2026-03-14T22:09:39.754+05:30  INFO 21092 --- [member-service] [main] S.member.MemberApplication               : No active profile set, falling back to 1 default profile: "default"
+2026-03-14T22:09:41.836+05:30  INFO 21092 --- [member-service] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8081 (http)
+2026-03-14T22:09:41.853+05:30  INFO 21092 --- [member-service] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-03-14T22:09:41.853+05:30  INFO 21092 --- [member-service] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.18]
+2026-03-14T22:09:41.958+05:30  INFO 21092 --- [member-service] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 2076 ms
+2026-03-14T22:09:43.254+05:30  INFO 21092 --- [member-service] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8081 (http) with context path '/'
+2026-03-14T22:09:43.268+05:30  INFO 21092 --- [member-service] [main] S.member.MemberApplication               : Started MemberApplication in 4.346 seconds (process running for 5.037)
+2026-03-14T22:09:52.678+05:30  INFO 21092 --- [member-service] [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-03-14T22:09:52.683+05:30  INFO 21092 --- [member-service] [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-03-14T22:09:52.689+05:30  INFO 21092 --- [member-service] [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2026-03-14T22:09:53.716+05:30  INFO 21092 --- [member-service] [http-nio-8081-exec-1] S.member.aspect.LoggingAspect            : Controller Method addMember is executing
+2026-03-14T22:09:53.716+05:30  INFO 21092 --- [member-service] [http-nio-8081-exec-1] S.member.aspect.LoggingAspect            : Controller Method: addMember gets the arguments: [addMemberDTO(fullName=Naina, email=fheja&*jkL9a@gmail.com, password=as*9jjfgPl)]
+2026-03-14T22:09:53.720+05:30  INFO 21092 --- [member-service] [http-nio-8081-exec-1] S.member.aspect.LoggingAspect            : Service method: addMember executing
+2026-03-14T22:09:53.720+05:30  INFO 21092 --- [member-service] [http-nio-8081-exec-1] S.member.aspect.LoggingAspect            : Service Method: addMember gets the arguments: [addMemberDTO(fullName=Naina, email=fheja&*jkL9a@gmail.com, password=as*9jjfgPl)]
+2026-03-14T22:09:53.741+05:30  INFO 21092 --- [member-service] [http-nio-8081-exec-1] S.member.aspect.LoggingAspect            : Service method addMember returned <200 OK OK,Member added successfully,[]>
+2026-03-14T22:09:53.748+05:30  INFO 21092 --- [member-service] [http-nio-8081-exec-1] S.member.aspect.LoggingAspect            : Service method addMember took 21ms
+2026-03-14T22:09:53.748+05:30  INFO 21092 --- [member-service] [http-nio-8081-exec-1] S.member.aspect.LoggingAspect            : Controller method addMember returned: <200 OK OK,Member added successfully,[]>
+2026-03-14T22:09:53.748+05:30  INFO 21092 --- [member-service] [http-nio-8081-exec-1] S.member.aspect.LoggingAspect            : Controller method: addMember took 49ms
+2026-03-14T22:09:55.685+05:30  INFO 21092 --- [member-service] [http-nio-8081-exec-3] S.member.aspect.LoggingAspect            : Controller Method getAllMembers is executing
+2026-03-14T22:09:55.685+05:30  INFO 21092 --- [member-service] [http-nio-8081-exec-3] S.member.aspect.LoggingAspect            : Controller Method: getAllMembers gets the arguments: []
+2026-03-14T22:09:55.689+05:30  INFO 21092 --- [member-service] [http-nio-8081-exec-3] S.member.aspect.LoggingAspect            : Service method: getAllMembers executing
+2026-03-14T22:09:55.689+05:30  INFO 21092 --- [member-service] [http-nio-8081-exec-3] S.member.aspect.LoggingAspect            : Service Method: getAllMembers gets the arguments: []
+2026-03-14T22:09:55.691+05:30  INFO 21092 --- [member-service] [http-nio-8081-exec-3] S.member.aspect.LoggingAspect            : Service method getAllMembers returned [getMemberDTO(memberId=43b3529f-f3d1-448d-a214-b3dc95ac6817, fullName=Naina, email=fheja&*jkL9a@gmail.com)]
+2026-03-14T22:09:55.693+05:30  INFO 21092 --- [member-service] [http-nio-8081-exec-3] S.member.aspect.LoggingAspect            : Service method getAllMembers took 4ms
+2026-03-14T22:09:55.693+05:30  INFO 21092 --- [member-service] [http-nio-8081-exec-3] S.member.aspect.LoggingAspect            : Controller method getAllMembers returned: [getMemberDTO(memberId=43b3529f-f3d1-448d-a214-b3dc95ac6817, fullName=Naina, email=fheja&*jkL9a@gmail.com)]
+2026-03-14T22:09:55.693+05:30  INFO 21092 --- [member-service] [http-nio-8081-exec-3] S.member.aspect.LoggingAspect            : Controller method: getAllMembers took 8ms
+2026-03-14T22:10:01.846+05:30  INFO 21092 --- [member-service] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-03-14T22:10:01.876+05:30  INFO 21092 --- [member-service] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
