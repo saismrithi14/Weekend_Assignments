@@ -1,0 +1,243 @@
+2026-03-14T15:14:52.518+05:30  INFO 17504 --- [report-service] [restartedMain] S.reports.ReportsApplication             : Starting ReportsApplication using Java 21.0.10 with PID 17504 (C:\Users\SaiSmrithiMuthukumar\git_repo\Weekend_Assignments\Order-management-system-microservices attempt\reports\target\classes started by SaiSmrithiMuthukumar in C:\Users\SaiSmrithiMuthukumar\git_repo\Weekend_Assignments\Order-management-system-microservices attempt\reports)
+2026-03-14T15:14:52.523+05:30  INFO 17504 --- [report-service] [restartedMain] S.reports.ReportsApplication             : No active profile set, falling back to 1 default profile: "default"
+2026-03-14T15:14:52.691+05:30  INFO 17504 --- [report-service] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-03-14T15:14:52.692+05:30  INFO 17504 --- [report-service] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-03-14T15:14:55.566+05:30  INFO 17504 --- [report-service] [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=60e3d58a-1e0f-3ac6-af74-00a041664fbc
+2026-03-14T15:14:56.432+05:30  INFO 17504 --- [report-service] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8084 (http)
+2026-03-14T15:14:56.454+05:30  INFO 17504 --- [report-service] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-03-14T15:14:56.455+05:30  INFO 17504 --- [report-service] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2026-03-14T15:14:56.521+05:30  INFO 17504 --- [report-service] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-03-14T15:14:56.522+05:30  INFO 17504 --- [report-service] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3828 ms
+2026-03-14T15:14:56.603+05:30  WARN 17504 --- [report-service] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'reportController': Unsatisfied dependency expressed through field 'reportService': Error creating bean with name 'reportService': Unsatisfied dependency expressed through field 'oc': No qualifying bean of type 'ServiceReport.reports.client.orderClient' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2026-03-14T15:14:56.613+05:30  INFO 17504 --- [report-service] [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2026-03-14T15:14:56.628+05:30  INFO 17504 --- [report-service] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-03-14T15:14:56.715+05:30 ERROR 17504 --- [report-service] [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field oc in ServiceReport.reports.service.ReportService required a bean of type 'ServiceReport.reports.client.orderClient' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'ServiceReport.reports.client.orderClient' in your configuration.
+
+2026-03-14T15:19:58.063+05:30  INFO 4340 --- [report-service] [restartedMain] S.reports.ReportsApplication             : Starting ReportsApplication using Java 21.0.10 with PID 4340 (C:\Users\SaiSmrithiMuthukumar\git_repo\Weekend_Assignments\Order-management-system-microservices attempt\reports\target\classes started by SaiSmrithiMuthukumar in C:\Users\SaiSmrithiMuthukumar\git_repo\Weekend_Assignments\Order-management-system-microservices attempt\reports)
+2026-03-14T15:19:58.067+05:30  INFO 4340 --- [report-service] [restartedMain] S.reports.ReportsApplication             : No active profile set, falling back to 1 default profile: "default"
+2026-03-14T15:19:58.152+05:30  INFO 4340 --- [report-service] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-03-14T15:19:58.153+05:30  INFO 4340 --- [report-service] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-03-14T15:19:59.022+05:30  INFO 4340 --- [report-service] [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=c32c70af-056a-3353-9bf9-974fd9723a15
+2026-03-14T15:19:59.441+05:30  INFO 4340 --- [report-service] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8084 (http)
+2026-03-14T15:19:59.456+05:30  INFO 4340 --- [report-service] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-03-14T15:19:59.457+05:30  INFO 4340 --- [report-service] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2026-03-14T15:19:59.500+05:30  INFO 4340 --- [report-service] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-03-14T15:19:59.500+05:30  INFO 4340 --- [report-service] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1347 ms
+2026-03-14T15:19:59.660+05:30  WARN 4340 --- [report-service] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2026-03-14T15:20:00.055+05:30  INFO 4340 --- [report-service] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8084 (http) with context path '/'
+2026-03-14T15:20:00.069+05:30  INFO 4340 --- [report-service] [restartedMain] S.reports.ReportsApplication             : Started ReportsApplication in 2.744 seconds (process running for 3.403)
+2026-03-14T15:24:17.091+05:30  INFO 4340 --- [report-service] [http-nio-8084-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-03-14T15:24:17.092+05:30  INFO 4340 --- [report-service] [http-nio-8084-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-03-14T15:24:17.095+05:30  INFO 4340 --- [report-service] [http-nio-8084-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2026-03-14T15:29:58.537+05:30  INFO 4340 --- [report-service] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2026-03-14T15:29:58.572+05:30  INFO 4340 --- [report-service] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2026-03-14T15:51:37.530+05:30  INFO 8700 --- [report-service] [restartedMain] S.reports.ReportsApplication             : Starting ReportsApplication using Java 21.0.10 with PID 8700 (C:\Users\SaiSmrithiMuthukumar\git_repo\Weekend_Assignments\Order-management-system-microservices attempt\reports\target\classes started by SaiSmrithiMuthukumar in C:\Users\SaiSmrithiMuthukumar\git_repo\Weekend_Assignments\Order-management-system-microservices attempt\reports)
+2026-03-14T15:51:37.540+05:30  INFO 8700 --- [report-service] [restartedMain] S.reports.ReportsApplication             : No active profile set, falling back to 1 default profile: "default"
+2026-03-14T15:51:37.784+05:30  INFO 8700 --- [report-service] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-03-14T15:51:37.784+05:30  INFO 8700 --- [report-service] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-03-14T15:51:39.231+05:30  INFO 8700 --- [report-service] [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=c32c70af-056a-3353-9bf9-974fd9723a15
+2026-03-14T15:51:39.828+05:30  INFO 8700 --- [report-service] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8084 (http)
+2026-03-14T15:51:39.846+05:30  INFO 8700 --- [report-service] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-03-14T15:51:39.847+05:30  INFO 8700 --- [report-service] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2026-03-14T15:51:39.901+05:30  INFO 8700 --- [report-service] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-03-14T15:51:39.901+05:30  INFO 8700 --- [report-service] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2116 ms
+2026-03-14T15:51:40.125+05:30  WARN 8700 --- [report-service] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2026-03-14T15:51:40.649+05:30  INFO 8700 --- [report-service] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8084 (http) with context path '/'
+2026-03-14T15:51:40.665+05:30  INFO 8700 --- [report-service] [restartedMain] S.reports.ReportsApplication             : Started ReportsApplication in 4.071 seconds (process running for 5.091)
+2026-03-14T15:51:53.057+05:30  INFO 8700 --- [report-service] [http-nio-8084-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-03-14T15:51:53.057+05:30  INFO 8700 --- [report-service] [http-nio-8084-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-03-14T15:51:53.057+05:30  INFO 8700 --- [report-service] [http-nio-8084-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2026-03-14T16:27:55.883+05:30  INFO 8700 --- [report-service] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2026-03-14T16:27:55.898+05:30  INFO 8700 --- [report-service] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2026-03-14T19:48:53.522+05:30  INFO 7484 --- [report-service] [restartedMain] S.reports.ReportsApplication             : Starting ReportsApplication using Java 21.0.10 with PID 7484 (C:\Users\SaiSmrithiMuthukumar\git_repo\Weekend_Assignments\Order-management-system-microservices attempt\reports\target\classes started by SaiSmrithiMuthukumar in C:\Users\SaiSmrithiMuthukumar\git_repo\Weekend_Assignments\Order-management-system-microservices attempt\reports)
+2026-03-14T19:48:53.544+05:30  INFO 7484 --- [report-service] [restartedMain] S.reports.ReportsApplication             : No active profile set, falling back to 1 default profile: "default"
+2026-03-14T19:48:53.648+05:30  INFO 7484 --- [report-service] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-03-14T19:48:53.648+05:30  INFO 7484 --- [report-service] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-03-14T19:48:54.799+05:30  INFO 7484 --- [report-service] [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=79d0fd31-9b10-3f65-b3a8-068f98afc100
+2026-03-14T19:48:55.740+05:30  INFO 7484 --- [report-service] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8084 (http)
+2026-03-14T19:48:55.762+05:30  INFO 7484 --- [report-service] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-03-14T19:48:55.763+05:30  INFO 7484 --- [report-service] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2026-03-14T19:48:55.826+05:30  INFO 7484 --- [report-service] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-03-14T19:48:55.826+05:30  INFO 7484 --- [report-service] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2178 ms
+2026-03-14T19:48:56.172+05:30  WARN 7484 --- [report-service] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2026-03-14T19:48:57.250+05:30  INFO 7484 --- [report-service] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8084 (http) with context path '/'
+2026-03-14T19:48:57.271+05:30  INFO 7484 --- [report-service] [restartedMain] S.reports.ReportsApplication             : Started ReportsApplication in 4.43 seconds (process running for 5.608)
+2026-03-14T19:55:44.764+05:30  INFO 7484 --- [report-service] [http-nio-8084-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-03-14T19:55:44.764+05:30  INFO 7484 --- [report-service] [http-nio-8084-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-03-14T19:55:44.773+05:30  INFO 7484 --- [report-service] [http-nio-8084-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 9 ms
+2026-03-14T19:55:44.905+05:30  INFO 7484 --- [report-service] [http-nio-8084-exec-1] S.reports.aspect.LoggingAspect           : Controller method: getAllOrders is running
+2026-03-14T19:55:44.905+05:30  INFO 7484 --- [report-service] [http-nio-8084-exec-1] S.reports.aspect.LoggingAspect           : Arguments given to the controller method: getAllOrders: [Ljava.lang.Object;@3c2bb47a
+2026-03-14T19:55:44.905+05:30  INFO 7484 --- [report-service] [http-nio-8084-exec-1] S.reports.aspect.LoggingAspect           : Service method: getAllOrders is running
+2026-03-14T19:55:44.905+05:30  INFO 7484 --- [report-service] [http-nio-8084-exec-1] S.reports.aspect.LoggingAspect           : Arguments given to the service method: getAllOrders: [Ljava.lang.Object;@b9cd3c8
+2026-03-14T19:55:45.342+05:30  INFO 7484 --- [report-service] [http-nio-8084-exec-1] S.reports.aspect.LoggingAspect           : Time taken for the service method: getAllOrders is 429
+2026-03-14T19:55:45.342+05:30  INFO 7484 --- [report-service] [http-nio-8084-exec-1] S.reports.aspect.LoggingAspect           : Time taken for the controller method: getAllOrders is 445
+2026-03-14T20:00:47.859+05:30  INFO 7484 --- [report-service] [http-nio-8084-exec-4] S.reports.aspect.LoggingAspect           : Controller method: getAllOrders is running
+2026-03-14T20:00:47.859+05:30  INFO 7484 --- [report-service] [http-nio-8084-exec-4] S.reports.aspect.LoggingAspect           : Arguments given to the controller method: getAllOrders: [Ljava.lang.Object;@143170bc
+2026-03-14T20:00:47.859+05:30  INFO 7484 --- [report-service] [http-nio-8084-exec-4] S.reports.aspect.LoggingAspect           : Service method: getAllOrders is running
+2026-03-14T20:00:47.859+05:30  INFO 7484 --- [report-service] [http-nio-8084-exec-4] S.reports.aspect.LoggingAspect           : Arguments given to the service method: getAllOrders: [Ljava.lang.Object;@1af69c4a
+2026-03-14T20:00:47.882+05:30  INFO 7484 --- [report-service] [http-nio-8084-exec-4] S.reports.aspect.LoggingAspect           : Time taken for the service method: getAllOrders is 23
+2026-03-14T20:00:47.882+05:30  INFO 7484 --- [report-service] [http-nio-8084-exec-4] S.reports.aspect.LoggingAspect           : Time taken for the controller method: getAllOrders is 23
+2026-03-14T20:01:22.319+05:30  INFO 7484 --- [report-service] [http-nio-8084-exec-6] S.reports.aspect.LoggingAspect           : Controller method: totalBuyVsSell is running
+2026-03-14T20:01:22.323+05:30  INFO 7484 --- [report-service] [http-nio-8084-exec-6] S.reports.aspect.LoggingAspect           : Arguments given to the controller method: totalBuyVsSell: [Ljava.lang.Object;@139c259f
+2026-03-14T20:01:22.323+05:30  INFO 7484 --- [report-service] [http-nio-8084-exec-6] S.reports.aspect.LoggingAspect           : Service method: totalBuyVsSell is running
+2026-03-14T20:01:22.323+05:30  INFO 7484 --- [report-service] [http-nio-8084-exec-6] S.reports.aspect.LoggingAspect           : Arguments given to the service method: totalBuyVsSell: [Ljava.lang.Object;@1d5bd99c
+2026-03-14T20:01:22.380+05:30  INFO 7484 --- [report-service] [http-nio-8084-exec-6] S.reports.aspect.LoggingAspect           : Time taken for the service method: totalBuyVsSell is 57
+2026-03-14T20:01:22.380+05:30  INFO 7484 --- [report-service] [http-nio-8084-exec-6] S.reports.aspect.LoggingAspect           : Time taken for the controller method: totalBuyVsSell is 61
+2026-03-14T20:02:08.142+05:30  INFO 7484 --- [report-service] [http-nio-8084-exec-7] S.reports.aspect.LoggingAspect           : Controller method: totalBuyVsSell is running
+2026-03-14T20:02:08.142+05:30  INFO 7484 --- [report-service] [http-nio-8084-exec-7] S.reports.aspect.LoggingAspect           : Arguments given to the controller method: totalBuyVsSell: [Ljava.lang.Object;@78218bf3
+2026-03-14T20:02:08.142+05:30  INFO 7484 --- [report-service] [http-nio-8084-exec-7] S.reports.aspect.LoggingAspect           : Service method: totalBuyVsSell is running
+2026-03-14T20:02:08.142+05:30  INFO 7484 --- [report-service] [http-nio-8084-exec-7] S.reports.aspect.LoggingAspect           : Arguments given to the service method: totalBuyVsSell: [Ljava.lang.Object;@76e66a87
+2026-03-14T20:02:08.159+05:30  INFO 7484 --- [report-service] [http-nio-8084-exec-7] S.reports.aspect.LoggingAspect           : Time taken for the service method: totalBuyVsSell is 17
+2026-03-14T20:02:08.159+05:30  INFO 7484 --- [report-service] [http-nio-8084-exec-7] S.reports.aspect.LoggingAspect           : Time taken for the controller method: totalBuyVsSell is 17
+2026-03-14T20:02:14.204+05:30  INFO 7484 --- [report-service] [http-nio-8084-exec-8] S.reports.aspect.LoggingAspect           : Controller method: getTotalAmount is running
+2026-03-14T20:02:14.204+05:30  INFO 7484 --- [report-service] [http-nio-8084-exec-8] S.reports.aspect.LoggingAspect           : Arguments given to the controller method: getTotalAmount: [Ljava.lang.Object;@11dc1670
+2026-03-14T20:02:14.204+05:30  INFO 7484 --- [report-service] [http-nio-8084-exec-8] S.reports.aspect.LoggingAspect           : Service method: getTotalAmount is running
+2026-03-14T20:02:14.210+05:30  INFO 7484 --- [report-service] [http-nio-8084-exec-8] S.reports.aspect.LoggingAspect           : Arguments given to the service method: getTotalAmount: [Ljava.lang.Object;@1f1bea3b
+2026-03-14T20:02:14.241+05:30  INFO 7484 --- [report-service] [http-nio-8084-exec-8] S.reports.aspect.LoggingAspect           : Time taken for the service method: getTotalAmount is 37
+2026-03-14T20:02:14.241+05:30  INFO 7484 --- [report-service] [http-nio-8084-exec-8] S.reports.aspect.LoggingAspect           : Time taken for the controller method: getTotalAmount is 37
+2026-03-14T20:02:22.435+05:30  INFO 7484 --- [report-service] [http-nio-8084-exec-9] S.reports.aspect.LoggingAspect           : Controller method: groupByStatus is running
+2026-03-14T20:02:22.435+05:30  INFO 7484 --- [report-service] [http-nio-8084-exec-9] S.reports.aspect.LoggingAspect           : Arguments given to the controller method: groupByStatus: [Ljava.lang.Object;@7aa8aca9
+2026-03-14T20:02:22.435+05:30  INFO 7484 --- [report-service] [http-nio-8084-exec-9] S.reports.aspect.LoggingAspect           : Service method: groupByStatus is running
+2026-03-14T20:02:22.435+05:30  INFO 7484 --- [report-service] [http-nio-8084-exec-9] S.reports.aspect.LoggingAspect           : Arguments given to the service method: groupByStatus: [Ljava.lang.Object;@746f4d8c
+2026-03-14T20:02:22.450+05:30  INFO 7484 --- [report-service] [http-nio-8084-exec-9] S.reports.aspect.LoggingAspect           : Time taken for the service method: groupByStatus is 15
+2026-03-14T20:02:22.450+05:30  INFO 7484 --- [report-service] [http-nio-8084-exec-9] S.reports.aspect.LoggingAspect           : Time taken for the controller method: groupByStatus is 15
+2026-03-14T20:03:18.167+05:30  INFO 7484 --- [report-service] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2026-03-14T20:03:18.180+05:30  INFO 7484 --- [report-service] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2026-03-14T20:05:07.657+05:30  INFO 13620 --- [report-service] [restartedMain] S.reports.ReportsApplication             : Starting ReportsApplication using Java 21.0.10 with PID 13620 (C:\Users\SaiSmrithiMuthukumar\git_repo\Weekend_Assignments\Order-management-system-microservices attempt\reports\target\classes started by SaiSmrithiMuthukumar in C:\Users\SaiSmrithiMuthukumar\git_repo\Weekend_Assignments\Order-management-system-microservices attempt\reports)
+2026-03-14T20:05:07.668+05:30  INFO 13620 --- [report-service] [restartedMain] S.reports.ReportsApplication             : No active profile set, falling back to 1 default profile: "default"
+2026-03-14T20:05:07.862+05:30  INFO 13620 --- [report-service] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-03-14T20:05:07.884+05:30  INFO 13620 --- [report-service] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-03-14T20:05:10.110+05:30  INFO 13620 --- [report-service] [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=79d0fd31-9b10-3f65-b3a8-068f98afc100
+2026-03-14T20:05:11.786+05:30  INFO 13620 --- [report-service] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8084 (http)
+2026-03-14T20:05:11.818+05:30  INFO 13620 --- [report-service] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-03-14T20:05:11.818+05:30  INFO 13620 --- [report-service] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2026-03-14T20:05:11.921+05:30  INFO 13620 --- [report-service] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-03-14T20:05:11.921+05:30  INFO 13620 --- [report-service] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4035 ms
+2026-03-14T20:05:12.724+05:30  INFO 13620 --- [report-service] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2026-03-14T20:05:15.052+05:30  INFO 13620 --- [report-service] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8084 (http) with context path '/'
+2026-03-14T20:05:15.100+05:30  INFO 13620 --- [report-service] [restartedMain] S.reports.ReportsApplication             : Started ReportsApplication in 8.568 seconds (process running for 9.956)
+2026-03-14T20:08:58.237+05:30  INFO 13620 --- [report-service] [http-nio-8084-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-03-14T20:08:58.239+05:30  INFO 13620 --- [report-service] [http-nio-8084-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-03-14T20:08:58.243+05:30  INFO 13620 --- [report-service] [http-nio-8084-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2026-03-14T20:08:58.426+05:30  INFO 13620 --- [report-service] [http-nio-8084-exec-1] S.reports.aspect.LoggingAspect           : Controller method: groupByStatus is running
+2026-03-14T20:08:58.428+05:30  INFO 13620 --- [report-service] [http-nio-8084-exec-1] S.reports.aspect.LoggingAspect           : Arguments given to the controller method: groupByStatus: [Ljava.lang.Object;@16e7b3a2
+2026-03-14T20:08:58.434+05:30  INFO 13620 --- [report-service] [http-nio-8084-exec-1] S.reports.aspect.LoggingAspect           : Service method: groupByStatus is running
+2026-03-14T20:08:58.434+05:30  INFO 13620 --- [report-service] [http-nio-8084-exec-1] S.reports.aspect.LoggingAspect           : Arguments given to the service method: groupByStatus: [Ljava.lang.Object;@527ae0c2
+2026-03-14T20:08:58.970+05:30  INFO 13620 --- [report-service] [http-nio-8084-exec-1] S.reports.aspect.LoggingAspect           : Time taken for the service method: groupByStatus is 533
+2026-03-14T20:08:58.973+05:30  INFO 13620 --- [report-service] [http-nio-8084-exec-1] S.reports.aspect.LoggingAspect           : Time taken for the controller method: groupByStatus is 561
+2026-03-14T20:09:08.638+05:30  INFO 13620 --- [report-service] [http-nio-8084-exec-2] S.reports.aspect.LoggingAspect           : Controller method: getTotalAmount is running
+2026-03-14T20:09:08.638+05:30  INFO 13620 --- [report-service] [http-nio-8084-exec-2] S.reports.aspect.LoggingAspect           : Arguments given to the controller method: getTotalAmount: [Ljava.lang.Object;@57899723
+2026-03-14T20:09:08.638+05:30  INFO 13620 --- [report-service] [http-nio-8084-exec-2] S.reports.aspect.LoggingAspect           : Service method: getTotalAmount is running
+2026-03-14T20:09:08.643+05:30  INFO 13620 --- [report-service] [http-nio-8084-exec-2] S.reports.aspect.LoggingAspect           : Arguments given to the service method: getTotalAmount: [Ljava.lang.Object;@594e63a2
+2026-03-14T20:09:08.670+05:30  INFO 13620 --- [report-service] [http-nio-8084-exec-2] S.reports.aspect.LoggingAspect           : Time taken for the service method: getTotalAmount is 32
+2026-03-14T20:09:08.670+05:30  INFO 13620 --- [report-service] [http-nio-8084-exec-2] S.reports.aspect.LoggingAspect           : Time taken for the controller method: getTotalAmount is 32
+2026-03-14T20:10:01.164+05:30  INFO 13620 --- [report-service] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2026-03-14T20:10:01.196+05:30  INFO 13620 --- [report-service] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2026-03-14T20:12:30.645+05:30  INFO 10412 --- [report-service] [restartedMain] S.reports.ReportsApplication             : Starting ReportsApplication using Java 21.0.10 with PID 10412 (C:\Users\SaiSmrithiMuthukumar\git_repo\Weekend_Assignments\Order-management-system-microservices attempt\reports\target\classes started by SaiSmrithiMuthukumar in C:\Users\SaiSmrithiMuthukumar\git_repo\Weekend_Assignments\Order-management-system-microservices attempt\reports)
+2026-03-14T20:12:30.653+05:30  INFO 10412 --- [report-service] [restartedMain] S.reports.ReportsApplication             : No active profile set, falling back to 1 default profile: "default"
+2026-03-14T20:12:30.798+05:30  INFO 10412 --- [report-service] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-03-14T20:12:30.798+05:30  INFO 10412 --- [report-service] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-03-14T20:12:33.392+05:30  INFO 10412 --- [report-service] [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=79d0fd31-9b10-3f65-b3a8-068f98afc100
+2026-03-14T20:12:36.692+05:30  INFO 10412 --- [report-service] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8084 (http)
+2026-03-14T20:12:36.741+05:30  INFO 10412 --- [report-service] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-03-14T20:12:36.741+05:30  INFO 10412 --- [report-service] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2026-03-14T20:12:36.964+05:30  INFO 10412 --- [report-service] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-03-14T20:12:36.964+05:30  INFO 10412 --- [report-service] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 6166 ms
+2026-03-14T20:12:38.117+05:30  INFO 10412 --- [report-service] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2026-03-14T20:12:41.922+05:30  INFO 10412 --- [report-service] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8084 (http) with context path '/'
+2026-03-14T20:12:41.978+05:30  INFO 10412 --- [report-service] [restartedMain] S.reports.ReportsApplication             : Started ReportsApplication in 12.261 seconds (process running for 13.384)
+2026-03-14T20:13:02.901+05:30  INFO 10412 --- [report-service] [http-nio-8084-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-03-14T20:13:02.901+05:30  INFO 10412 --- [report-service] [http-nio-8084-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-03-14T20:13:02.901+05:30  INFO 10412 --- [report-service] [http-nio-8084-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2026-03-14T20:13:03.058+05:30  INFO 10412 --- [report-service] [http-nio-8084-exec-2] S.reports.aspect.LoggingAspect           : Controller method: getTotalAmount is running
+2026-03-14T20:13:03.060+05:30  INFO 10412 --- [report-service] [http-nio-8084-exec-2] S.reports.aspect.LoggingAspect           : Arguments given to the controller method: getTotalAmount: []
+2026-03-14T20:13:03.064+05:30  INFO 10412 --- [report-service] [http-nio-8084-exec-2] S.reports.aspect.LoggingAspect           : Service method: getTotalAmount is running
+2026-03-14T20:13:03.066+05:30  INFO 10412 --- [report-service] [http-nio-8084-exec-2] S.reports.aspect.LoggingAspect           : Arguments given to the service method: getTotalAmount: []
+2026-03-14T20:13:03.475+05:30  INFO 10412 --- [report-service] [http-nio-8084-exec-2] S.reports.aspect.LoggingAspect           : Time taken for the service method: getTotalAmount is 408
+2026-03-14T20:13:03.479+05:30  INFO 10412 --- [report-service] [http-nio-8084-exec-2] S.reports.aspect.LoggingAspect           : Time taken for the controller method: getTotalAmount is 425ms
+2026-03-14T20:13:59.808+05:30  INFO 10412 --- [report-service] [http-nio-8084-exec-4] S.reports.aspect.LoggingAspect           : Controller method: totalBuyVsSell is running
+2026-03-14T20:13:59.808+05:30  INFO 10412 --- [report-service] [http-nio-8084-exec-4] S.reports.aspect.LoggingAspect           : Arguments given to the controller method: totalBuyVsSell: []
+2026-03-14T20:13:59.808+05:30  INFO 10412 --- [report-service] [http-nio-8084-exec-4] S.reports.aspect.LoggingAspect           : Service method: totalBuyVsSell is running
+2026-03-14T20:13:59.808+05:30  INFO 10412 --- [report-service] [http-nio-8084-exec-4] S.reports.aspect.LoggingAspect           : Arguments given to the service method: totalBuyVsSell: []
+2026-03-14T20:13:59.833+05:30  INFO 10412 --- [report-service] [http-nio-8084-exec-4] S.reports.aspect.LoggingAspect           : Time taken for the service method: totalBuyVsSell is 25
+2026-03-14T20:13:59.841+05:30  INFO 10412 --- [report-service] [http-nio-8084-exec-4] S.reports.aspect.LoggingAspect           : Time taken for the controller method: totalBuyVsSell is 33ms
+2026-03-14T20:17:24.509+05:30  INFO 10412 --- [report-service] [http-nio-8084-exec-7] S.reports.aspect.LoggingAspect           : Controller method: topCustomerByVolume is running
+2026-03-14T20:17:24.511+05:30  INFO 10412 --- [report-service] [http-nio-8084-exec-7] S.reports.aspect.LoggingAspect           : Arguments given to the controller method: topCustomerByVolume: []
+2026-03-14T20:17:24.511+05:30  INFO 10412 --- [report-service] [http-nio-8084-exec-7] S.reports.aspect.LoggingAspect           : Service method: topCustomerByVolume is running
+2026-03-14T20:17:24.511+05:30  INFO 10412 --- [report-service] [http-nio-8084-exec-7] S.reports.aspect.LoggingAspect           : Arguments given to the service method: topCustomerByVolume: []
+2026-03-14T20:17:24.544+05:30  INFO 10412 --- [report-service] [http-nio-8084-exec-7] S.reports.aspect.LoggingAspect           : Time taken for the service method: topCustomerByVolume is 33
+2026-03-14T20:17:24.544+05:30  INFO 10412 --- [report-service] [http-nio-8084-exec-7] S.reports.aspect.LoggingAspect           : Time taken for the controller method: topCustomerByVolume is 35ms
+2026-03-14T20:17:45.688+05:30  INFO 10412 --- [report-service] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2026-03-14T20:17:45.720+05:30  INFO 10412 --- [report-service] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2026-03-14T22:03:50.724+05:30  INFO 12812 --- [report-service] [restartedMain] S.reports.ReportsApplication             : Starting ReportsApplication using Java 21.0.10 with PID 12812 (C:\Users\SaiSmrithiMuthukumar\git_repo\Weekend_Assignments\Order-management-system-microservices-attempt\reports\target\classes started by SaiSmrithiMuthukumar in C:\Users\SaiSmrithiMuthukumar\git_repo\Weekend_Assignments\Order-management-system-microservices-attempt\reports)
+2026-03-14T22:03:50.732+05:30  INFO 12812 --- [report-service] [restartedMain] S.reports.ReportsApplication             : No active profile set, falling back to 1 default profile: "default"
+2026-03-14T22:03:51.080+05:30  INFO 12812 --- [report-service] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-03-14T22:03:51.081+05:30  INFO 12812 --- [report-service] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-03-14T22:03:54.211+05:30  INFO 12812 --- [report-service] [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=79d0fd31-9b10-3f65-b3a8-068f98afc100
+2026-03-14T22:03:56.731+05:30  INFO 12812 --- [report-service] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8084 (http)
+2026-03-14T22:03:56.784+05:30  INFO 12812 --- [report-service] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-03-14T22:03:56.785+05:30  INFO 12812 --- [report-service] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2026-03-14T22:03:56.935+05:30  INFO 12812 --- [report-service] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-03-14T22:03:56.936+05:30  INFO 12812 --- [report-service] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 5851 ms
+2026-03-14T22:03:57.716+05:30  WARN 12812 --- [report-service] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2026-03-14T22:04:00.336+05:30  INFO 12812 --- [report-service] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8084 (http) with context path '/'
+2026-03-14T22:04:00.401+05:30  INFO 12812 --- [report-service] [restartedMain] S.reports.ReportsApplication             : Started ReportsApplication in 11.664 seconds (process running for 14.08)
+2026-03-14T22:05:54.322+05:30  INFO 12812 --- [report-service] [http-nio-8084-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-03-14T22:05:54.322+05:30  INFO 12812 --- [report-service] [http-nio-8084-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-03-14T22:05:54.333+05:30  INFO 12812 --- [report-service] [http-nio-8084-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2026-03-14T22:05:54.482+05:30  INFO 12812 --- [report-service] [http-nio-8084-exec-2] S.reports.aspect.LoggingAspect           : Controller method: getAllOrders is running
+2026-03-14T22:05:54.482+05:30  INFO 12812 --- [report-service] [http-nio-8084-exec-2] S.reports.aspect.LoggingAspect           : Arguments given to the controller method: getAllOrders: []
+2026-03-14T22:05:54.489+05:30  INFO 12812 --- [report-service] [http-nio-8084-exec-2] S.reports.aspect.LoggingAspect           : Service method: getAllOrders is running
+2026-03-14T22:05:54.489+05:30  INFO 12812 --- [report-service] [http-nio-8084-exec-2] S.reports.aspect.LoggingAspect           : Arguments given to the service method: getAllOrders: []
+2026-03-14T22:05:55.014+05:30  INFO 12812 --- [report-service] [http-nio-8084-exec-2] S.reports.aspect.LoggingAspect           : Time taken for the service method: getAllOrders is 510ms
+2026-03-14T22:05:55.016+05:30  INFO 12812 --- [report-service] [http-nio-8084-exec-2] S.reports.aspect.LoggingAspect           : Time taken for the controller method: getAllOrders is 544ms
+2026-03-14T22:06:33.036+05:30  INFO 12812 --- [report-service] [http-nio-8084-exec-3] S.reports.aspect.LoggingAspect           : Controller method: getAllOrders is running
+2026-03-14T22:06:33.036+05:30  INFO 12812 --- [report-service] [http-nio-8084-exec-3] S.reports.aspect.LoggingAspect           : Arguments given to the controller method: getAllOrders: []
+2026-03-14T22:06:33.036+05:30  INFO 12812 --- [report-service] [http-nio-8084-exec-3] S.reports.aspect.LoggingAspect           : Service method: getAllOrders is running
+2026-03-14T22:06:33.042+05:30  INFO 12812 --- [report-service] [http-nio-8084-exec-3] S.reports.aspect.LoggingAspect           : Arguments given to the service method: getAllOrders: []
+2026-03-14T22:06:33.066+05:30  INFO 12812 --- [report-service] [http-nio-8084-exec-3] S.reports.aspect.LoggingAspect           : Time taken for the service method: getAllOrders is 30ms
+2026-03-14T22:06:33.066+05:30  INFO 12812 --- [report-service] [http-nio-8084-exec-3] S.reports.aspect.LoggingAspect           : Time taken for the controller method: getAllOrders is 30ms
+2026-03-14T22:08:16.570+05:30  INFO 12812 --- [report-service] [http-nio-8084-exec-5] S.reports.aspect.LoggingAspect           : Controller method: getAllOrders is running
+2026-03-14T22:08:16.570+05:30  INFO 12812 --- [report-service] [http-nio-8084-exec-5] S.reports.aspect.LoggingAspect           : Arguments given to the controller method: getAllOrders: []
+2026-03-14T22:08:16.576+05:30  INFO 12812 --- [report-service] [http-nio-8084-exec-5] S.reports.aspect.LoggingAspect           : Service method: getAllOrders is running
+2026-03-14T22:08:16.578+05:30  INFO 12812 --- [report-service] [http-nio-8084-exec-5] S.reports.aspect.LoggingAspect           : Arguments given to the service method: getAllOrders: []
+2026-03-14T22:08:16.653+05:30  INFO 12812 --- [report-service] [http-nio-8084-exec-5] S.reports.aspect.LoggingAspect           : Time taken for the service method: getAllOrders is 77ms
+2026-03-14T22:08:16.664+05:30  INFO 12812 --- [report-service] [http-nio-8084-exec-5] S.reports.aspect.LoggingAspect           : Time taken for the controller method: getAllOrders is 94ms
+2026-03-14T22:08:36.183+05:30  INFO 12812 --- [report-service] [http-nio-8084-exec-7] S.reports.aspect.LoggingAspect           : Controller method: totalBuyVsSell is running
+2026-03-14T22:08:36.183+05:30  INFO 12812 --- [report-service] [http-nio-8084-exec-7] S.reports.aspect.LoggingAspect           : Arguments given to the controller method: totalBuyVsSell: []
+2026-03-14T22:08:36.183+05:30  INFO 12812 --- [report-service] [http-nio-8084-exec-7] S.reports.aspect.LoggingAspect           : Service method: totalBuyVsSell is running
+2026-03-14T22:08:36.183+05:30  INFO 12812 --- [report-service] [http-nio-8084-exec-7] S.reports.aspect.LoggingAspect           : Arguments given to the service method: totalBuyVsSell: []
+2026-03-14T22:08:36.225+05:30  INFO 12812 --- [report-service] [http-nio-8084-exec-7] S.reports.aspect.LoggingAspect           : Time taken for the service method: totalBuyVsSell is 42ms
+2026-03-14T22:08:36.225+05:30  INFO 12812 --- [report-service] [http-nio-8084-exec-7] S.reports.aspect.LoggingAspect           : Time taken for the controller method: totalBuyVsSell is 42ms
+2026-03-14T22:08:42.139+05:30  INFO 12812 --- [report-service] [http-nio-8084-exec-8] S.reports.aspect.LoggingAspect           : Controller method: getTotalAmount is running
+2026-03-14T22:08:42.139+05:30  INFO 12812 --- [report-service] [http-nio-8084-exec-8] S.reports.aspect.LoggingAspect           : Arguments given to the controller method: getTotalAmount: []
+2026-03-14T22:08:42.139+05:30  INFO 12812 --- [report-service] [http-nio-8084-exec-8] S.reports.aspect.LoggingAspect           : Service method: getTotalAmount is running
+2026-03-14T22:08:42.139+05:30  INFO 12812 --- [report-service] [http-nio-8084-exec-8] S.reports.aspect.LoggingAspect           : Arguments given to the service method: getTotalAmount: []
+2026-03-14T22:08:42.163+05:30  INFO 12812 --- [report-service] [http-nio-8084-exec-8] S.reports.aspect.LoggingAspect           : Time taken for the service method: getTotalAmount is 24ms
+2026-03-14T22:08:42.165+05:30  INFO 12812 --- [report-service] [http-nio-8084-exec-8] S.reports.aspect.LoggingAspect           : Time taken for the controller method: getTotalAmount is 26ms
+2026-03-14T22:08:51.584+05:30  INFO 12812 --- [report-service] [http-nio-8084-exec-9] S.reports.aspect.LoggingAspect           : Controller method: groupByStatus is running
+2026-03-14T22:08:51.584+05:30  INFO 12812 --- [report-service] [http-nio-8084-exec-9] S.reports.aspect.LoggingAspect           : Arguments given to the controller method: groupByStatus: []
+2026-03-14T22:08:51.584+05:30  INFO 12812 --- [report-service] [http-nio-8084-exec-9] S.reports.aspect.LoggingAspect           : Service method: groupByStatus is running
+2026-03-14T22:08:51.584+05:30  INFO 12812 --- [report-service] [http-nio-8084-exec-9] S.reports.aspect.LoggingAspect           : Arguments given to the service method: groupByStatus: []
+2026-03-14T22:08:51.601+05:30  INFO 12812 --- [report-service] [http-nio-8084-exec-9] S.reports.aspect.LoggingAspect           : Time taken for the service method: groupByStatus is 17ms
+2026-03-14T22:08:51.607+05:30  INFO 12812 --- [report-service] [http-nio-8084-exec-9] S.reports.aspect.LoggingAspect           : Time taken for the controller method: groupByStatus is 23ms
+2026-03-14T22:09:01.968+05:30  INFO 12812 --- [report-service] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2026-03-14T22:09:01.991+05:30  INFO 12812 --- [report-service] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete

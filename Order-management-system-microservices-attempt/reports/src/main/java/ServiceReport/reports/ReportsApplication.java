@@ -1,17 +1,15 @@
-package com.order_management.Order_management_system;
+package ServiceReport.reports;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 import org.springframework.cloud.openfeign.EnableFeignClients;
 
 @SpringBootApplication
 @EnableFeignClients
-@EnableEurekaClient
-public class OrderManagementSystemApplication {
+public class ReportsApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(OrderManagementSystemApplication.class, args);
+		SpringApplication.run(ReportsApplication.class, args);
 	}
 
 }

@@ -1,4 +1,6 @@
 
+
+
 CREATE TABLE Trade(
 trade_id INT PRIMARY KEY,
 account_id INT NOT NULL,
